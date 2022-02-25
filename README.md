@@ -7,7 +7,7 @@
 
 <br>
 <p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?color=87CEEB&size=16&center=true&lines=Welcome+to+TechSquad+Community !!;Let's+Build+our+Website+together;Thanks for Contributing to our Project;&center=true&width=380&height=45"/><br>
+  <img src="https://readme-typing-svg.herokuapp.com?color=%2336BCF7&lines=Welcome+to+TechSquad+Community+!;Let's+Build+our+Website+Together;Thanks+for+Contributing"
  <img src= 'https://capsule-render.vercel.app/api?type=rect&color=gradient&height=2.5'/>
 </p>
 <br>
