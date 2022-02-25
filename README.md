@@ -21,7 +21,7 @@ We have study materials, blogs, posts regarding upcoming events and much more so
 ![](https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif)
 <br>
 <div align="center">
-<h2 align="center">Programs we have been a part of</h2>
+<h2 align="center"><b>Programs we have been a part of<b></h2>
 
 | No. | Program Name                                                                        | Duration                     | Deployment                                                                |
 | --- | ----------------------------------------------------------------------------------- | ---------------------------- | ------------------------------------------------------------------------- |
@@ -29,7 +29,7 @@ We have study materials, blogs, posts regarding upcoming events and much more so
 
  </div>
 <br>
-<h2 align="center">Connect! with us<img src='https://raw.githubusercontent.com/ShahriarShafin/ShahriarShafin/main/Assets/handshake.gif' width="70px"> </h2>
+<h2 align="center"><b>Connect! with us<b><img src='https://raw.githubusercontent.com/ShahriarShafin/ShahriarShafin/main/Assets/handshake.gif' width="70px"> </h2>
 <p align="center"> 
 <a href="#"><img src="https://img.icons8.com/bubbles/500/000000/discord-logo.png" width="40px" height="40px"/></a>
 &nbsp;
@@ -43,9 +43,96 @@ We have study materials, blogs, posts regarding upcoming events and much more so
 
 <br>
 
-<h2 align="center">Contributors 🫂</h2>
+<h2 align="center"><b>Contributors 🫂</b></h2>
 
 <p align="center">
 <a href="https://github.com/Tech-Squad-Community/techsquad-community-website/graphs/contributors">
   <img src="https://contrib.rocks/image?repo=Tech-Squad-Community/techsquad-community-website" />
 </a>
+
+<br>
+
+<h2 align="center"><u><b>Steps for Contributing</u> 🚀</b></h2>
+
+<br>
+
+- Fork and clone the Repo by typing the following commands in the terminal
+
+```
+$ git clone https://github.com/Tech-Squad-Community/techsquad-community-website.git
+
+$ cd techsquad-community-website
+```
+
+<!--
+- Open this folder in your favourite IDE. <br>
+- Run `npm install`.<br>
+- Run `git pull` command to sync with remote repo.<br>
+  <br> -->
+<!-- - Run `npm start` for starting server. -->
+
+- Now to add your resource to website, add an object with keys same as listed in existing objects in the file.<br>
+- Save and commit your code.<br>
+- Push to your fork of the repository , navigate to original repository and make a pull request.<br>
+
+<!-- <strong>Backend</strong>
+
+> **Note**: You must have Nodejs installed
+
+- Fork and clone the Repo by typing the following commands in the terminal
+
+```
+$ git clone https://github.com/DSC-JSS-NOIDA/QuickLearn.git
+$ cd QuickLearn
+``` -->
+
+<hr>
+
+<img src="https://user-images.githubusercontent.com/91361382/155701708-44ab2dce-7bbf-4694-9c18-8a435695f636.jpg">
+
+<hr>
+
+<img src="https://user-images.githubusercontent.com/91361382/155702002-758b86ca-62db-4fe0-9b50-4651560b652c.jpg">
+
+
+<hr>
+
+- Clone the Repository after forking using
+```
+$ git clone <url>
+
+$ cd techsquad-community-website
+```
+
+- Make changes to the code(for ex- add an update route)
+
+
+- Create a Branch using:
+
+```
+$ git checkout -b <branch-name>
+```
+
+- Stage your changes using:
+
+```
+$ git add .
+```
+
+- Commit your changes using:
+
+```
+$ git commit -m "add any comment"
+```
+
+- Push the changes to the forked repository using:
+
+```
+$ git push origin <branch-name>
+```
+
+- Navigate to the original repository and make a pull request
+
+
+
+#### Happy?? Star ⭐ this Repo. 🤩
