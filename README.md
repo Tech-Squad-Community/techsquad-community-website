@@ -54,6 +54,8 @@ We have study materials, blogs, posts regarding upcoming events and much more so
 
 <h2 align="center"><u><b>Steps for Contributing</u> 🚀</b></h2>
 
+<h3 align="center" href="https://www.youtube.com/watch?v=u169J_merY8"><u><b>Refer to this Youtube Video for reference</u> </b></h2>
+
 <br>
 
 - Fork and clone the Repo by typing the following commands in the terminal
