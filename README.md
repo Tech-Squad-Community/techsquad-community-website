@@ -53,10 +53,11 @@ We have study materials, blogs, posts regarding upcoming events and much more so
 <br>
 
 <h2 align="center"><u><b>Steps for Contributing</u> 🚀</b></h2>
+  
+  
+  <a href="https://www.youtube.com/watch?v=u169J_merY8">Refer to this youtube vidoe for reference</a>
 
-  <a href = "https://www.youtube.com/watch?v=u169J_merY8"> 
-    <h3 align="center"><u><b>Refer to this Youtube Video for reference</u> </b></h3>
-  </a>
+  
 
 <br>
 
