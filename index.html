@@ -49,6 +49,23 @@
         body.loaded>div.preloader {
             animation: hidePreloader .5s linear .5s forwards;
         }
+        .navbar-btn:hover{
+            transform: scale(1.1);
+        }
+        .card{
+            transition-property: transform;
+            transition-duration: 0.6s;
+        }
+        .card:hover{
+            cursor: pointer;
+            transform: scale(1.1);
+        }
+
+        .badge-soft-success:hover{
+            cursor: pointer;
+            color: white;
+            background-color: rgb(58, 197, 58);
+        }
     </style>
     <script>
         window.addEventListener("load", function() {

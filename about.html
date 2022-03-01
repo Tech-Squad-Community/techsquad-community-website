@@ -47,6 +47,13 @@
         body.loaded>div.preloader {
             animation: hidePreloader .5s linear .5s forwards;
         }
+        .img-fluid{
+            transition-property: transform;
+            transition-duration: 2s;
+        }
+        .img-fluid:hover{
+            transform: scale(1.1);
+        }
     </style>
     <script>
         window.addEventListener("load", function() {
@@ -54,6 +61,18 @@
                 document.querySelector('body').classList.add('loaded');
             }, 300);
         });
+
+        let counts=setInterval(updated);
+        let upto=0;
+    
+        function updated(){
+            var count= document.getElementById("con");
+            count.innerHTML=++upto;
+            if(upto===15)
+            {
+                clearInterval(counts);   
+            }
+        }
     </script>
     <!-- Favicon -->
     <link rel="icon" href="assets/img/brand/ts2022.png" type="image/png"><!-- Font Awesome -->
@@ -228,7 +247,7 @@
                         <div class="col-sm-4">
                             <div class="card shadow-lg rounded-lg border-0 mb-sm-0">
                                 <div class="p-4 text-center text-sm-left">
-                                    <h3 class="mb-0">15</h3>
+                                    <h3 class="mb-0" id="con"> </h3>
                                     <p class="text-muted mb-0">
                                         Contributors
                                     </p>
