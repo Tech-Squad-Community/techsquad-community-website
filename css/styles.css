@@ -1,53 +1,63 @@
 @keyframes hidePreloader {
-    0% {
-        width: 100%;
-        height: 100%;
-    }
-
-    100% {
-        width: 0;
-        height: 0;
-    }
-}
-
-.float { 
-    animation-name: float;
-    animation-duration: 3s;
-    animation-iteration-count: infinite;
-    animation-timing-function: ease-in-out;
-    margin-left: 30px;
-    margin-top: 5px;
-}
- 
-@keyframes float {
-    0% { transform: translate(0,  0px); }
-    50%  { transform: translate(0, 15px); }
-    100%   { transform: translate(0, -0px); }   
-}
-
-body>div.preloader {
-    position: fixed;
-    background: white;
+  0% {
     width: 100%;
     height: 100%;
-    z-index: 1071;
-    opacity: 0;
-    transition: opacity .5s ease;
-    overflow: hidden;
-    pointer-events: none;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  }
+
+  100% {
+    width: 0;
+    height: 0;
+  }
 }
 
-body:not(.loaded)>div.preloader {
-    opacity: 1;
+.float {
+  animation-name: float;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+  margin-left: 30px;
+  margin-top: 5px;
+}
+
+@keyframes float {
+  0% {
+    transform: translate(0, 0px);
+  }
+  50% {
+    transform: translate(0, 15px);
+  }
+  100% {
+    transform: translate(0, -0px);
+  }
+}
+
+body > div.preloader {
+  position: fixed;
+  background: white;
+  width: 100%;
+  height: 100%;
+  z-index: 1071;
+  opacity: 0;
+  transition: opacity 0.5s ease;
+  overflow: hidden;
+  pointer-events: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+body:not(.loaded) > div.preloader {
+  opacity: 1;
 }
 
 body:not(.loaded) {
-    overflow: hidden;
+  overflow: hidden;
 }
 
-body.loaded>div.preloader {
-    animation: hidePreloader .5s linear .5s forwards;
+body.loaded > div.preloader {
+  animation: hidePreloader 0.5s linear 0.5s forwards;
+}
+
+.min-height-300 {
+  min-height: 300px;
 }
