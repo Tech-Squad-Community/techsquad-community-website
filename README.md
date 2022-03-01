@@ -29,7 +29,7 @@ We have study materials, blogs, posts regarding upcoming events and much more so
 
  </div>
 <br>
-<h2 align="center"><b>Connect with us!<b><img src='https://raw.githubusercontent.com/ShahriarShafin/ShahriarShafin/main/Assets/handshake.gif' width="70px"> </h2>
+<h2 align="center"><b>Connect with us !<b><img src='https://raw.githubusercontent.com/ShahriarShafin/ShahriarShafin/main/Assets/handshake.gif' width="70px"> </h2>
 <p align="center"> 
 <a href="#"><img src="https://img.icons8.com/bubbles/500/000000/discord-logo.png" width="40px" height="40px"/></a>
 &nbsp;
@@ -99,7 +99,7 @@ $ cd QuickLearn
 
 <hr>
 
-- Clone the Repository after forking using
+- Clone the Repository after forking 
 ```
 $ git clone <url>
 
@@ -134,6 +134,8 @@ $ git push origin <branch-name>
 ```
 
 - Navigate to the original repository and make a pull request
+- In case of merge conflict  fetch and merge from the remote repository
+<img src ="https://docs.github.com/assets/images/help/repository/fetch-and-merge-button.png">
 
 
 
