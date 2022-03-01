@@ -18,7 +18,7 @@ We have study materials, blogs, posts regarding upcoming events and much more so
 <br>
 <h3 align="center">JOIN US IN OUR MISSION OF CREATING THE WORLD'S LARGEST ALL-IN-ONE CODING COMMUNITY</h3>
 
-(https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif)
+![](https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif)
 <br>
 <div align="center">
 <h2 align="center"><b>Programs we have been a part of<b></h2>
