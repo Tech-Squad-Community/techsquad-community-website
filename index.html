@@ -1,538 +1,721 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="">
-    <meta name="author" content="Webpixels">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <meta name="description" content="" />
+    <meta name="author" content="Webpixels" />
     <title>TechSquad Community</title>
-    
-    <!-- Preloader -->
-    <link rel="stylesheet" href="./css/styles.css">   <!--Preloading the CSS files to this page-->
-    <script src="./JS/script.js"></script>            <!--Preloading the JS files to this page-->
-    <!-- Favicon -->
-    <link rel="icon" href="assets/img/brand/ts2022.png" type="image/png"><!-- Font Awesome -->
-    <link rel="stylesheet" href="assets/libs/@fortawesome/fontawesome-free/css/all.min.css">
-    <!-- Quick CSS -->
-    <link rel="stylesheet" href="assets/css/quick-website.css" id="stylesheet">
-    
-</head>
 
-<body>
-    
+    <!-- Preloader -->
+    <link rel="stylesheet" href="./css/styles.css" />
+    <!--Preloading the CSS files to this page-->
+    <script src="./JS/script.js"></script>
+    <!--Preloading the JS files to this page-->
+    <!-- Favicon -->
+    <link rel="icon" href="assets/img/brand/ts2022.png" type="image/png" />
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="assets/libs/@fortawesome/fontawesome-free/css/all.min.css"
+    />
+    <!-- Quick CSS -->
+    <link
+      rel="stylesheet"
+      href="assets/css/quick-website.css"
+      id="stylesheet"
+    />
+  </head>
+
+  <body>
     <!-- Preloader -->
     <div class="preloader">
-        <div class="spinner-border text-primary" role="status">
-            <span class="sr-only">Loading...</span>
-        </div>
+      <div class="spinner-border text-primary" role="status">
+        <span class="sr-only">Loading...</span>
+      </div>
     </div>
-    
+
     <!-- Navbar -->
     <nav class="navbar navbar-expand-lg navbar-light bg-white">
-        <div class="container">
-            <!-- Brand -->
-            <a class="client col-3 py-3" href="index.html">
-                <img alt="Image placeholder" src="assets/img/brand/ts2022_trans.svg" id="navbar-logo"style="max-width:70%;">
-            </a>
-            <!-- Toggler -->
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <!-- Collapse -->
-            <div class="collapse navbar-collapse" id="navbarCollapse">
-                <ul class="navbar-nav mt-4 mt-lg-0 ml-auto">
-                    <li class="nav-item ">
-                        <a class="nav-link" href="index.html">Resources</a>
-                    </li>
-                    <li class="nav-item dropdown dropdown-animate" data-toggle="hover">
-                        <a class="nav-link" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Pages</a>
-                        <div class="dropdown-menu dropdown-menu-single">
-                            <a href="index.html" class="dropdown-item">Homepage</a>
-                            <a href="about.html" class="dropdown-item">About us</a>
-                            <a href="contact.html" class="dropdown-item">Contact</a>
-                            <div class="dropdown-divider"></div>
-                            <a href="login.html" class="dropdown-item">Login</a>
-                        </div>
-                    </li>
-                    <li class="nav-item ">
-                        <a class="nav-link" href="#">Blogs</a>
-                    </li>
-                </ul>
-                <!-- Button -->
-                <a class="navbar-btn btn btn-sm btn-primary d-none d-lg-inline-block ml-3" href="#">
-                    Upcoming Events
-                </a>
-                <!-- Mobile button -->
-                <div class="d-lg-none text-center">
-                    <a href="https://webpixels.io/themes/quick-website-ui-kit" class="btn btn-block btn-sm btn-warning">See more details</a>
-                </div>
-            </div>
+      <div class="container">
+        <!-- Brand -->
+        <a class="float client col-3 py-3" href="index.html">
+          <img
+            alt="Image placeholder"
+            src="assets/img/brand/ts2022_trans.svg"
+            id="navbar-logo"
+            style="max-width: 70%"
+          />
+        </a>
+        <!-- Toggler -->
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarCollapse"
+          aria-controls="navbarCollapse"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <!-- Collapse -->
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+          <ul class="navbar-nav mt-4 mt-lg-0 ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Resources</a>
+            </li>
+            <li class="nav-item dropdown dropdown-animate" data-toggle="hover">
+              <a
+                class="nav-link"
+                href="#"
+                role="button"
+                data-toggle="dropdown"
+                aria-haspopup="true"
+                aria-expanded="false"
+                >Pages</a
+              >
+              <div class="dropdown-menu dropdown-menu-single">
+                <a href="index.html" class="dropdown-item">Homepage</a>
+                <a href="about.html" class="dropdown-item">About us</a>
+                <a href="contact.html" class="dropdown-item">Contact</a>
+                <div class="dropdown-divider"></div>
+                <a href="login.html" class="dropdown-item">Login</a>
+              </div>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Blogs</a>
+            </li>
+          </ul>
+          <!-- Button -->
+          <a
+            class="navbar-btn btn btn-sm btn-primary d-none d-lg-inline-block ml-3"
+            href="upevent.html"
+          >
+            Upcoming Events
+          </a>
+          <!-- Mobile button -->
+          <div class="d-lg-none text-center">
+            <a
+              href="https://webpixels.io/themes/quick-website-ui-kit"
+              class="btn btn-block btn-sm btn-warning"
+              >See more details</a
+            >
+          </div>
         </div>
+      </div>
     </nav>
     <!-- Main content -->
     <section class="slice py-7">
-        <div class="container">
-            <div class="row row-grid align-items-center">
-                <div class="col-12 col-md-5 col-lg-6 order-md-2 text-center">
-                    <!-- Image -->
-                    <figure class="w-100">
-                        <img alt="Image placeholder" src="assets/img/svg/illustrations/illustration-3.svg" class="img-fluid mw-md-120">
-                    </figure>
-                </div>
-                <div class="col-12 col-md-7 col-lg-6 order-md-1 pr-md-5">
-                    <!-- Heading -->
-                    <h1 class="display-4 text-center text-md-left mb-3">
-                        We talk <strong class="text-primary">Code</strong> here
-                    </h1>
-                    <!-- Text -->
-                    <p class="lead text-center text-md-left text-muted">
-                        Hackathons, Open Source Contributions, CTFs and more. 
-                    </p>
-                    <!-- Buttons -->
-                    <div class="text-center text-md-left mt-5">
-                        <a href="#" class="btn btn-primary btn-icon" target="_blank">
-                            <span class="btn-inner--text">Join us on Discord</span>
-                            <span class="btn-inner--icon"><i data-feather="chevron-right"></i></span>
-                        </a>
-                        <a href="#" class="btn btn-neutral btn-icon d-none d-lg-inline-block" target="_blank">Join Mailing List</a>
-                    </div>
-                </div>
+      <div class="container">
+        <div class="row row-grid align-items-center">
+          <div class="col-12 col-md-5 col-lg-6 order-md-2 text-center">
+            <!-- Image -->
+            <figure class="w-100">
+              <img
+                alt="Image placeholder"
+                src="assets/img/svg/illustrations/illustration-3.svg"
+                class="img-fluid mw-md-120"
+              />
+            </figure>
+          </div>
+          <div class="col-12 col-md-7 col-lg-6 order-md-1 pr-md-5">
+            <!-- Heading -->
+            <h1 class="display-4 text-center text-md-left mb-3">
+              We talk <strong class="text-primary">Code</strong> here
+            </h1>
+            <!-- Text -->
+            <p class="lead text-center text-md-left text-muted">
+              Hackathons, Open Source Contributions, CTFs and more.
+            </p>
+            <!-- Buttons -->
+            <div class="text-center text-md-left mt-5">
+              <a href="#" class="btn btn-primary btn-icon" target="_blank">
+                <span class="btn-inner--text">Join us on Discord</span>
+                <span class="btn-inner--icon"
+                  ><i data-feather="chevron-right"></i
+                ></span>
+              </a>
+              <a
+                href="#"
+                class="btn btn-neutral btn-icon d-none d-lg-inline-block"
+                target="_blank"
+                >Join Mailing List</a
+              >
             </div>
+          </div>
         </div>
+      </div>
     </section>
     <section class="slice slice-lg pt-lg-6 pb-0 pb-lg-6 bg-section-secondary">
-        <div class="container">
-            <!-- Title -->
-            <!-- Section title -->
-            <div class="row mb-5 justify-content-center text-center">
-                <div class="col-lg-6">
-                    <span class="badge badge-soft-success badge-pill badge-lg">
-                        Get started
-                    </span>
-                    <h2 class=" mt-4">Handpicked Technologies and Resources for all Developers and Will-be-Developers</h2>
-                    <div class="mt-2">
-                        <p class="lead lh-180">Accesible to Everyone for Free</p>
-                    </div>
-                </div>
+      <div class="container">
+        <!-- Title -->
+        <!-- Section title -->
+        <div class="row mb-5 justify-content-center text-center">
+          <div class="col-lg-6">
+            <span class="badge badge-soft-success badge-pill badge-lg">
+              Get started
+            </span>
+            <h2 class="mt-4">
+              Handpicked Technologies and Resources for all Developers and
+              Will-be-Developers
+            </h2>
+            <div class="mt-2">
+              <p class="lead lh-180">Accesible to Everyone for Free</p>
             </div>
-            <!-- Card -->
-            <div class="row mt-5">
-                <div class="col-md-4">
-                    <div class="card">
-                        <div class="card-body pb-5">
-                            <div class="pt-4 pb-5">
-                                <img src="assets/img/svg/illustrations/illustration-5.svg" class="img-fluid img-center" style="height: 150px;" alt="Illustration" />
-                            </div>
-                            <h5 class="h4 lh-130 mb-3">Unleash your Skills</h5>
-                            <p class="text-muted mb-0">Push your creativity to your absolute limits</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="card">
-                        <div class="card-body pb-5">
-                            <div class="pt-4 pb-5">
-                                <img src="assets/img/svg/illustrations/illustration-7.svg" class="img-fluid img-center" style="height: 150px;" alt="Illustration" />
-                            </div>
-                            <h5 class="h4 lh-130 mb-3">Boost your Experience</h5>
-                            <p class="text-muted mb-0">Practice makes a man Experienced, this is no exception</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="card">
-                        <div class="card-body pb-5">
-                            <div class="pt-4 pb-5">
-                                <img src="assets/img/svg/illustrations/illustration-6.svg" class="img-fluid img-center" style="height: 150px;" alt="Illustration" />
-                            </div>
-                            <h5 class="h4 lh-130 mb-3">Create a strong Portfolio</h5>
-                            <p class="text-muted mb-0">Showcase your work to the clients for better exposure</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
+          </div>
         </div>
+        <!-- Card -->
+        <div class="row mt-5">
+          <div class="col-md-4">
+            <div class="card">
+              <div class="card-body pb-5">
+                <div class="pt-4 pb-5">
+                  <img
+                    src="assets/img/svg/illustrations/illustration-5.svg"
+                    class="img-fluid img-center"
+                    style="height: 150px"
+                    alt="Illustration"
+                  />
+                </div>
+                <h5 class="h4 lh-130 mb-3">Unleash your Skills</h5>
+                <p class="text-muted mb-0">
+                  Push your creativity to your absolute limits
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card">
+              <div class="card-body pb-5">
+                <div class="pt-4 pb-5">
+                  <img
+                    src="assets/img/svg/illustrations/illustration-7.svg"
+                    class="img-fluid img-center"
+                    style="height: 150px"
+                    alt="Illustration"
+                  />
+                </div>
+                <h5 class="h4 lh-130 mb-3">Boost your Experience</h5>
+                <p class="text-muted mb-0">
+                  Practice makes a man Experienced, this is no exception
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card">
+              <div class="card-body pb-5">
+                <div class="pt-4 pb-5">
+                  <img
+                    src="assets/img/svg/illustrations/illustration-6.svg"
+                    class="img-fluid img-center"
+                    style="height: 150px"
+                    alt="Illustration"
+                  />
+                </div>
+                <h5 class="h4 lh-130 mb-3">Create a strong Portfolio</h5>
+                <p class="text-muted mb-0">
+                  Showcase your work to the clients for better exposure
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </section>
     <section class="slice slice-lg">
-        <div class="container">
-            <div class="py-6">
-                <div class="row row-grid justify-content-between align-items-center">
-                    <div class="col-lg-5 order-lg-2">
-                        <h5 class="h3">Developer's Best Friend</h5>
-                        <p class="lead my-4">
-                            With TechSquad resources and examples, including tons of study materials that will help you build your skills with ease.
-                        </p>
-                        <ul class="list-unstyled mb-0">
-                            <li class="py-2">
-                                <div class="d-flex align-items-center">
-                                    <div>
-                                        <div class="icon icon-shape bg-primary text-white icon-sm rounded-circle mr-3">
-                                            <i class="fas fa-file-invoice"></i>
-                                        </div>
-                                    </div>
-                                    <div>
-                                        <span class="h6 mb-0">Perfect for Newbies and Professionals</span>
-                                    </div>
-                                </div>
-                            </li>
-                            <li class="py-2">
-                                <div class="d-flex align-items-center">
-                                    <div>
-                                        <div class="icon icon-shape bg-primary text-white icon-sm rounded-circle mr-3">
-                                            <i class="fas fa-store-alt"></i>
-                                        </div>
-                                    </div>
-                                    <div>
-                                        <span class="h6 mb-0">Industry Leading Technologies</span>
-                                    </div>
-                                </div>
-                            </li>
-                        </ul>
+      <div class="container">
+        <div class="py-6">
+          <div class="row row-grid justify-content-between align-items-center">
+            <div class="col-lg-5 order-lg-2">
+              <h5 class="h3">Developer's Best Friend</h5>
+              <p class="lead my-4">
+                With TechSquad resources and examples, including tons of study
+                materials that will help you build your skills with ease.
+              </p>
+              <ul class="list-unstyled mb-0">
+                <li class="py-2">
+                  <div class="d-flex align-items-center">
+                    <div>
+                      <div
+                        class="icon icon-shape bg-primary text-white icon-sm rounded-circle mr-3"
+                      >
+                        <i class="fas fa-file-invoice"></i>
+                      </div>
                     </div>
-                    <div class="col-lg-6 order-lg-1">
-                        <div class="card mb-0 mr-lg-5">
-                            <div class="card-body p-2">
-                                <img alt="Image placeholder" src="assets/img/svg/illustrations/illustration-10.svg" class="img-fluid shadow rounded">
-                            </div>
-                        </div>
+                    <div>
+                      <span class="h6 mb-0"
+                        >Perfect for Newbies and Professionals</span
+                      >
                     </div>
-                </div>
+                  </div>
+                </li>
+                <li class="py-2">
+                  <div class="d-flex align-items-center">
+                    <div>
+                      <div
+                        class="icon icon-shape bg-primary text-white icon-sm rounded-circle mr-3"
+                      >
+                        <i class="fas fa-store-alt"></i>
+                      </div>
+                    </div>
+                    <div>
+                      <span class="h6 mb-0">Industry Leading Technologies</span>
+                    </div>
+                  </div>
+                </li>
+              </ul>
             </div>
-            <div class="py-6">
-                <div class="row row-grid justify-content-between align-items-center">
-                    <div class="col-lg-5">
-                        <h5 class="h3">Community Support to make Connections</h5>
-                        <p class="lead my-4">
-                            Meet with Mentors with tons of experience in the relevant field and get help from them.
-                        </p>
-                        <ul class="list-unstyled mb-0">
-                            <li class="py-2">
-                                <div class="d-flex align-items-center">
-                                    <div>
-                                        <div class="icon icon-shape bg-primary text-white icon-sm rounded-circle mr-3">
-                                            <i class="fas fa-file-invoice"></i>
-                                        </div>
-                                    </div>
-                                    <div>
-                                        <span class="h6 mb-0">Make new Connections</span>
-                                    </div>
-                                </div>
-                            </li>
-                            <li class="py-2">
-                                <div class="d-flex align-items-center">
-                                    <div>
-                                        <div class="icon icon-shape bg-primary text-white icon-sm rounded-circle mr-3">
-                                            <i class="fas fa-store-alt"></i>
-                                        </div>
-                                    </div>
-                                    <div>
-                                        <span class="h6 mb-0">Awareness about more contests and Opportunities</span>
-                                    </div>
-                                </div>
-                            </li>
-                        </ul>
-                    </div>
-                    <div class="col-lg-6">
-                        <div class="card mb-0 ml-lg-5">
-                            <div class="card-body p-2">
-                                <img alt="Image placeholder" src="assets/img/svg/illustrations/illustration-15.svg" class="img-fluid shadow rounded">
-                            </div>
-                        </div>
-                    </div>
+            <div class="col-lg-6 order-lg-1">
+              <div class="card mb-0 mr-lg-5">
+                <div class="card-body p-2">
+                  <img
+                    alt="Image placeholder"
+                    src="assets/img/svg/illustrations/illustration-10.svg"
+                    class="img-fluid shadow rounded"
+                  />
                 </div>
+              </div>
             </div>
+          </div>
         </div>
+        <div class="py-6">
+          <div class="row row-grid justify-content-between align-items-center">
+            <div class="col-lg-5">
+              <h5 class="h3">Community Support to make Connections</h5>
+              <p class="lead my-4">
+                Meet with Mentors with tons of experience in the relevant field
+                and get help from them.
+              </p>
+              <ul class="list-unstyled mb-0">
+                <li class="py-2">
+                  <div class="d-flex align-items-center">
+                    <div>
+                      <div
+                        class="icon icon-shape bg-primary text-white icon-sm rounded-circle mr-3"
+                      >
+                        <i class="fas fa-file-invoice"></i>
+                      </div>
+                    </div>
+                    <div>
+                      <span class="h6 mb-0">Make new Connections</span>
+                    </div>
+                  </div>
+                </li>
+                <li class="py-2">
+                  <div class="d-flex align-items-center">
+                    <div>
+                      <div
+                        class="icon icon-shape bg-primary text-white icon-sm rounded-circle mr-3"
+                      >
+                        <i class="fas fa-store-alt"></i>
+                      </div>
+                    </div>
+                    <div>
+                      <span class="h6 mb-0"
+                        >Awareness about more contests and Opportunities</span
+                      >
+                    </div>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="col-lg-6">
+              <div class="card mb-0 ml-lg-5">
+                <div class="card-body p-2">
+                  <img
+                    alt="Image placeholder"
+                    src="assets/img/svg/illustrations/illustration-15.svg"
+                    class="img-fluid shadow rounded"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </section>
     <section class="slice slice-lg bg-section-dark pt-5 pt-lg-8">
-        <!-- SVG separator -->
-        <div class="shape-container shape-line shape-position-top shape-orientation-inverse">
-            <svg width="2560px" height="100px" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" preserveAspectRatio="none" x="0px" y="0px" viewBox="0 0 2560 100" style="enable-background:new 0 0 2560 100;" xml:space="preserve" class="">
-                <polygon points="2560 0 2560 100 0 100"></polygon>
-            </svg>
-        </div>
-        <!-- Container -->
-        <div class="container position-relative zindex-100">
-            <div class="col">
-                <div class="row justify-content-center">
-                    <div class="col-md-10 text-center">
-                        <div class="mt-4 mb-6">
-                            <h2 class="h1 text-white">
-                                Are you ready to grow faster?
-                            </h2>
-                            <h4 class="text-white mt-3">Let's dive in !</h4>
-                            <!-- Play button -->
-                            <a href="#" class="btn btn-primary btn-icon mt-4">Learn more</a>
-                        </div>
-                    </div>
-                </div>
+      <!-- SVG separator -->
+      <div
+        class="shape-container shape-line shape-position-top shape-orientation-inverse"
+      >
+        <svg
+          width="2560px"
+          height="100px"
+          xmlns="http://www.w3.org/2000/svg"
+          xmlns:xlink="http://www.w3.org/1999/xlink"
+          preserveAspectRatio="none"
+          x="0px"
+          y="0px"
+          viewBox="0 0 2560 100"
+          style="enable-background: new 0 0 2560 100"
+          xml:space="preserve"
+          class=""
+        >
+          <polygon points="2560 0 2560 100 0 100"></polygon>
+        </svg>
+      </div>
+      <!-- Container -->
+      <div class="container position-relative zindex-100">
+        <div class="col">
+          <div class="row justify-content-center">
+            <div class="col-md-10 text-center">
+              <div class="mt-4 mb-6">
+                <h2 class="h1 text-white">Are you ready to grow faster?</h2>
+                <h4 class="text-white mt-3">Let's dive in !</h4>
+                <!-- Play button -->
+                <a href="#" class="btn btn-primary btn-icon mt-4">Learn more</a>
+              </div>
             </div>
+          </div>
         </div>
+      </div>
     </section>
+
+    <!-- section categories -->
     <section class="slice pt-0">
-        <div class="container position-relative zindex-100">
-            <div class="row">
-                <div class="col-xl-4 col-sm-6 mt-n7">
-                    <a target="_blank" href="https://careerfoundry.com/en/blog/web-development/what-is-a-hackathon/">
-                        <div class="card">
-                            <div class="d-flex p-5">
-                                <div>
-                                    <span class="badge badge-warning badge-pill">Development</span>
-                                </div>
-                                <div class="pl-4">
-                                    <h5 class="lh-130">Hackathons</h5>
-                                    <p class="text-muted mb-0">
-                                        Hackathons which help you put your coding skills to work. Solve interesting business problems and real-world challenges.
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                    </a>
+      <div class="container position-relative zindex-100">
+        <div class="row">
+          <div class="col-xl-4 col-sm-6 mt-n7">
+            <a
+              target="_blank"
+              href="https://careerfoundry.com/en/blog/web-development/what-is-a-hackathon/"
+            >
+              <div class="card p-3 min-height-300">
+                <div
+                  class="d-flex flex-column align-items-center my-auto my-auto"
+                >
+                  <div class="mb-3">
+                    <span class="badge badge-warning badge-pill"
+                      >Development</span
+                    >
+                  </div>
+                  <div class="text-center">
+                    <h5 class="lh-130">Hackathons</h5>
+                    <p class="text-muted mb-0 px-1">
+                      Hackathons which help you put your coding skills to work.
+                      Solve interesting business problems and real-world
+                      challenges.
+                    </p>
+                  </div>
                 </div>
-                <div class="col-xl-4 col-sm-6 mt-sm-n7">
-                    <a target="_blank" href="https://www.freecodecamp.org/news/how-to-contribute-to-open-source-projects-beginners-guide/">
-                        <div class="card">
-                            <div class="d-flex p-5">
-                                <div>
-                                    <span class="badge badge-success badge-pill">Development</span>
-                                </div>
-                                <div class="pl-4">
-                                    <h5 class="lh-130">OpenSource</h5>
-                                    <p class="text-muted mb-0">                             
-                                        Open-Source Contribution involves contributing to the development or improvement of open-source software.
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                    </a>
+              </div>
+            </a>
+          </div>
+          <div class="col-xl-4 col-sm-6 mt-sm-n7">
+            <a
+              target="_blank"
+              href="https://www.freecodecamp.org/news/how-to-contribute-to-open-source-projects-beginners-guide/"
+            >
+              <div class="card p-3 min-height-300">
+                <div class="d-flex flex-column align-items-center my-auto">
+                  <div class="mb-3">
+                    <span class="badge badge-success badge-pill"
+                      >Development</span
+                    >
+                  </div>
+                  <div class="text-center">
+                    <h5 class="lh-130">OpenSource</h5>
+                    <p class="text-muted mb-0 px-1">
+                      Open-Source Contribution involves contributing to the
+                      development or improvement of open-source software.
+                    </p>
+                  </div>
                 </div>
-                <div class="col-xl-4 col-md-12 col-sm-6 mt-xl-n7">
-                    <a target="_blank" href="https://www.hackedu.com/blog/what-is-a-capture-the-flag-ctf-event-and-how-can-it-benefit-developers">
-                        <div class="card">
-                            <div class="d-flex p-5">
-                                <div>
-                                    <span class="badge badge-danger badge-pill">Cybersecurity</span>
-                                </div>
-                                <div class="pl-3">
-                                    <h5 class="lh-130">CTF</h5>
-                                    <p class="text-muted mb-0">
-                                        Capture the Flag (CTF) in computer security is an exercise in which "flags" are secretly hidden in purposefully-vulnerable programs or websites.
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                    </a>
+              </div>
+            </a>
+          </div>
+          <div class="col-xl-4 col-md-12 col-sm-6 mt-xl-n7">
+            <a
+              target="_blank"
+              href="https://www.hackedu.com/blog/what-is-a-capture-the-flag-ctf-event-and-how-can-it-benefit-developers"
+            >
+              <div class="card p-3 min-height-300">
+                <div class="d-flex flex-column align-items-center my-auto">
+                  <div class="mb-3">
+                    <span class="badge badge-danger badge-pill"
+                      >Cybersecurity</span
+                    >
+                  </div>
+                  
+                  <div class="text-center">
+                    <h5 class="lh-130">CTF</h5>
+                    <p class="text-muted mb-0">
+                      Capture the Flag (CTF) in computer security is an exercise
+                      in which "flags" are secretly hidden in
+                      purposefully-vulnerable programs or websites.
+                    </p>
+                  </div>
                 </div>
-            </div>
-            <div class="row">
-                <div class="col-xl-4 col-sm-6">
-                    <a href="https://www.atlassian.com/devops" target="_blank">
-                        <div class="card">
-                            <div class="d-flex p-5">
-                                <div>
-                                    <span class="badge badge-warning badge-pill">Deployment</span>
-                                </div>
-                                <div class="pl-4">
-                                    <h5 class="lh-130">DevOps</h5>
-                                    <p class="text-muted mb-0">
-                                        DevOps (a portmanteau of “development” and “operations”) is the combination of practices and tools designed to increase an organization's ability to deliver applications and services faster than traditional software development processes.
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-                <div class="col-xl-4 col-sm-6">
-                    <a target="_blank" href="https://www.freecodecamp.org/news/ai-vs-ml-whats-the-difference/">
-                        <div class="card">
-                            <div class="d-flex p-5">
-                                <div>
-                                    <span class="badge badge-success badge-pill">Automation</span>
-                                </div>
-                                <div class="pl-4">
-                                    <h5 class="lh-130">AI & ML</h5>
-                                    <p class="text-muted mb-0">
-                                        AI/ML—short for artificial intelligence (AI) and machine learning (ML)—represents an important evolution in computer science and data processing that is quickly transforming a vast array of industries.
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-                <div class="col-xl-4 col-md-12 col-sm-6">
-                    <a target="_blank" href="https://www.ibm.com/topics/software-development">
-                        <div class="card">
-                            <div class="d-flex p-5">
-                                <div>
-                                    <span class="badge badge-danger badge-pill">Development</span>
-                                </div>
-                                <div class="pl-3">
-                                    <h5 class="lh-130">Software Development</h5>
-                                    <p class="text-muted mb-0">
-                                        Software development which includes Website Dev and App Dev refers to a set of computer science activities dedicated to the process of creating, designing, deploying and supporting software.
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-            </div>
+              </div>
+            </a>
+          </div>
         </div>
+        <div class="row">
+          <div class="col-xl-4 col-sm-6">
+            <a href="https://www.atlassian.com/devops" target="_blank">
+              <div class="card p-3 min-height-300">
+                <div class="d-flex flex-column align-items-center my-auto">
+                  <div class="mb-3">
+                    <span class="badge badge-warning badge-pill"
+                      >Deployment</span
+                    >
+                  </div>
+                  <div class="text-center">
+                    <h5 class="lh-130">DevOps</h5>
+                    <p class="text-muted mb-0">
+                      DevOps (a portmanteau of “development” and “operations”)
+                      is the combination of practices and tools designed to
+                      increase an organization's ability to deliver applications
+                      and services faster than traditional software development
+                      processes.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="col-xl-4 col-sm-6">
+            <a
+              target="_blank"
+              href="https://www.freecodecamp.org/news/ai-vs-ml-whats-the-difference/"
+            >
+              <div class="card p-3 min-height-300">
+                <div class="d-flex flex-column align-items-center my-auto">
+                  <div class="mb-3">
+                    <span class="badge badge-success badge-pill"
+                      >Automation</span
+                    >
+                  </div>
+                  <div class="text-center">
+                    <h5 class="lh-130">AI & ML</h5>
+                    <p class="text-muted mb-0">
+                      AI/ML—short for artificial intelligence (AI) and machine
+                      learning (ML)—represents an important evolution in
+                      computer science and data processing that is quickly
+                      transforming a vast array of industries.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="col-xl-4 col-md-12 col-sm-6">
+            <a
+              target="_blank"
+              href="https://www.ibm.com/topics/software-development"
+            >
+              <div class="card p-3 min-height-300">
+                <div class="d-flex flex-column align-items-center my-auto">
+                  <div class="mb-3">
+                    <span class="badge badge-danger badge-pill"
+                      >Development</span
+                    >
+                  </div>
+                  <div class="text-center">
+                    <h5 class="lh-130">Software Development</h5>
+                    <p class="text-muted mb-0">
+                      Software development which includes Website Dev and App
+                      Dev refers to a set of computer science activities
+                      dedicated to the process of creating, designing, deploying
+                      and supporting software.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
     </section>
     <section class="slice slice-lg">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-6">
-                    <h5 class="lh-180 mt-4 mb-6">Quick Links for you to get started</h5>
-                </div>
-            </div>
-            <!-- Features -->
-            <div class="row mx-lg-n4">
-                <!-- Features - Col 1 -->
-                <div class="col-lg-4 col-md-6 px-lg-4">
-                    <div class="card shadow-none">
-                        <div class="p-3 d-flex">
-                            <div>
-                                <div class="icon icon-shape rounded-circle bg-warning text-white mr-4">
-                                    <i data-feather="check"></i>
-                                </div>
-                            </div>
-                            <div>
-                                <span class="h6">Resources</span>
-                                <p class="text-sm text-muted mb-0">
-                                    Built to be customized.
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 px-lg-4">
-                    <div class="card shadow-none">
-                        <div class="p-3 d-flex">
-                            <div>
-                                <div class="icon icon-shape rounded-circle bg-primary text-white mr-4">
-                                    <i data-feather="check"></i>
-                                </div>
-                            </div>
-                            <div>
-                                <span class="h6">Community Support</span>
-                                <p class="text-sm text-muted mb-0">
-                                    Built to be customized.
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 px-lg-4">
-                    <div class="card shadow-none">
-                        <div class="p-3 d-flex">
-                            <div>
-                                <div class="icon icon-shape rounded-circle bg-danger text-white mr-4">
-                                    <i data-feather="check"></i>
-                                </div>
-                            </div>
-                            <div>                                    
-                                <span class="h6">Upcoming Events</span>
-                                <p class="text-sm text-muted mb-0">
-                                    Built to be customized.
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>    
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6">
+            <h5 class="lh-180 mt-4 mb-6">Quick Links for you to get started</h5>
+          </div>
         </div>
+        <!-- Features -->
+        <div class="row mx-lg-n4">
+          <!-- Features - Col 1 -->
+          <div class="col-lg-4 col-md-6 px-lg-4">
+            <div class="card shadow-none">
+              <div class="p-3 d-flex">
+                <div>
+                  <div
+                    class="icon icon-shape rounded-circle bg-warning text-white mr-4"
+                  >
+                    <i data-feather="check"></i>
+                  </div>
+                </div>
+                <div>
+                  <span class="h6">Resources</span>
+                  <p class="text-sm text-muted mb-0">Built to be customized.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 px-lg-4">
+            <div class="card shadow-none">
+              <div class="p-3 d-flex">
+                <div>
+                  <div
+                    class="icon icon-shape rounded-circle bg-primary text-white mr-4"
+                  >
+                    <i data-feather="check"></i>
+                  </div>
+                </div>
+                <div>
+                  <span class="h6">Community Support</span>
+                  <p class="text-sm text-muted mb-0">Built to be customized.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 px-lg-4">
+            <div class="card shadow-none">
+              <div class="p-3 d-flex">
+                <div>
+                  <div
+                    class="icon icon-shape rounded-circle bg-danger text-white mr-4"
+                  >
+                    <i data-feather="check"></i>
+                  </div>
+                </div>
+                <div>
+                  <span class="h6">Upcoming Events</span>
+                  <p class="text-sm text-muted mb-0">Built to be customized.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </section>
     <footer class="position-relative" id="footer-main">
-        <div class="footer pt-lg-7 footer-dark bg-dark">
-            <!-- SVG shape -->
-            <div class="shape-container shape-line shape-position-top shape-orientation-inverse">
-                <svg width="2560px" height="100px" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" preserveAspectRatio="none" x="0px" y="0px" viewBox="0 0 2560 100" style="enable-background:new 0 0 2560 100;" xml:space="preserve" class=" fill-section-secondary">
-                    <polygon points="2560 0 2560 100 0 100"></polygon>
-                </svg>
-            </div>
-            <!-- Footer -->
-            <div class="container pt-4">
-                <div class="row">
-                    <div class="col-lg-4 mb-5 mb-lg-0">
-                        <!-- Webpixels' mission -->
-                        <p class="mt-4 text-sm opacity-8 pr-lg-4">TechSquad Community attempts to bring the best development experience to designers and developers by offering the tools needed for having a quick and solid start in Programming Career.</p>
-                        <!-- Social -->
-                        <ul class="nav mt-4">
-                            <li class="nav-item">
-                                <a class="nav-link pl-0" href="https://www.linkedin.com/company/78712349" target="_blank">
-                                    <i class="fab fa-linkedin"></i>
-                                </a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="https://github.com/Tech-Squad-Community" target="_blank">
-                                    <i class="fab fa-github"></i>
-                                </a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#" target="_blank">
-                                    <i class="fab fa-discord"></i>
-                                </a>
-                            </li>
-                        </ul>
-                    </div>
-                    <div class="col-lg-2 col-6 col-sm-4 ml-lg-auto mb-5 mb-lg-0">
-                        <h6 class="heading mb-3">Account</h6>
-                        <ul class="list-unstyled">
-                            <li><a href="#">Profile</a></li>
-                            <li><a href="#">Settings</a></li>
-                            <li><a href="#">Billing</a></li>
-                            <li><a href="#">Notifications</a></li>
-                        </ul>
-                    </div>
-                    <div class="col-lg-2 col-6 col-sm-4 mb-5 mb-lg-0">
-                        <h6 class="heading mb-3">About</h6>
-                        <ul class="list-unstyled">
-                            <li><a href="#">Services</a></li>
-                            <li><a href="#">Pricing</a></li>
-                            <li><a href="#">Contact</a></li>
-                            <li><a href="#">Careers</a></li>
-                        </ul>
-                    </div>
-                    <div class="col-lg-2 col-6 col-sm-4 mb-5 mb-lg-0">
-                        <h6 class="heading mb-3">Company</h6>
-                        <ul class="list-unstyled">
-                            <li><a href="#">Community</a></li>
-                            <li><a href="#">Help center</a></li>
-                            <li><a href="#">Support</a></li>
-                        </ul>
-                    </div>
-                </div>
-                <hr class="divider divider-fade divider-dark my-4">
-                <div class="row align-items-center justify-content-md-between pb-4">
-                    <div class="col-md-6">
-                        <div class="copyright text-sm font-weight-bold text-center text-md-left">
-                            &copy; 2022 <a href="https://techsquadcommunity.tech" class="font-weight-bold" target="_blank">TechSquad Community</a>. All rights reserved
-                        </div>
-                    </div>
-                    <div class="col-md-6">
-                        <ul class="nav justify-content-center justify-content-md-end mt-3 mt-md-0">
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">
-                                    Terms
-                                </a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">
-                                    Privacy
-                                </a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">
-                                    Cookies
-                                </a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
+      <div class="footer pt-lg-7 footer-dark bg-dark">
+        <!-- SVG shape -->
+        <div
+          class="shape-container shape-line shape-position-top shape-orientation-inverse"
+        >
+          <svg
+            width="2560px"
+            height="100px"
+            xmlns="http://www.w3.org/2000/svg"
+            xmlns:xlink="http://www.w3.org/1999/xlink"
+            preserveAspectRatio="none"
+            x="0px"
+            y="0px"
+            viewBox="0 0 2560 100"
+            style="enable-background: new 0 0 2560 100"
+            xml:space="preserve"
+            class="fill-section-secondary"
+          >
+            <polygon points="2560 0 2560 100 0 100"></polygon>
+          </svg>
         </div>
+        <!-- Footer -->
+        <div class="container pt-4">
+          <div class="row">
+            <div class="col-lg-4 mb-5 mb-lg-0">
+              <!-- Webpixels' mission -->
+              <p class="mt-4 text-sm opacity-8 pr-lg-4">
+                TechSquad Community attempts to bring the best development
+                experience to designers and developers by offering the tools
+                needed for having a quick and solid start in Programming Career.
+              </p>
+              <!-- Social -->
+              <ul class="nav mt-4">
+                <li class="nav-item">
+                  <a
+                    class="nav-link pl-0"
+                    href="https://www.linkedin.com/company/78712349"
+                    target="_blank"
+                  >
+                    <i class="fab fa-linkedin"></i>
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a
+                    class="nav-link"
+                    href="https://github.com/Tech-Squad-Community"
+                    target="_blank"
+                  >
+                    <i class="fab fa-github"></i>
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#" target="_blank">
+                    <i class="fab fa-discord"></i>
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <div class="col-lg-2 col-6 col-sm-4 ml-lg-auto mb-5 mb-lg-0">
+              <h6 class="heading mb-3">Account</h6>
+              <ul class="list-unstyled">
+                <li><a href="#">Profile</a></li>
+                <li><a href="#">Settings</a></li>
+                <li><a href="#">Billing</a></li>
+                <li><a href="#">Notifications</a></li>
+              </ul>
+            </div>
+            <div class="col-lg-2 col-6 col-sm-4 mb-5 mb-lg-0">
+              <h6 class="heading mb-3">About</h6>
+              <ul class="list-unstyled">
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Pricing</a></li>
+                <li><a href="#">Contact</a></li>
+                <li><a href="#">Careers</a></li>
+              </ul>
+            </div>
+            <div class="col-lg-2 col-6 col-sm-4 mb-5 mb-lg-0">
+              <h6 class="heading mb-3">Company</h6>
+              <ul class="list-unstyled">
+                <li><a href="#">Community</a></li>
+                <li><a href="#">Help center</a></li>
+                <li><a href="#">Support</a></li>
+              </ul>
+            </div>
+          </div>
+          <hr class="divider divider-fade divider-dark my-4" />
+          <div class="row align-items-center justify-content-md-between pb-4">
+            <div class="col-md-6">
+              <div
+                class="copyright text-sm font-weight-bold text-center text-md-left"
+              >
+                &copy; 2022
+                <a
+                  href="https://techsquadcommunity.tech"
+                  class="font-weight-bold"
+                  target="_blank"
+                  >TechSquad Community</a
+                >. All rights reserved
+              </div>
+            </div>
+            <div class="col-md-6">
+              <ul
+                class="nav justify-content-center justify-content-md-end mt-3 mt-md-0"
+              >
+                <li class="nav-item">
+                  <a class="nav-link" href="#"> Terms </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#"> Privacy </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#"> Cookies </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
     </footer>
     <!-- Core JS  -->
     <script src="assets/libs/jquery/dist/jquery.min.js"></script>
@@ -543,11 +726,10 @@
     <script src="assets/js/quick-website.js"></script>
     <!-- Feather Icons -->
     <script>
-        feather.replace({
-            'width': '1em',
-            'height': '1em'
-        })
+      feather.replace({
+        width: "1em",
+        height: "1em",
+      });
     </script>
-</body>
-
+  </body>
 </html>
