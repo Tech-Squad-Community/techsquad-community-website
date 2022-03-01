@@ -47,6 +47,13 @@
         body.loaded>div.preloader {
             animation: hidePreloader .5s linear .5s forwards;
         }
+        .img-fluid{
+            transition-property: transform;
+            transition-duration: 2s;
+        }
+        .img-fluid:hover{
+            transform: scale(1.1);
+        }
     </style>
     <script>
         window.addEventListener("load", function() {
