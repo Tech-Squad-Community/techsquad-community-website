@@ -8,53 +8,8 @@
     <meta name="author" content="Webpixels">
     <title>Contact</title>
     <!-- Preloader -->
-    <style>
-        @keyframes hidePreloader {
-            0% {
-                width: 100%;
-                height: 100%;
-            }
-
-            100% {
-                width: 0;
-                height: 0;
-            }
-        }
-
-        body>div.preloader {
-            position: fixed;
-            background: white;
-            width: 100%;
-            height: 100%;
-            z-index: 1071;
-            opacity: 0;
-            transition: opacity .5s ease;
-            overflow: hidden;
-            pointer-events: none;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-        }
-
-        body:not(.loaded)>div.preloader {
-            opacity: 1;
-        }
-
-        body:not(.loaded) {
-            overflow: hidden;
-        }
-
-        body.loaded>div.preloader {
-            animation: hidePreloader .5s linear .5s forwards;
-        }
-    </style>
-    <script>
-        window.addEventListener("load", function() {
-            setTimeout(function() {
-                document.querySelector('body').classList.add('loaded');
-            }, 300);
-        });
-    </script>
+    <link rel="stylesheet" href="./css/styles.css">   <!--Preloading the CSS files to this page-->
+    <script src="./JS/script.js"></script>            <!--Preloading the JS files to this page-->
     <!-- Favicon -->
     <link rel="icon" href="assets/img/brand/ts2022.png" type="image/png">
     <!-- Font Awesome -->
@@ -124,7 +79,7 @@
                     </h1>
                     <!-- Text -->
                     <p class="lead text-white text-center text-lg-left opacity-8">
-                        Build a beautiful community with your Valuable Suggestions for turn this tiny effort into a huge success.
+                        Build a beautiful community with your valuable suggestions to turn this tiny effort into a huge success.
                     </p>
                     <!-- Buttons -->
                     <div class="mt-5 text-center text-lg-left">
@@ -157,8 +112,7 @@
                                 </div>
                             </div>
                             <h5 class="">Sales department</h5>
-                            <p class=" mt-2 mb-0">Lorem ipsum dolor
-                                sit amet consectetur adipiscing.</p>
+                            <p class=" mt-2 mb-0">Enjoying all our amazing resources? To access our premium services contact us at</p>
                             <div class="mt-4">
                                 <a href="#" class="link-underline-warning">sales@example.com</a>
                             </div>
@@ -174,8 +128,7 @@
                                 </div>
                             </div>
                             <h5 class="">Technical support</h5>
-                            <p class=" mt-2 mb-0">Lorem ipsum dolor
-                                sit amet consectetur adipiscing.</p>
+                            <p class=" mt-2 mb-0">Having trouble accessing our services? Reach out to us at</p>
                             <div class="mt-4">
                                 <a href="#" class="link-underline-warning">support@example.com</a>
                             </div>
@@ -191,8 +144,7 @@
                                 </div>
                             </div>
                             <h5 class="">Custom projects</h5>
-                            <p class=" mt-2 mb-0">Lorem ipsum dolor sit
-                                amet consectetur adipiscing.</p>
+                            <p class=" mt-2 mb-0">Got interesting project ideas you want to implement? Contact us at</p>
                             <div class="mt-4">
                                 <a href="#" class="link-underline-warning">project@example.com</a>
                             </div>
@@ -211,7 +163,7 @@
                         E: <a href="#">techsquad.aot@gmail.com</a><br>
                     </p>
                     <p>
-                        Want to share any feedback with us, report a technical issue or just ask us a question? Fill free to contact us and we will get back to you shortly.
+                        Want to share any feedback with us, report a technical issue or just ask us a question? Feel free to contact us and we will get back to you shortly.
                     </p>
                 </div>
                 <div class="col-lg-6">
