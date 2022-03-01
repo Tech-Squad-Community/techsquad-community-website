@@ -6025,18 +6025,15 @@ input[type='button'].btn-block
 .card
 {
     position: relative;
-
     display: flex;
     flex-direction: column;
-
     min-width: 0;
-
     word-wrap: break-word;
-
     border: 1px solid #eaecf3;
     border-radius: .75rem; 
     background-color: #fff;
     background-clip: border-box;
+    transition: ease-in-out 0.2s;
 }
 .card > hr
 {
@@ -6075,6 +6072,10 @@ input[type='button'].btn-block
     margin-bottom: 0;
 }
 
+
+.card:hover{
+    box-shadow:  0 3px 22px  rgba(0,0,0,0.09);
+}
 .card-text:last-child
 {
     margin-bottom: 0;
