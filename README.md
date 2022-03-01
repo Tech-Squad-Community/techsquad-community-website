@@ -99,7 +99,7 @@ $ cd QuickLearn
 
 <hr>
 
-- Clone the Repository after forking using
+- Clone the Repository after forking 
 ```
 $ git clone <url>
 
@@ -134,6 +134,8 @@ $ git push origin <branch-name>
 ```
 
 - Navigate to the original repository and make a pull request
+- In case of merge conflict  fetch and merge from the remote repository
+<img src ="https://docs.github.com/assets/images/help/repository/fetch-and-merge-button.png">
 
 
 
