@@ -717,6 +717,13 @@
         </div>
       </div>
     </footer>
+    <!--scroll to top button-->
+    <div id="navtbut" class="disappear">
+      <a href = "#top">
+        <img class = "buttonclass" src = "http://chikmagalurdiocese.com/icon-256x256.png">
+      </a>
+    </div>
+
     <!-- Core JS  -->
     <script src="assets/libs/jquery/dist/jquery.min.js"></script>
     <script src="assets/libs/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
@@ -731,5 +738,22 @@
         height: "1em",
       });
     </script>
+    <!--scroll to top button-->
+    <script>
+      navtbut = document.getElementById("navtbut");
+    
+      var navToTop = function () {
+        var y = window.scrollY;
+        if (y >= 220) {
+            navtbut.className = "appear"
+        } 
+        else {
+            navtbut.className = "disappear"
+        }
+      };
+    
+      window.addEventListener("scroll", navToTop);
+        </script>
+  
   </body>
 </html>
