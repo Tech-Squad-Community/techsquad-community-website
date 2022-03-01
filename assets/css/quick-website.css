@@ -28112,4 +28112,32 @@ section
     background-color: #600;
 }
 
+/* Css added for index.html */
+.navbar-btn:hover{
+    transform: scale(1.1);
+}
+.card{
+    transition-property: transform;
+    transition-duration: 0.6s;
+}
+.card:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+.badge-soft-success:hover{
+    cursor: pointer;
+    color: white;
+    background-color: rgb(58, 197, 58);
+}
+
+/* Css added for about.html */
+.img-fluid{
+    transition-property: transform;
+    transition-duration: 2s;
+}
+.img-fluid:hover{
+    transform: scale(1.1);
+}
+
 /*# sourceMappingURL=quick-website.css.map */
