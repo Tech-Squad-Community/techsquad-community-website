@@ -6,9 +6,48 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="">
     <meta name="author" content="Webpixels">
-    <title>Quick – Website UI Kit (FREE)</title>
+    <title>Registration</title>
     <!-- Preloader -->
-    <link rel="stylesheet" href="./css/styles.css">   <!--Preloading the CSS files to this page-->
+    <style>
+        @keyframes hidePreloader {
+            0% {
+                width: 100%;
+                height: 100%;
+            }
+
+            100% {
+                width: 0;
+                height: 0;
+            }
+        }
+
+        body>div.preloader {
+            position: fixed;
+            background: white;
+            width: 100%;
+            height: 100%;
+            z-index: 1071;
+            opacity: 0;
+            transition: opacity .5s ease;
+            overflow: hidden;
+            pointer-events: none;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        body:not(.loaded)>div.preloader {
+            opacity: 1;
+        }
+
+        body:not(.loaded) {
+            overflow: hidden;
+        }
+
+        body.loaded>div.preloader {
+            animation: hidePreloader .5s linear .5s forwards;
+        }
+    </style>
     <script>
         window.addEventListener("load", function() {
             setTimeout(function() {
@@ -32,21 +71,39 @@
                     <div class="card shadow zindex-100 mb-0">
                         <div class="card-body px-md-5 py-5">
                             <div class="mb-5">
-                                <h6 class="h3">Login</h6>
-                                <p class="text-muted mb-0">Sign in to your account to continue.</p>
+                                <h6 class="h3">Register</h6>
+                                <p class="text-muted mb-0">Create an account to continue.</p>
                             </div>
                             <span class="clearfix"></span>
                             <form>
                                 <div class="form-group">
-                                    <label class="form-control-label">Email address</label>
+                                    <label class="form-control-label">First Name</label>
                                     <div class="input-group">
                                         <div class="input-group-prepend">
                                             <span class="input-group-text"><i data-feather="user"></i></span>
                                         </div>
+                                        <input type="text" class="form-control" id="input-fname" placeholder="Your name">
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label class="form-control-label">Last Name</label>
+                                    <div class="input-group">
+                                        <div class="input-group-prepend">
+                                            <span class="input-group-text"><i data-feather="user"></i></span>
+                                        </div>
+                                        <input type="text" class="form-control" id="input-lname" placeholder="Your name">
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label class="form-control-label">Email address</label>
+                                    <div class="input-group">
+                                        <div class="input-group-prepend">
+                                            <span class="input-group-text"><i data-feather="mail"></i></span>
+                                        </div>
                                         <input type="email" class="form-control" id="input-email" placeholder="name@example.com">
                                     </div>
                                 </div>
-                                <div class="form-group mb-0">
+                                <div class="form-group mb">
                                     <div class="d-flex align-items-center justify-content-between">
                                         <div>
                                             <label class="form-control-label">Password</label>
@@ -62,12 +119,28 @@
                                         <input type="password" class="form-control" id="input-password" placeholder="Password">
                                     </div>
                                 </div>
+                                <div class="form-group mb-0">
+                                    <div class="d-flex align-items-center justify-content-between">
+                                        <div>
+                                            <label class="form-control-label">Confirm Password</label>
+                                        </div>
+                                        <div class="mb-2">
+                                            <a href="#" class="small text-muted text-underline--dashed border-primary" data-toggle="password-text" data-target="#input-password">Show password</a>
+                                        </div>
+                                    </div>
+                                    <div class="input-group">
+                                        <div class="input-group-prepend">
+                                            <span class="input-group-text"><i data-feather="key"></i></span>
+                                        </div>
+                                        <input type="password" class="form-control" id="input-cpassword" placeholder="Confirm Password">
+                                    </div>
+                                </div>
                                 <div class="mt-4">
                                     <button type="button" class="btn btn-block btn-primary">Sign in</button></div>
                             </form>
                         </div>
-                        <div class="card-footer px-md-5"><small>Not registered?</small>
-                            <a href="register.html" class="small font-weight-bold">Create account</a></div>
+                        <div class="card-footer px-md-5"><small>Already registered?</small>
+                            <a href="login.html" class="small font-weight-bold">Login here</a></div>
                     </div>
                 </div>
             </div>
