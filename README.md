@@ -61,7 +61,7 @@ We have study materials, blogs, posts regarding upcoming events and much more so
 - Fork and clone the Repo by typing the following commands in the terminal
 
 ```
-$ git clone https://github.com/Tech-Squad-Community/techsquad-community-website.git
+$ git clone https://github.com/<your-github-username>/techsquad-community-website.git
 
 $ cd techsquad-community-website
 ```
@@ -101,7 +101,7 @@ $ cd QuickLearn
 
 - Clone the Repository after forking 
 ```
-$ git clone <url>
+$ git clone https://github.com/<your-github-username>/techsquad-community-website.git
 
 $ cd techsquad-community-website
 ```
