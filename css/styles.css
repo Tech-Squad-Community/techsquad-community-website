@@ -1,5 +1,5 @@
-html{
-  scroll-behavior: smooth;             /* -- added smooth scrolling behaviour -- */ 
+html {
+  scroll-behavior: smooth; /* -- added smooth scrolling behaviour -- */
 }
 @keyframes hidePreloader {
   0% {
@@ -67,18 +67,19 @@ body.loaded > div.preloader {
 
 /*scroll to top button */
 .disappear {
-  opacity:0;
- 
+  opacity: 0;
 }
 .appear {
-  opacity:1;
-
+  opacity: 1;
 }
-.buttonclass
-{
+.buttonclass {
   position: fixed;
   bottom: 25px;
   right: 25px;
   height: 50px;
   width: 50px;
+}
+
+#back-top {
+  z-index: 213424235423 !important;
 }
