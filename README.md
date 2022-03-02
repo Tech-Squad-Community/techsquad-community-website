@@ -101,7 +101,7 @@ $ cd QuickLearn
 
 - Clone the Repository after forking 
 ```
-$ git clone <url>
+$ git clone https://github.com/<your-github-username>/techsquad-community-website.git
 
 $ cd techsquad-community-website
 ```
