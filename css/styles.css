@@ -41,6 +41,7 @@ body > div.preloader {
   height: 100%;
   z-index: 1071;
   opacity: 0;
+  transform: translateX(-250px);
   transition: transform 250ms ease-in-out;
   overflow: hidden;
   pointer-events: none;
