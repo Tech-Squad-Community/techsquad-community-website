@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito&family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito&family=Poppins:wght@300&family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito&family=Poppins:wght@300&family=Roboto:wght@300&family=Ubuntu:wght@300&display=swap');
 
 *
 {
@@ -20,15 +22,18 @@ a
 
 .Container
 {
-    display: grid;
-    grid-template-columns: repeat(4, 19%);
-    grid-template-rows: 2% 40% 20%;
-    margin-left: 10%;
-    grid-gap: 40px 50px;
+   display: grid;
+   grid-template-columns: repeat(4,19%);
+   grid-template-rows: 2% 10% 10% 10% 10%  5% 10% 10% 10%;
+   grid-gap: 30px 38px;
+   margin-left: 150px;
+    
+   
+  
 }
 
 
-@media only screen and (max-width:800px)  {
+@media only screen and (max-width:450px)  {
     .Container{
         grid-template-columns:50%;
         grid-template-rows: 20% 20% 20% 20% 20% 20% 20% 20%;
@@ -43,19 +48,19 @@ a
 .heading
 {
 grid-column: 1/5;
-font-family: Nunito;
+font-family: Poppins;
 background-color:white;
 font-weight: 1000;
-font-size: 15px;
+font-size: 18.5px;
+margin-top: 5px;
 text-align: center;
-margin-top: 10px;
 }
 
-@media only screen and (max-width:800px)  {
+@media only screen and (max-width:450px)  {
     .heading{
          position: relative;
-         right: 80px;
-         font-size: 13px;
+         right:55px;
+         font-size: 15px;
     }
 }
 
@@ -109,6 +114,163 @@ margin-top: 10px;
     background-color: white;
 }
 
+.Nin-Img
+{
+    grid-column: 1/2;
+}
+
+.Ten-Img
+{
+    grid-column: 2/3;
+}
+
+
+.Eleven-Img
+{
+    grid-column: 3/4;
+    background-color:white;
+}
+
+.Twl-Img
+{
+    grid-column: 4/5;
+    background-color: white;
+}
+
+.Thirteen-Img
+{
+    grid-column: 1/2;
+    background-color: white;
+}
+
+.Fourteen-Img
+{
+    grid-column: 2/3;
+    background-color: white;
+}
+
+
+.Fifteen-Img
+{
+    grid-column: 3/4;
+    background-color: white;
+}
+
+
+
+.Seventeen-Img
+{
+    grid-column: 4/5;
+    background-color: white;
+}
+
+.Eighteen-Img
+{
+    grid-column: 1/2;
+    background-color: white;
+}
+
+.Nineteen-Img
+{
+    grid-column: 2/3;
+    background-color: white;
+}
+
+
+.Twenty-Img
+{
+    grid-column: 3/4;
+    background-color: white;
+}
+
+.Twentyone-Img
+{
+    grid-column: 4/5;
+    background-color: white;
+}
+
+
+.pastevents
+{
+    grid-column: 1/5;
+    text-align: center;
+    font-family: ubuntu;
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 200px;
+    
+}
+
+
+@media only screen and (max-width:450px)  {
+    .pastevents{
+         position: relative;
+         right:55px;
+         font-size: 16px;
+    }
+}
+
+.Twentytwo-Img
+{
+    grid-column: 1/2;
+    background-color: white;
+}
+
+.Twentythree-Img
+{
+    grid-column: 2/3;
+    background-color: white;
+}
+
+.Twentyfour-Img
+{
+    grid-column: 3/4;
+}
+
+.Twentyfive-Img
+{
+    grid-column: 4/5;
+}
+
+
+.Twentysix-Img
+{
+    grid-column: 1/2;
+    background-color: whitel
+}
+
+.Twentyseven-Img
+{
+    grid-column: 2/3;
+    background-color:  white;
+}
+
+.Twentyeight-Img
+{
+    grid-column: 3/4;
+    background-color:  white;
+}
+
+.Twentynine-Img
+{
+    grid-column: 4/5;
+    background-color: white;
+}
+
+
+.Thirty-Img
+{
+    grid-column: 1/2;
+    background-color:  white;
+}
+
+.Sixteen-Img
+{
+    grid-column: 2/3;
+    background-color:white;
+}
+
+
 .card
 {
     width: 15rem;
@@ -117,18 +279,22 @@ margin-top: 10px;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    box-shadow: .5rem .5rem .5rem rgba(0,0,0,0.2);
-    border-radius: 15px;
+    box-shadow: .5rem .5rem .5rem rgba(0,0,0,0.1);
+    border-radius: 17px;
+    background-color: rgb(241, 237, 237);
+    
     
 }
 
 .card:hover
 {
-    transform: scale(1.03);
+    transform: scale(1.05);
     transition: all 1s ease;
+    background-color: rgb(214, 214, 214);
+    
 }
    
-@media only screen and (max-width:800px)  {
+@media only screen and (max-width:450px)  {
       .card{
           grid-gap: 10px ;
           margin: 20px 2px;
@@ -137,14 +303,13 @@ margin-top: 10px;
 
 }
 
-
-
  .card-img
 {
     width: 100%;
     height: 10rem;
     object-fit: cover;
     border-radius: 15px;
+    border-color: 1px solid black;
     
 
 }
@@ -156,6 +321,8 @@ margin-top: 10px;
     object-fit: cover;
     border-radius: 10%;
     margin-top: -3rem;
+    border: 5px solid #fff;
+    
 }
 
 h4
@@ -164,7 +331,7 @@ h4
     font-weight: 300;
     font-family:Nunito;
     margin-top: 3px;
-    padding: 10px 10px;
+    padding: 5px 5px;
 
 }
 
@@ -173,7 +340,7 @@ h3
     font-size: 15px;
     font-family:Nunito;
     margin-top: 5px;
-    font-weight: bold;
+    font-weight: 800;
 
 }
 
