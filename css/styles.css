@@ -22,6 +22,13 @@ html {
   margin-top: 5px;
 }
 
+#bo:hover{
+  box-shadow:0 0 11px rgba(33,33,33,.2);
+}
+.box:hover {
+  box-shadow: 0 0 11px rgba(33,33,33,.2); 
+}
+
 @keyframes float {
   0% {
     transform: translate(0, 0px);
