@@ -24,7 +24,7 @@ a
 {
    display: grid;
    grid-template-columns: repeat(4,19%);
-   grid-template-rows: 2% 10% 10% 10% 10% 10% 5% 10% 10% 10%;
+   grid-template-rows: 2% 10% 10% 10% 10%  5% 10% 10% 10%;
    grid-gap: 30px 38px;
    margin-left: 150px;
     
@@ -159,38 +159,38 @@ text-align: center;
 
 .Sixteen-Img
 {
-    grid-column: 4/5;
+    grid-column: 2/3;
     background-color:white;
 }
 
 .Seventeen-Img
 {
-    grid-column: 1/2;
+    grid-column: 4/5;
     background-color: white;
 }
 
 .Eighteen-Img
 {
-    grid-column: 2/3;
+    grid-column: 1/2;
     background-color: white;
 }
 
 .Nineteen-Img
 {
-    grid-column: 3/4;
+    grid-column: 2/3;
     background-color: white;
 }
 
 
 .Twenty-Img
 {
-    grid-column: 4/5;
+    grid-column: 3/4;
     background-color: white;
 }
 
 .Twentyone-Img
 {
-    grid-column: 1/2;
+    grid-column: 4/5;
     background-color: white;
 }
 
@@ -203,6 +203,7 @@ text-align: center;
     font-weight: bold;
     font-size: 20px;
     margin-top: 200px;
+    
 }
 
 
