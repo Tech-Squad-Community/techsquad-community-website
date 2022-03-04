@@ -157,11 +157,6 @@ text-align: center;
 }
 
 
-.Sixteen-Img
-{
-    grid-column: 2/3;
-    background-color:white;
-}
 
 .Seventeen-Img
 {
@@ -269,6 +264,11 @@ text-align: center;
     background-color:  white;
 }
 
+.Sixteen-Img
+{
+    grid-column: 2/3;
+    background-color:white;
+}
 
 
 .card
