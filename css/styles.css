@@ -21,6 +21,10 @@ html {
   margin-left: 30px;
   margin-top: 5px;
 }
+.box:hover {
+  filter: drop-shadow(0px 3px 3px rgba(0, 0, 0, 3));
+  transition: filter 500ms;
+}
 
 @keyframes float {
   0% {
