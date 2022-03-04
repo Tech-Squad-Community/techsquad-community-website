@@ -1,0 +1,37 @@
+/* CSS FOR ABOUT-CARD */
+
+.about-card {
+  padding: 0.8rem;
+  cursor: pointer;
+  width: 16rem;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0.3rem 0.3rem 0.3rem rgba(0, 0, 0, 0.2);
+  border-radius: 15px;
+  transition: all 2s;
+  margin: 1rem !important;
+}
+.about-card img {
+  transition: all 1s;
+}
+
+/* CSS TO MAKE CARD SLIGHLY INCREASE IN SIZE ON HOVERING */
+.about-card:hover {
+  transform: scale(1.1);
+}
+
+/* CSS TO KEEP IMAGE SIZE SAME */
+.fix-ht {
+  height: 16rem;
+  width: 16rem;
+}
+
+/* TO JUSTIFY-ALL-CARDS-IN-CENTER FOR ALL DEVICES */
+.flexer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
