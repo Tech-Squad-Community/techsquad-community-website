@@ -1,97 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="">
-    <meta name="author" content="Webpixels">
-    <title>Quick – Website UI Kit (FREE)</title>
-    <!-- Preloader -->
-    <link rel="stylesheet" href="./css/styles.css">   <!--Preloading the CSS files to this page-->
-    <script src="./JS/script.js"></script>            <!--Preloading the JS files to this page-->
-    <!-- Favicon -->
-    <link rel="icon" href="assets/img/brand/favicon.png" type="image/png"><!-- Font Awesome -->
-    <link rel="stylesheet" href="assets/libs/@fortawesome/fontawesome-free/css/all.min.css">
-    <!-- Quick CSS -->
-    <link rel="stylesheet" href="assets/css/quick-website.css" id="stylesheet">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/log.css">
+    <title>Login</title>
 </head>
-
 <body>
-    <!-- Main content -->
-    <section>
-        <div class="container d-flex flex-column">
-            <div class="row align-items-center justify-content-center min-vh-100">
-                <div class="col-md-6 col-lg-5 col-xl-5 py-6 py-md-0">
-                    <div class="card shadow zindex-100 mb-0">
-                        <div class="card-body px-md-5 py-5">
-                            <div class="mb-5">
-                                <h6 class="h3">Login</h6>
-                                <p class="text-muted mb-0">Sign in to your account to continue.</p>
-                            </div>
-                            <span class="clearfix"></span>
-                            <form>
-                                <div class="form-group">
-                                    <label class="form-control-label">Email address</label>
-                                    <div class="input-group">
-                                        <div class="input-group-prepend">
-                                            <span class="input-group-text"><i data-feather="user"></i></span>
-                                        </div>
-                                        <input type="email" class="form-control" id="input-email" placeholder="name@example.com">
-                                    </div>
-                                </div>
-                                <div class="form-group mb-0">
-                                    <div class="d-flex align-items-center justify-content-between">
-                                        <div>
-                                            <label class="form-control-label">Password</label>
-                                        </div>
-                                        <div class="mb-2">
-                                            <a href="#" class="small text-muted text-underline--dashed border-primary" data-toggle="password-text" data-target="#input-password">Show password</a>
-                                        </div>
-                                       
-                                    </div>
-                                    <div class="input-group">
-                                        <div class="input-group-prepend">
-                                            <span class="input-group-text"><i data-feather="key"></i></span>
-                                        </div>
-                                        <input type="password" class="form-control" id="input-password" placeholder="Password">
-                                     
-                                       
-                                        </div> 
-                                        <div>
-                                            <input type="checkbox" class="check" name="remember " required value>
-                                            <label class="remem">Remember me</label>
-                                            <p>
-                                                <a href="/fpass">Forgot Password</a>
-                                            </p>
-                                      
-                                    </div>
-                                </div>
-                                <div class="mt-4">
-                                    <button type="button" class="btn btn-block btn-primary">Sign in</button></div>
-                            </form>
-                        </div>
-                        <div class="card-footer px-md-5"><small>Not registered?</small>
-                            <a href="register.html" class="small font-weight-bold">Create account</a></div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- Core JS  -->
-    <script src="assets/libs/jquery/dist/jquery.min.js"></script>
-    <script src="assets/libs/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="assets/libs/svg-injector/dist/svg-injector.min.js"></script>
-    <script src="assets/libs/feather-icons/dist/feather.min.js"></script>
-    <!-- Quick JS -->
-    <script src="assets/js/quick-website.js"></script>
-    <!-- Feather Icons -->
-    <script>
-        feather.replace({
-            'width': '1em',
-            'height': '1em'
-        })
-    </script>
+    <div class="login-div">
+    <div class="logo"><img class="img" src="./assets/img/brand/ts2022.png" alt=""></div>
+    <div class="title">TECHSQUAD</div>
+    <div class="sub-title">Community</div>
+    <div class="fields">
+        <h1 class="cred">Email address</h1>
+        <div class="username">
+            <svg class="svg-icon" viewBox="0 0 20 20">
+                <path class="path1" d="M17.388,4.751H2.613c-0.213,0-0.389,0.175-0.389,0.389v9.72c0,0.216,0.175,0.389,0.389,0.389h14.775c0.214,0,0.389-0.173,0.389-0.389v-9.72C17.776,4.926,17.602,4.751,17.388,4.751 M16.448,5.53L10,11.984L3.552,5.53H16.448zM3.002,6.081l3.921,3.925l-3.921,3.925V6.081z M3.56,14.471l3.914-3.916l2.253,2.253c0.153,0.153,0.395,0.153,0.548,0l2.253-2.253l3.913,3.916H3.56z M16.999,13.931l-3.921-3.925l3.921-3.925V13.931z"></path>
+            </svg>    
+        <input type="email" autocomplete="none" class="user-input" placeholder="name@example.com"/></div>
+        <h1 class="cred">Password</h1>
+        <div class="password"><svg class="svg-icon" viewBox="0 0 20 20">
+            <path d="M17.308,7.564h-1.993c0-2.929-2.385-5.314-5.314-5.314S4.686,4.635,4.686,7.564H2.693c-0.244,0-0.443,0.2-0.443,0.443v9.3c0,0.243,0.199,0.442,0.443,0.442h14.615c0.243,0,0.442-0.199,0.442-0.442v-9.3C17.75,7.764,17.551,7.564,17.308,7.564 M10,3.136c2.442,0,4.43,1.986,4.43,4.428H5.571C5.571,5.122,7.558,3.136,10,3.136 M16.865,16.864H3.136V8.45h13.729V16.864z M10,10.664c-0.854,0-1.55,0.696-1.55,1.551c0,0.699,0.467,1.292,1.107,1.485v0.95c0,0.243,0.2,0.442,0.443,0.442s0.443-0.199,0.443-0.442V13.7c0.64-0.193,1.106-0.786,1.106-1.485C11.55,11.36,10.854,10.664,10,10.664 M10,12.878c-0.366,0-0.664-0.298-0.664-0.663c0-0.366,0.298-0.665,0.664-0.665c0.365,0,0.664,0.299,0.664,0.665C10.664,12.58,10.365,12.878,10,12.878"></path>
+        </svg><input type="password" autocomplete="none" class="pass-input" placeholder="Password"/></div>
+    </div>
+    <div class="check"><input type="checkbox"><span>Rememeber me</span></div>
+    <div class="forpass"><p><a href="#">Forget Password</a></p></div>
+    <button class="signin-button">Sign in</button>
+    <div class="link">
+        <p class="bottom" >Not Registered?<a href="registration.html">Register</a></p>
+    </div>
+    </div>
 </body>
-
 </html>
