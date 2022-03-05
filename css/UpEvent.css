@@ -49,11 +49,9 @@ a
 {
 grid-column: 1/5;
 font-family: Poppins;
-background-color:white;
 font-weight: 1000;
 font-size: 18.5px;
 margin-top: 5px;
-text-align: center;
 }
 
 @media only screen and (max-width:450px)  {
@@ -323,6 +321,11 @@ text-align: center;
     margin-top: -3rem;
     border: 5px solid #fff;
     
+}
+
+h1.event_h1
+{
+    text-align: center;
 }
 
 h4.event_h4
