@@ -29,7 +29,6 @@
       id="stylesheet"
     />
   </head>
-
   <body>
     <!-- Preloader -->
     <div class="preloader">
@@ -39,15 +38,16 @@
     </div>
 
     <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-white">
+    <nav class="navbar navbar-expand-lg navbar-light bg-transparent">
       <div class="container">
         <!-- Brand -->
-        <a class="float client col-3 py-3" href="index.html">
+        <a class="client col-3" href="index.html">
           <img
             alt="Image placeholder"
             src="assets/img/brand/ts2022_trans.svg"
             id="navbar-logo"
-            style="max-width: 70%"
+            style="width: 50%"
+            class = "navbar-logo"
           />
         </a>
         <!-- Toggler -->
@@ -64,13 +64,13 @@
         </button>
         <!-- Collapse -->
         <div class="collapse navbar-collapse" id="navbarCollapse">
-          <ul class="navbar-nav mt-4 mt-lg-0 ml-auto">
+          <ul class="navbar-nav mt-4 mt-lg-0 ml-auto ">
             <li class="nav-item">
-              <a class="nav-link" href="index.html">Resources</a>
+              <a class="nav-link text-light text-light" href="index.html">Resources</a>
             </li>
             <li class="nav-item dropdown dropdown-animate" data-toggle="hover">
               <a
-                class="nav-link"
+                class="nav-link text-light"
                 href="#"
                 role="button"
                 data-toggle="dropdown"
@@ -87,12 +87,12 @@
               </div>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Blogs</a>
+              <a class="nav-link text-light" href="#">Blogs</a>
             </li>
           </ul>
           <!-- Button -->
           <a
-            class="navbar-btn btn btn-sm btn-primary d-none d-lg-inline-block ml-3"
+            class="navbar-btn btn btn-sm btn-outline-light  d-none d-lg-inline-block ml-3"
             href="upevent.html"
           >
             Upcoming Events
@@ -107,26 +107,42 @@
       </div>
     </nav>
     <!-- Main content -->
-    <section class="slice py-7">
+    <section class="slice py-7 cover-section d-flex justify-content-center align-items-center">
+      <img height="100%" width="100%" class="position-absolute top-0 wave" src="./assets/img/shapes/hero_shape.png" alt="">
+      <img class="position-absolute dot-shapes" src="./assets/img/shapes/hero-dot-shape.png" alt="">
+      <div class="hero-shape5">
+        <img width="60%" src="assets/img/shapes/her-pattarn-5.png" alt="shape">
+     </div>
+      <div class="hero-shape1">
+        <img width="100%" src="assets/img/shapes/hero-pattarn-1.png" alt="shape">
+     </div>
+      <div class="hero-shape2">
+        <img width="100%" src="assets/img/shapes/hero-pattarn-2.png" alt="shape">
+     </div>
+      <div class="hero-shape3">
+        <img width="100%" src="assets/img/shapes/hero-pattarn-3.png" alt="shape">
+     </div>
       <div class="container">
+        
         <div class="row row-grid align-items-center">
           <div
             class="box col-12 col-md-5 col-lg-6 order-md-2 text-center"
             data-tilt
           >
+         
             <!-- Image -->
-            <figure class="w-100">
+             <figure class="w-100">
               <img
                 alt="Image placeholder"
-                src="assets/img/svg/illustrations/illustration-3.svg"
+                src="assets/img/svg/illustrations/1.png"
                 class="box img-fluid mw-md-120"
               />
-            </figure>
+            </figure> 
           </div>
-          <div class="col-12 col-md-7 col-lg-6 order-md-1 pr-md-5">
+          <div class="col-12 col-md-7 col-lg-6 order-md-1 pr-md-5 left-box">
             <!-- Heading -->
-            <h1 class="display-4 text-center text-md-left mb-3">
-              We talk <strong class="text-primary">Code</strong> here
+            <h1 class="display-3 text-center text-md-left mb-3 cover-title">
+              We talk<br><strong class="text-primary">Code</strong> here
             </h1>
             <!-- Text -->
             <p class="lead text-center text-md-left text-muted">
@@ -142,7 +158,7 @@
               </a>
               <a
                 href="#"
-                class="btn btn-neutral btn-icon d-none d-lg-inline-block"
+                class="btn btn-neutral btn-icon my-2 d-lg-inline-block"
                 target="_blank"
                 >Join Mailing List</a
               >

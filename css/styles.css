@@ -21,10 +21,10 @@ html {
   margin-left: 30px;
   margin-top: 5px;
 }
-.box:hover {
+/* .box:hover {
   filter: drop-shadow(0px 3px 3px rgba(0, 0, 0, 3));
   transition: filter 500ms;
-}
+} */
 
 @keyframes float {
   0% {
@@ -69,7 +69,13 @@ body.loaded > div.preloader {
 .min-height-300 {
   min-height: 300px;
 }
-
+.navbar{
+  padding: 0 !important;
+  position: absolute !important;
+  top: 0 !important;
+  width: 100%;
+  background-color:transparent !important;
+}
 /*scroll to top button */
 .disappear {
   opacity: 0;
@@ -88,3 +94,171 @@ body.loaded > div.preloader {
 #back-top {
   z-index: 213424235423 !important;
 }
+
+/* cover-page-styles */
+
+.cover-section{
+  height: 100vh;
+  background-color: #008aff;
+ }
+
+ .dot-shapes{
+   bottom: 20px;
+   margin-left: 180px;
+   
+ }
+
+ .cover-title{
+   font-weight: 900 !important;
+   line-height: 1.1 !important;
+ }
+ .cover-title > strong {
+  font-weight: 900 !important;
+ }
+  .hero-shape5 {
+  position: absolute;
+  right: 5%;
+  z-index: 1;
+  top: 22%;
+  opacity: 0.3;
+  -webkit-animation: action 1s infinite  alternate;
+  animation: action 1s infinite  alternate;
+}
+.hero-shape1{
+  position: absolute;
+  top: 65%;
+  left: 2%;
+  -webkit-animation: rotaed360 4s infinite linear;
+  animation: rotaed360 4s infinite linear;
+  z-index: 1;
+}
+.hero-shape2{
+  position: absolute;
+  top: 20%;
+   left: 40%;
+  -webkit-animation: animationFramesOne 15s linear infinite;
+    animation: animationFramesOne 15s infinite alternate;
+    z-index: 1;
+ 
+}
+.hero-shape3{
+  position: absolute;
+  top: 74%;
+  left: 30%;
+   -webkit-animation: animationFramesOne 10s linear infinite;
+  animation: animationFramesOne 10s infinite infinite;
+  z-index: 1; 
+}
+
+@-webkit-keyframes action {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-20px); }
+}
+
+@keyframes action {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-20px); }
+}
+@-webkit-keyframes rotaed360 {
+    0% { transform:rotate(0deg);
+    }
+    100% { transform: rotate(360deg)}
+}
+@keyframes rotaed360 {
+  0% { transform:rotate(0deg);
+  }
+  100% { transform: rotate(360deg)}
+}
+@-webkit-keyframes animationFramesOne {
+	0% {
+		-webkit-transform: translate(0px, 0px) rotate(0deg);
+		transform: translate(0px, 0px) rotate(0deg);
+	}
+	20% {
+		-webkit-transform: translate(73px, -1px) rotate(36deg);
+		transform: translate(73px, -1px) rotate(36deg);
+	}
+	40% {
+		-webkit-transform: translate(141px, 72px) rotate(72deg);
+		transform: translate(141px, 72px) rotate(72deg);
+	}
+	60% {
+		-webkit-transform: translate(83px, 122px) rotate(108deg);
+		transform: translate(83px, 122px) rotate(108deg);
+	}
+	80% {
+		-webkit-transform: translate(-40px, 72px) rotate(144deg);
+		transform: translate(-40px, 72px) rotate(144deg);
+	}
+	100% {
+		-webkit-transform: translate(0px, 0px) rotate(0deg);
+		transform: translate(0px, 0px) rotate(0deg);
+	}
+}
+
+@keyframes animationFramesOne {
+	0% {
+		-webkit-transform: translate(0px, 0px) rotate(0deg);
+		transform: translate(0px, 0px) rotate(0deg);
+	}
+	20% {
+		-webkit-transform: translate(73px, -1px) rotate(36deg);
+		transform: translate(73px, -1px) rotate(36deg);
+	}
+	40% {
+		-webkit-transform: translate(141px, 72px) rotate(72deg);
+		transform: translate(141px, 72px) rotate(72deg);
+	}
+	60% {
+		-webkit-transform: translate(83px, 122px) rotate(108deg);
+		transform: translate(83px, 122px) rotate(108deg);
+	}
+	80% {
+		-webkit-transform: translate(-40px, 72px) rotate(144deg);
+		transform: translate(-40px, 72px) rotate(144deg);
+	}
+	100% {
+		-webkit-transform: translate(0px, 0px) rotate(0deg);
+		transform: translate(0px, 0px) rotate(0deg);
+	}
+}
+
+@media (max-width: 576px) { 
+  .box{
+    display: none;
+  }
+  .hero-shape2{
+    display:none;
+  }
+  .hero-shape1{
+    top:50%;
+  }
+  .dot-shapes{
+    display:none;
+  }
+  .left-box{
+    display:flex;
+    flex-direction: column;
+    height:60vh;
+  }
+  .wave{
+    width: calc(100% + 30%);
+    height: 50%;
+    background-color: #008aff;
+  
+     }
+  .cover-section{
+    height: 100vh;
+    background-color: #fff;
+   }
+   .navbar-logo{
+     margin-left: -30px;
+     margin-top: -20px;
+     width: 120px !important;
+   }
+   .cover-title{
+    font-weight: 900 !important;
+    line-height: 1.1 !important;
+  }
+ }
+
