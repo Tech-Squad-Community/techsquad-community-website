@@ -325,7 +325,7 @@ text-align: center;
     
 }
 
-h4
+h4.event_h4
 {
     font-size: 14px;
     font-weight: 300;
@@ -335,7 +335,7 @@ h4
 
 }
 
-h3
+h3.event_h3
 {
     font-size: 15px;
     font-family:Nunito;
