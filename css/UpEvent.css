@@ -49,11 +49,9 @@ a
 {
 grid-column: 1/5;
 font-family: Poppins;
-background-color:white;
 font-weight: 1000;
 font-size: 18.5px;
 margin-top: 5px;
-text-align: center;
 }
 
 @media only screen and (max-width:450px)  {
@@ -325,7 +323,12 @@ text-align: center;
     
 }
 
-h4
+h1
+{
+    text-align: center;
+}
+
+h4.event_h4
 {
     font-size: 14px;
     font-weight: 300;
@@ -335,7 +338,7 @@ h4
 
 }
 
-h3
+h3.event_h3
 {
     font-size: 15px;
     font-family:Nunito;
