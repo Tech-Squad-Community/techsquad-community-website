@@ -1,7 +1,15 @@
-* {
-  box-sizing: border-box;
+.divider:after,
+.divider:before {
+  content: "";
+  flex: 1;
+  height: 1px;
+  background: #eee;
 }
 /*
+ {
+  box-sizing: border-box;
+}
+
 body {
   margin: 0;
   overflow: hidden;
@@ -13,7 +21,7 @@ body {
   color: #555;
   background-color: #ecf0f3;
 }
-*/
+
 .login-div {
   width: 430px;
   height: 700px;
@@ -31,7 +39,7 @@ body {
   border-radius: 50%;
   margin: 0 auto;
   /* box-shadow: 0px 0px 2px #5f5f5f, 0px 0px 0px 5px #ecf0f3, 8px 8px 15px #a7aaaf,
-    -8px -8px 15px #ffffff; */
+    -8px -8px 15px #ffffff; *//*
 }
 .title {
   text-align: center;
@@ -98,7 +106,7 @@ body {
 }
 .signin-button:hover {
   background: #4fd3c4;
-  /*2fdbb6*/
+  /*2fdbb6*//*
 }
 .signin-button:active {
   background: #1da88a;
@@ -123,3 +131,4 @@ body {
 a:hover {
   color: #1da88a;
 }
+*/

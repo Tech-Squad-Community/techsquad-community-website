@@ -1,4 +1,11 @@
-* {
+.divider:after,
+.divider:before {
+  content: "";
+  flex: 1;
+  height: 1px;
+  background: #eee;
+}
+/* {
   box-sizing: border-box;
 }
 /*
@@ -15,7 +22,7 @@ body {
   color: #555;
   background-color: #ecf0f3;
 }
-*/
+*//*
 .regis-div {
   margin-left: 550px ;
   width: 500px;
@@ -78,7 +85,7 @@ h1 {
 }
 .signin-button:hover {
   background: #4fd3c4;
-  /*2fdbb6*/
+  /*2fdbb6*//*
 }
 .signin-button:active {
   background: #1da88a;
@@ -97,3 +104,4 @@ h1 {
 input [type="text"] {
   width: 100%;
 }
+*/
