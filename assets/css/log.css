@@ -17,12 +17,13 @@ body {
 .login-div {
   width: 430px;
   height: 700px;
-  position:center;
-  margin-left: 330px;
+  position:relative;
+  margin-left: 400px;
   padding: 35px 35px 35px 35px;
   border-radius: 40px;
   background: #ecf0f3;
   box-shadow: 13px 13px 20px #cbced1, -13px -13px 20px #ffffff;
+  left:50%;
 }
 .logo {
   width: 100px;

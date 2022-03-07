@@ -1,6 +1,7 @@
 * {
   box-sizing: border-box;
 }
+/*
 body {
   margin: 0;
   height: 100vh;
@@ -14,12 +15,12 @@ body {
   color: #555;
   background-color: #ecf0f3;
 }
+*/
 .regis-div {
-  margin: 0;
-  padding: 0;
-  width: 450px;
-  height: 680px;
-  padding: 60px 35px 35px 35px;
+  margin-left: 550px ;
+  width: 500px;
+  height: 700px;
+  padding: 35px 35px 35px 35px;
   border-radius: 40px;
   background: #ecf0f3;
   box-shadow: 13px 13px 20px #cbced1, -13px -13px 20px #ffffff;
