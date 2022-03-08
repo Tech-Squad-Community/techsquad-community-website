@@ -4,32 +4,304 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./assets/css/log.css">
-    <title>Login</title>
+    <title>LogIn</title>
+
+    <!-- Preloader -->
+    <link rel="stylesheet" href="./css/UpEvent.css">
+    <link rel="stylesheet" href="./css/styles.css" />
+    <!--Preloading the CSS files to this page-->
+    <script src="./JS/script.js"></script>
+    <!--Preloading the JS files to this page-->
+    <!-- Favicon -->
+    <link rel="icon" href="assets/img/brand/ts2022.png" type="image/png" />
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="assets/libs/@fortawesome/fontawesome-free/css/all.min.css" />
+    <!-- Quick CSS -->
+    <link rel="stylesheet" href="assets/css/quick-website.css" id="stylesheet" />
+
+    <link rel="stylesheet" href="./assets/css/log.css" />
+
 </head>
 <body>
-    <div class="login-div">
-    <div class="logo"><img class="img" src="./assets/img/brand/ts2022.png" alt=""></div>
-    <div class="title">TECHSQUAD</div>
-    <div class="sub-title">Community</div>
-    <div class="fields">
-        <h1 class="cred">Email address</h1>
-        <div class="username">
-            <svg class="svg-icon" viewBox="0 0 20 20">
-                <path class="path1" d="M17.388,4.751H2.613c-0.213,0-0.389,0.175-0.389,0.389v9.72c0,0.216,0.175,0.389,0.389,0.389h14.775c0.214,0,0.389-0.173,0.389-0.389v-9.72C17.776,4.926,17.602,4.751,17.388,4.751 M16.448,5.53L10,11.984L3.552,5.53H16.448zM3.002,6.081l3.921,3.925l-3.921,3.925V6.081z M3.56,14.471l3.914-3.916l2.253,2.253c0.153,0.153,0.395,0.153,0.548,0l2.253-2.253l3.913,3.916H3.56z M16.999,13.931l-3.921-3.925l3.921-3.925V13.931z"></path>
-            </svg>    
-        <input type="email" autocomplete="none" class="user-input" placeholder="name@example.com"/></div>
-        <h1 class="cred">Password</h1>
-        <div class="password"><svg class="svg-icon" viewBox="0 0 20 20">
-            <path d="M17.308,7.564h-1.993c0-2.929-2.385-5.314-5.314-5.314S4.686,4.635,4.686,7.564H2.693c-0.244,0-0.443,0.2-0.443,0.443v9.3c0,0.243,0.199,0.442,0.443,0.442h14.615c0.243,0,0.442-0.199,0.442-0.442v-9.3C17.75,7.764,17.551,7.564,17.308,7.564 M10,3.136c2.442,0,4.43,1.986,4.43,4.428H5.571C5.571,5.122,7.558,3.136,10,3.136 M16.865,16.864H3.136V8.45h13.729V16.864z M10,10.664c-0.854,0-1.55,0.696-1.55,1.551c0,0.699,0.467,1.292,1.107,1.485v0.95c0,0.243,0.2,0.442,0.443,0.442s0.443-0.199,0.443-0.442V13.7c0.64-0.193,1.106-0.786,1.106-1.485C11.55,11.36,10.854,10.664,10,10.664 M10,12.878c-0.366,0-0.664-0.298-0.664-0.663c0-0.366,0.298-0.665,0.664-0.665c0.365,0,0.664,0.299,0.664,0.665C10.664,12.58,10.365,12.878,10,12.878"></path>
-        </svg><input type="password" autocomplete="none" class="pass-input" placeholder="Password"/></div>
+    <!-- Preloader -->
+    <div class="preloader">
+        <div class="spinner-border text-primary" role="status">
+          <span class="sr-only">Loading...</span>
+        </div>
     </div>
-    <div class="check"><input type="checkbox"><span>Rememeber me</span></div>
-    <div class="forpass"><p><a href="#">Forget Password</a></p></div>
-    <button class="signin-button">Sign in</button>
-    <div class="link">
-        <p class="bottom" >Not Registered?<a href="registration.html">Register</a></p>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-white">
+        <div class="container">
+          <!-- Brand -->
+          <a class="float client col-3 py-3" href="index.html">
+            <img
+              alt="Image placeholder"
+              src="assets/img/brand/ts2022_trans.svg"
+              id="navbar-logo"
+              style="max-width: 70%"
+            />
+          </a>
+          <!-- Toggler -->
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarCollapse"
+            aria-controls="navbarCollapse"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <!-- Collapse -->
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav mt-4 mt-lg-0 ml-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="index.html">Resources</a>
+              </li>
+              <li class="nav-item dropdown dropdown-animate" data-toggle="hover">
+                <a
+                  class="nav-link"
+                  href="#"
+                  role="button"
+                  data-toggle="dropdown"
+                  aria-haspopup="true"
+                  aria-expanded="false"
+                  >Pages</a
+                >
+                <div class="dropdown-menu dropdown-menu-single">
+                  <a href="index.html" class="dropdown-item">Homepage</a>
+                  <a href="about.html" class="dropdown-item">About us</a>
+                  <a href="contact.html" class="dropdown-item">Contact</a>
+                  <div class="dropdown-divider"></div>
+                  <a href="login.html" class="dropdown-item">Login</a>
+                </div>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Blogs</a>
+              </li>
+            </ul>
+            <!-- Button -->
+            <a
+              class="navbar-btn btn btn-sm btn-primary d-none d-lg-inline-block ml-3"
+              href="upevent.html"
+            >
+              Upcoming Event
+            </a>
+            <!-- Mobile button -->
+            <div class="d-lg-none text-center">
+              <a href="upevent.html" class="btn btn-block btn-sm btn-warning"
+                >Upcoming Event</a
+              >
+            </div>
+          </div>
+        </div>
+      </nav>
+
+    <br/><br/><br/><br/><br/>
+    <!-- Main Content -->
+    <section class="vh-100">
+      <div class="container py-5 h-100">
+        <div class="row d-flex align-items-center justify-content-center h-100">
+          <div class="col-md-8 col-lg-7 col-xl-6">
+            <img src="https://mdbcdn.b-cdn.net/img/Photos/new-templates/bootstrap-login-form/draw2.svg" class="img-fluid" alt="Phone image">
+          </div>
+          <div class="col-md-7 col-lg-5 col-xl-5 offset-xl-1">
+            <form>
+              <!-- Email input -->
+              <div class="form-outline mb-4">
+                <input type="email" id="form1Example13" class="form-control form-control-lg" />
+                <label class="form-label" for="form1Example13">Email address</label>
+              </div>
+    
+              <!-- Password input -->
+              <div class="form-outline mb-4">
+                <input type="password" id="form1Example23" class="form-control form-control-lg" />
+                <label class="form-label" for="form1Example23">Password</label>
+              </div>
+    
+              <div class="d-flex justify-content-around align-items-center mb-4">
+                <!-- Checkbox -->
+                <div class="form-check">
+                  <input
+                    class="form-check-input"
+                    type="checkbox"
+                    value=""
+                    id="form1Example3"
+                    checked
+                  />
+                  <label class="form-check-label" for="form1Example3"> Remember me </label>
+                </div>
+                <a href="#!">Forgot password?</a>
+              </div>
+    
+              <!-- Submit button -->
+              <button type="submit" class="btn btn-primary btn-lg btn-block">Sign in</button>
+    
+              <div class="divider d-flex align-items-center my-4">
+                <p class="text-center fw-bold mx-3 mb-0 text-muted">OR</p>
+              </div>
+    
+              <a class="btn btn-primary btn-lg btn-block" href="./registration.html" style="background-color: #3b5998" href="#!" role="button">
+                Register
+              </a>
+    
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="position-relative" id="footer-main">
+      <div class="footer pt-lg-7 footer-dark bg-dark">
+        <!-- SVG shape -->
+        <div
+          class="shape-container shape-line shape-position-top shape-orientation-inverse"
+        >
+          <svg
+            width="2560px"
+            height="100px"
+            xmlns="http://www.w3.org/2000/svg"
+            xmlns:xlink="http://www.w3.org/1999/xlink"
+            preserveAspectRatio="none"
+            x="0px"
+            y="0px"
+            viewBox="0 0 2560 100"
+            style="enable-background: new 0 0 2560 100"
+            xml:space="preserve"
+            class="fill-section-secondary"
+          >
+            <polygon points="2560 0 2560 100 0 100"></polygon>
+          </svg>
+        </div>
+        <!-- Footer -->
+        <div class="container pt-4">
+          <div class="row">
+            <div class="col-lg-4 mb-5 mb-lg-0">
+              <!-- Webpixels' mission -->
+              <p class="mt-4 text-sm opacity-8 pr-lg-4">
+                TechSquad Community attempts to bring the best development
+                experience to designers and developers by offering the tools
+                needed for having a quick and solid start in Programming Career.
+              </p>
+              <!-- Social -->
+              <ul class="nav mt-4">
+                <li class="nav-item">
+                  <a
+                    class="nav-link pl-0"
+                    href="https://www.linkedin.com/company/78712349"
+                    target="_blank"
+                  >
+                    <i class="fab fa-linkedin"></i>
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a
+                    class="nav-link"
+                    href="https://github.com/Tech-Squad-Community"
+                    target="_blank"
+                  >
+                    <i class="fab fa-github"></i>
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#" target="_blank">
+                    <i class="fab fa-discord"></i>
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <div class="col-lg-2 col-6 col-sm-4 ml-lg-auto mb-5 mb-lg-0">
+              <h6 class="heading mb-3">Account</h6>
+              <ul class="list-unstyled">
+                <li><a href="#">Profile</a></li>
+                <li><a href="#">Settings</a></li>
+                <li><a href="#">Billing</a></li>
+                <li><a href="#">Notifications</a></li>
+              </ul>
+            </div>
+            <div class="col-lg-2 col-6 col-sm-4 mb-5 mb-lg-0">
+              <h6 class="heading mb-3">About</h6>
+              <ul class="list-unstyled">
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Pricing</a></li>
+                <li><a href="#">Contact</a></li>
+                <li><a href="#">Careers</a></li>
+              </ul>
+            </div>
+            <div class="col-lg-2 col-6 col-sm-4 mb-5 mb-lg-0">
+              <h6 class="heading mb-3">Company</h6>
+              <ul class="list-unstyled">
+                <li><a href="#">Community</a></li>
+                <li><a href="#">Help center</a></li>
+                <li><a href="#">Support</a></li>
+              </ul>
+            </div>
+          </div>
+          <hr class="divider divider-fade divider-dark my-4" />
+          <div class="row align-items-center justify-content-md-between pb-4">
+            <div class="col-md-6">
+              <div
+                class="copyright text-sm font-weight-bold text-center text-md-left"
+              >
+                &copy; 2022
+                <a
+                  href="https://techsquadcommunity.tech"
+                  class="font-weight-bold"
+                  target="_blank"
+                  >TechSquad Community</a
+                >. All rights reserved
+              </div>
+            </div>
+            <div class="col-md-6">
+              <ul
+                class="nav justify-content-center justify-content-md-end mt-3 mt-md-0"
+              >
+                <li class="nav-item">
+                  <a class="nav-link" href="#"> Terms </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#"> Privacy </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#"> Cookies </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!--scroll to top button-->
+    <div id="navtbut" class="disappear">
+      <a href="#top" id="back-top">
+        <img
+          class="buttonclass"
+          src="http://chikmagalurdiocese.com/icon-256x256.png"
+        />
+      </a>
     </div>
-    </div>
+
+    <!-- Core JS  -->
+    <script src="assets/libs/jquery/dist/jquery.min.js"></script>
+    <script src="assets/libs/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/libs/svg-injector/dist/svg-injector.min.js"></script>
+    <script src="assets/libs/feather-icons/dist/feather.min.js"></script>
+    <!-- Quick JS -->
+    <script src="assets/js/quick-website.js"></script>
+    <!-- Feather Icons -->
+    <script src="./JS/featherScript.js"></script>
+    <!--scroll to top button-->
+    <script src="./JS/navTop.js"></script>
+    
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/vanilla-tilt/1.7.2/vanilla-tilt.min.js"
+      integrity="sha512-K9tDZvc8nQXR1DMuT97sct9f40dilGp97vx7EXjswJA+/mKqJZ8vcZLifZDP+9t08osMLuiIjd4jZ0SM011Q+w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+
+  
 </body>
 </html>

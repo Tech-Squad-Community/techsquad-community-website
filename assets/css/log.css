@@ -1,10 +1,17 @@
-* {
+.divider:after,
+.divider:before {
+  content: "";
+  flex: 1;
+  height: 1px;
+  background: #eee;
+}
+/*
+ {
   box-sizing: border-box;
 }
+
 body {
   margin: 0;
-  height: 100vh;
-  width: 100vw;
   overflow: hidden;
   font-family: "lato", sans-serif;
   font-weight: 700;
@@ -14,13 +21,17 @@ body {
   color: #555;
   background-color: #ecf0f3;
 }
+
 .login-div {
   width: 430px;
   height: 700px;
-  padding: 60px 35px 35px 35px;
+  position:relative;
+  margin-left: 400px;
+  padding: 35px 35px 35px 35px;
   border-radius: 40px;
   background: #ecf0f3;
   box-shadow: 13px 13px 20px #cbced1, -13px -13px 20px #ffffff;
+  left:50%;
 }
 .logo {
   width: 100px;
@@ -28,7 +39,7 @@ body {
   border-radius: 50%;
   margin: 0 auto;
   /* box-shadow: 0px 0px 2px #5f5f5f, 0px 0px 0px 5px #ecf0f3, 8px 8px 15px #a7aaaf,
-    -8px -8px 15px #ffffff; */
+    -8px -8px 15px #ffffff; *//*
 }
 .title {
   text-align: center;
@@ -95,7 +106,7 @@ body {
 }
 .signin-button:hover {
   background: #4fd3c4;
-  /*2fdbb6*/
+  /*2fdbb6*//*
 }
 .signin-button:active {
   background: #1da88a;
@@ -120,3 +131,4 @@ body {
 a:hover {
   color: #1da88a;
 }
+*/
