@@ -259,47 +259,6 @@ body.loaded > div.preloader {
     line-height: 1.1 !important;
   }
  }
-#toggle {
-     position: relative;
-     display: block;
-     width: 60px;
-     height: 30px;
-     border-radius: 20px;
-     background: #222;
-     transition: 0.5s;
-     cursor: pointer;
-     box-shadow: inset 0 2px 60px rgba(0, 138, 255, 1.0),
-                 inset 0 2px 8px rgba(0, 138, 255, 1.0),
-                 inset 0 -4px 8px rgba(0, 139, 255, 0.5);
-     left: 20px;
-   }
-
-   #toggle .indicator {
-     position: absolute;
-     width: 30px;
-     left: 0;
-     top: 0;
-     height: 30px;
-     background: linear-gradient(to bottom, #444, #222);
-     border-radius: 50%;
-     transform: scale(0.9);
-     box-shadow: inset 0 8px 40px rgba(0, 139, 255, 0.5),
-                 inset 0 4px 4px rgba(0, 138, 255, 0.2),
-                 inset 0 -4px 4px rgba(0, 138, 255, 0.2);
-     transition: 0.5s;
-   }
-
-   #toggle.active .indicator {
-     left: 30px;
-   }
-
-   #toggle.active {
-     background: #222;
-     box-shadow: inset 0 2px 60px rgba(0, 0, 0, 1.0),
-                 inset 0 8px 8px rgba(0, 0, 0, 0.1),
-                 inset 0 -4px 4px rgba(0, 0, 0, 0.1);
-   }
-
 /* Scrollbar */
 ::-webkit-scrollbar{
   width: 12px;
