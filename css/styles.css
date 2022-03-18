@@ -267,3 +267,16 @@ body.loaded > div.preloader {
   background: linear-gradient(transparent,#00c6ff);
   border-radius: 6px;
 }
+
+
+/* LOGIN PAGE */
+.password-container{
+  position: relative;
+}
+.password-container i{
+  position: absolute;
+  right: 10px;
+  bottom: 50%;
+  transform: translate(-50%, -50%);
+  cursor: pointer;
+}
