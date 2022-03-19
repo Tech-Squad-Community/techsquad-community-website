@@ -280,3 +280,66 @@ body.loaded > div.preloader {
   transform: translate(-50%, -50%);
   cursor: pointer;
 }
+.features{
+  background-color: #e0f0ff5e !important;
+}
+.default-shape .shape-1 {
+  position: absolute;
+  right: 10%;
+  top: 16%;
+  z-index: -1;
+  -webkit-animation: animationFrameOne 20s infinite linear;
+  animation: animationFrameOne 20s infinite linear;
+}
+.default-shape .shape-2 {
+  position: absolute;
+  left: 10%;
+  top: 16%;
+  -webkit-animation: rotaed360 5s infinite linear;
+ animation: rotaed360 5s infinite linear;
+  z-index: -1;
+}
+.default-shape .shape-3 {
+  position: absolute;
+  left: 5%;
+  bottom: 25%;
+  z-index: -1;
+  -webkit-animation: animationFrameOne 20s infinite linear;
+  animation: animationFrameOne 20s infinite linear;
+}
+.default-shape .shape-4 {
+  position: absolute;
+  right: 10%;
+  bottom: 25%;
+  z-index: -1;
+  -webkit-animation: animationFrameOne 20s infinite linear;
+  animation: animationFrameOne 20s infinite linear;
+}
+.default-shape .shape-5 {
+  position: absolute;
+  left: 50%;
+  top: 10%;
+  z-index: -1;
+  -webkit-animation: animationFrameOne 20s infinite linear;
+  animation: animationFrameOne 20s infinite linear;
+}
+@keyframes  animationFrameOne {
+  0% {
+    transform: translate(0) rotate(0);
+}
+20% {
+    transform: translate(73px,-1px) rotate(36deg);
+}
+40% {
+    transform: translate(141px,72px) rotate(72deg);
+}
+60% {
+    transform: translate(83px,122px) rotate(108deg);
+}
+80% {
+    transform: translate(-40px,72px) rotate(144deg);
+}
+100% {
+    transform: translate(0) rotate(0);
+}
+}
