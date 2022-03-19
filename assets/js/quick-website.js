@@ -348,4 +348,15 @@ var Highlight = (function() {
 
 })();
 
+//
+//Nav-Toggler
+//
+
+const navtoggler = document.querySelector('.navbar-toggler');
+const row = document.querySelector('.row');
+
+navtoggler.addEventListener('click', () =>{
+	row.classList.toggle('row-toggle');
+})
+
 //# sourceMappingURL=quick-website.js.map

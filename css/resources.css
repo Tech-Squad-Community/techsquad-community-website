@@ -166,3 +166,14 @@
     margin: 0 auto;
   }
 }
+
+@media (max-width: 650px) {
+  .row {
+    margin-top: -200px;
+  }
+}
+
+.row-toggle {
+  margin-top: 160px;
+}
+
