@@ -349,7 +349,7 @@ h3.event_h3
 /* ***********************tablet view************************* */
 
  
- @media only screen and (max-width:768px){
+@media (min-width: 450.1px) and (max-width: 768px){
     .Container{
         width: 80%;
         grid-template-columns: repeat(2, 50%);
@@ -562,7 +562,7 @@ font-size: 20px;
 
 /****************************** longer tablet- view ******************************/
 
-@media only screen and (max-width:1024px){
+@media (min-width: 768.1px) and (max-width: 1024px){
     .Container{
         width: 90%;
         grid-template-columns: repeat(3,30%);
