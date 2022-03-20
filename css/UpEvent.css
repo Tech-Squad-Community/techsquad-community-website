@@ -2,20 +2,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito&family=Poppins:wght@300&family=Roboto:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Nunito&family=Poppins:wght@300&family=Roboto:wght@300&family=Ubuntu:wght@300&display=swap');
 
-*
-{
+*{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-html
-{
+html{
     font-family: 'Nunitio';
 }
 
-a
-{
+a{
     text-decoration: none;
     color: black;
 }
@@ -23,26 +20,13 @@ a
 .Container
 {
    display: grid;
-   grid-template-columns: repeat(4,19%);
-   grid-template-rows: 2% 10% 10% 10% 10%  5% 10% 10% 10%;
-   grid-gap: 30px 38px;
-   margin-left: 150px;
-    
-   
-  
+   width: 80%;
+   grid-template-columns: repeat(4,16%);
+   /* grid-template-rows: 2% 10% 10% 10% 10% 5% 10% 10% 10%; */
+   grid-gap: 30px 11%;
+   margin: 0px auto;
 }
 
-
-@media only screen and (max-width:450px)  {
-    .Container{
-        grid-template-columns:50%;
-        grid-template-rows: 20% 20% 20% 20% 20% 20% 20% 20%;
-        width: 100%;
-        height: 100%;
-        display: block;
-        margin-left: 105px;
-              }
-}
 
 
 .heading
@@ -52,14 +36,6 @@ font-family: Poppins;
 font-weight: 1000;
 font-size: 18.5px;
 margin-top: 5px;
-}
-
-@media only screen and (max-width:450px)  {
-    .heading{
-         position: relative;
-         right:55px;
-         font-size: 15px;
-    }
 }
 
 
@@ -199,15 +175,6 @@ margin-top: 5px;
     
 }
 
-
-@media only screen and (max-width:450px)  {
-    .pastevents{
-         position: relative;
-         right:55px;
-         font-size: 16px;
-    }
-}
-
 .Twentytwo-Img
 {
     grid-column: 1/2;
@@ -269,6 +236,8 @@ margin-top: 5px;
 }
 
 
+
+
 .card
 {
     width: 15rem;
@@ -292,14 +261,7 @@ margin-top: 5px;
     
 }
    
-@media only screen and (max-width:450px)  {
-      .card{
-          grid-gap: 10px ;
-          margin: 20px 2px;
-      }
 
-
-}
 
  .card-img
 {
@@ -346,4 +308,482 @@ h3.event_h3
     font-weight: 800;
 
 }
+
+
+
+
+
+/****************************** mobile view ******************************/
+
+
+@media only screen and (max-width:450px)  {
+    .Container{
+       display: block;
+    }
+    .nav.mt-4{
+        justify-content: center;
+    }
+
+    .mt-4.text-sm.opacity-8.pr-lg-4{
+        margin-left:3px;
+    }
+      
+    .card{
+        grid-gap: 10px ;
+        margin: 0 auto;
+    }        
+       
+    .pastevents{
+        margin: 30px auto;
+   }
+
+   .heading{
+   margin-bottom: 30px;
+    font-size: 12px;
+ }
+
+
+ 
+}
+
+/* ***********************tablet view************************* */
+
+ 
+ @media only screen and (max-width:768px){
+    .Container{
+        width: 80%;
+        grid-template-columns: repeat(2, 50%);
+        grid-gap:20px  ;
+       
+    } 
+.First-Img
+{
+    grid-column: 1/2;
+    background-color:white;
+}
+
+.Sec-Img
+{
+    grid-column: 2/3;
+    background-color: white;
+}
+
+.Third-Img
+{
+    grid-column: 1/2;
+    background-color: white;
+}
+
+.Fourth-Img
+{
+    grid-column: 2/3;
+    background-color: white;
+}
+
+
+.Fifth-Img
+{
+    grid-column: 1/2;
+    background-color: white;
+}
+
+.Sixth-Img
+{
+    grid-column: 2/3;
+    background-color: white;
+}
+
+.Seventh-Img
+{
+    grid-column: 1/2;
+    background-color: white;
+}
+
+.Eight-Img
+{
+    grid-column: 2/3;
+    background-color: white;
+}
+
+.Nin-Img
+{
+    grid-column:1/2 ;
+}
+
+.Ten-Img
+{
+    grid-column: 2/3;
+}
+
+
+.Eleven-Img
+{
+    grid-column: 1/2;
+    background-color:white;
+}
+
+.Twl-Img
+{
+    grid-column: 2/3;
+    background-color: white;
+}
+
+.Thirteen-Img
+{
+    grid-column: 1/2;
+    background-color: white;
+}
+
+.Fourteen-Img
+{
+    grid-column: 2/3;
+    background-color: white;
+}
+
+
+.Fifteen-Img
+{
+    grid-column: 1/2;
+    background-color: white;
+}
+
+
+
+.Seventeen-Img
+{
+    grid-column: 2/3;
+    background-color: white;
+}
+
+.Eighteen-Img
+{
+    grid-column: 1/2;
+    background-color: white;
+}
+
+.Nineteen-Img
+{
+    grid-column: 2/3;
+    background-color: white;
+}
+
+
+.Twenty-Img
+{
+    grid-column: 1/2;
+    background-color: white;
+}
+
+.Twentyone-Img
+{
+    grid-column: 2/3;
+    background-color: white;
+}
+
+.Twentytwo-Img
+{
+    grid-column: 1/2;
+    background-color: white;
+}
+
+.Twentythree-Img
+{
+    grid-column: 2/3;
+    background-color: white;
+}
+
+.Twentyfour-Img
+{
+    grid-column: 1/2;
+}
+
+.Twentyfive-Img
+{
+    grid-column: 2/3;
+}
+
+
+.Twentysix-Img
+{
+    grid-column: 1/2;
+    background-color: whitel
+}
+
+.Twentyseven-Img
+{
+    grid-column: 2/3;
+    background-color:  white;
+}
+
+.Twentyeight-Img
+{
+    grid-column: 1/2;
+    background-color:  white;
+}
+
+.Twentynine-Img
+{
+    grid-column: 2/3;
+    background-color: white;
+}
+
+
+.Thirty-Img
+{
+    grid-column: 1/2;
+    background-color:  white;
+}
+
+.Sixteen-Img
+{
+    grid-column: 2/3;
+    background-color:white;
+}
+
+
+.card{
+    grid-gap: 0px 10px 5px 5px ;
+    margin: 0 auto;
+}        
+   
+.pastevents{
+    grid-column: 1/3;
+    margin: 0%;
+}
+
+.heading{
+    display: block;
+/* grid-column: 1/3; */
+font-size: 20px;
+}
+
+} 
+
+
+/****************************** longer tablet- view ******************************/
+
+@media only screen and (max-width:1024px){
+    .Container{
+        width: 90%;
+        grid-template-columns: repeat(3,30%);
+        grid-gap:38px;
+
+    } 
+
+.First-Img
+{
+    grid-column: 1/2;
+    background-color:white;
+}
+
+.Sec-Img
+{
+    grid-column: 2/3;
+    background-color: white;
+}
+
+.Third-Img
+{
+    grid-column: 3/4;
+    background-color: white;
+}
+
+.Fourth-Img
+{
+    grid-column: 1/2;
+    background-color: white;
+}
+
+
+.Fifth-Img
+{
+    grid-column: 2/3;
+    background-color: white;
+}
+
+.Sixth-Img
+{
+    grid-column: 3/4;
+    background-color: white;
+}
+
+.Seventh-Img
+{
+    grid-column: 1/2;
+    background-color: white;
+}
+
+.Eight-Img
+{
+    grid-column: 2/3;
+    background-color: white;
+}
+
+.Nin-Img
+{
+    grid-column:3/4 ;
+}
+
+.Ten-Img
+{
+    grid-column: 1/2;
+}
+
+
+.Eleven-Img
+{
+    grid-column: 2/3;
+    background-color:white;
+}
+
+.Twl-Img
+{
+    grid-column: 3/4;
+    background-color: white;
+}
+
+.Thirteen-Img
+{
+    grid-column: 1/2;
+    background-color: white;
+}
+
+.Fourteen-Img
+{
+    grid-column: 2/3;
+    background-color: white;
+}
+
+
+.Fifteen-Img
+{
+    grid-column: 3/4;
+    background-color: white;
+}
+
+
+
+.Seventeen-Img
+{
+    grid-column: 1/2;
+    background-color: white;
+}
+
+.Eighteen-Img
+{
+    grid-column: 2/3;
+    background-color: white;
+}
+
+.Nineteen-Img
+{
+    grid-column: 3/4;
+    background-color: white;
+}
+
+
+.Twenty-Img
+{
+    grid-column: 1/2;
+    background-color: white;
+}
+
+.Twentyone-Img
+{
+    grid-column: 2/3;
+    background-color: white;
+}
+
+.Twentytwo-Img
+{
+    grid-column: 1/2;
+    background-color: white;
+}
+
+.Twentythree-Img
+{
+    grid-column: 2/3;
+    background-color: white;
+}
+
+.Twentyfour-Img
+{
+    grid-column: 3/4;
+}
+
+.Twentyfive-Img
+{
+    grid-column: 1/2;
+}
+
+
+.Twentysix-Img
+{
+    grid-column: 2/3;
+    background-color: whitel
+}
+
+.Twentyseven-Img
+{
+    grid-column: 3/4;
+    background-color:  white;
+}
+
+.Twentyeight-Img
+{
+    grid-column: 1/2;
+    background-color:  white;
+}
+
+.Twentynine-Img
+{
+    grid-column: 2/3;
+    background-color: white;
+}
+
+
+.Thirty-Img
+{
+    grid-column: 3/4;
+    background-color:  white;
+}
+
+.Sixteen-Img
+{
+    grid-column: 1/2;
+    background-color:white;
+}
+
+
+.card{
+    grid-gap: 0px 10px 5px 5px ;
+    margin: 0 auto;
+}        
+   
+.pastevents{
+    grid-column: 1/3;
+    margin: 0%;
+}
+
+.heading{
+display: grid;
+grid-column: 1/4; 
+font-size: 24px;
+
+}
+
+.pastevents {
+    margin-top: 60px;
+    font-size: 50px;
+    display: grid;
+    grid-column: 1/4;
+    justify-content: center;
+}
+
+.container.pt-4 {
+    
+    display: block;
+}
+
+} 
 
