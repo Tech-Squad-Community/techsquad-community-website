@@ -28,6 +28,14 @@
       id="stylesheet"
     />
     <link rel="stylesheet" href="./css/About_Page_Css.css" />
+
+
+    <!-- Vendor CSS Files -->
+    <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+    <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+    <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
+    <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+    
   </head>
 
   <body>
@@ -144,7 +152,7 @@
     </nav>
     <!-- Main content -->
 
-    <section class="slice slice-lg pb-5 mt-9">
+    <section class="slice slice-lg pb-5 mt-9 team" id="team">
       <div class="container">
         <!-- Section title -->
         <div class="row mb-5 justify-content-center text-center">
@@ -153,80 +161,87 @@
           </div>
         </div>
         <!-- Team -->
-        <div class="row flexer">
-          <div class="col-lg-3 col-sm-10 mb-5 mb-lg-0 about-card mx-auto mb-2">
-            <div data-animate-hover="2">
-              <!-- <div class="animate-this"> -->
-              <a href="#">
-                <img
-                  alt="Image placeholder"
-                  class="img-fluid rounded shadow fix-ht"
-                  src="assets/img/theme/light/person-1.jpg"
-                />
-              </a>
-              <!-- </div> -->
-              <div class="mt-3">
-                <h5 class="h6 mb-0">Ronit Banerjee</h5>
-                <p class="text-muted text-sm mb-0">Front-End Web Developer</p>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-3 col-sm-10 mb-5 mb-lg-0 about-card mx-auto mb-2">
-            <div data-animate-hover="2">
-              <div class="animate-this">
-                <a href="#">
-                  <img
-                    alt="Image placeholder"
-                    class="img-fluid rounded shadow fix-ht"
-                    src="assets/img/theme/light/person-2.jpg"
-                  />
-                </a>
-              </div>
-              <div class="mt-3">
-                <h5 class="h6 mb-0">Subhrakamal Das</h5>
-                <p class="text-muted text-sm mb-0">MERN Stack Web Developer</p>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-3 col-sm-10 mb-5 mb-lg-0 about-card mx-auto mb-2">
-            <div data-animate-hover="2">
-              <div class="animate-this">
-                <a href="#">
-                  <img
-                    alt="Image placeholder"
-                    class="img-fluid rounded shadow fix-ht"
-                    src="assets/img/theme/light/person-3.jpg"
-                  />
-                </a>
-              </div>
-              <div class="mt-3">
-                <h5 class="h6 mb-0">Raja Majumder</h5>
-                <p class="text-muted text-sm mb-0">
-                  CTF Player and Cybersecurity
-                </p>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-3 col-sm-10 mb-5 mb-lg-0 about-card mx-auto mb-2">
-            <div data-animate-hover="2">
-              <div class="animate-this">
-                <a href="#">
-                  <img
-                    alt="Image placeholder"
-                    class="img-fluid rounded shadow fix-ht"
-                    src="assets/img/theme/light/person-4.jpg"
-                  />
-                </a>
-              </div>
-              <div class="mt-3">
-                <h5 class="h6 mb-0">Koustav Chatterjee</h5>
-                <p class="text-muted text-sm mb-0">Front-End Web Developer</p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
+        <div class="row gy-4">
 
+          <div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="100">
+            <div class="member">
+              <div class="member-img">
+                <img src="assets/img/theme/light/person-1.jpg" class="img-fluid" alt="">
+                <div class="social">
+                  <a href="#"><i class="bi bi-twitter" style='color:#ffffff'></i></a>
+                  <a href="#"><i class="bi bi-github" style='color:#ffffff'></i></a>
+                  <a href="#"><i class="bi bi-instagram" style='color:#ffffff'></i></a>
+                  <a href="#"><i class="bi bi-linkedin" style='color:#ffffff'></i></a>
+                </div>
+              </div>
+              <div class="member-info">
+                <h4>Ronit Banerjee</h4>
+                <span>Front-End Web Developer</span>
+                <p></p> <!-- Empty Paragraph for Future -->
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="200">
+            <div class="member">
+              <div class="member-img">
+                <img src="assets/img/theme/light/person-2.jpg" class="img-fluid" alt="">
+                <div class="social">
+                  <a href="#"><i class="bi bi-twitter" style='color:#ffffff'></i></a>
+                  <a href="#"><i class="bi bi-github" style='color:#ffffff'></i></a>
+                  <a href="#"><i class="bi bi-instagram" style='color:#ffffff'></i></a>
+                  <a href="#"><i class="bi bi-linkedin" style='color:#ffffff'></i></a>
+                </div>
+              </div>
+              <div class="member-info">
+                <h4>Subhrakamal Das</h4>
+                <span>MERN Stack Web Developer</span>
+                <p></p>              <!-- Empty Paragraph for Future -->
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="300">
+            <div class="member">
+              <div class="member-img">
+                <img src="assets/img/theme/light/person-3.jpg" class="img-fluid" alt="">
+                <div class="social">
+                  <a href="#"><i class="bi bi-twitter" style='color:#ffffff'></i></a>
+                  <a href="#"><i class="bi bi-github" style='color:#ffffff'></i></a>
+                  <a href="#/"><i class="bi bi-instagram" style='color:#ffffff'></i></a>
+                  <a href="#"><i class="bi bi-linkedin" style='color:#ffffff'></i></a>
+                </div>
+              </div>
+              <div class="member-info">
+                <h4>Raja Majumder</h4>
+                <span>CTF Player and Cybersecurity</span>
+                <p></p>            <!-- Empty Paragraph for Future -->
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="400">
+            <div class="member">
+              <div class="member-img">
+                <img src="assets/img/theme/light/person-4.jpg" class="img-fluid" alt="">
+                <div class="social">
+                  <a href="#"><i class="bi bi-twitter" style='color:#ffffff'></i></a>
+                  <a href="#"><i class="bi bi-github" style='color:#ffffff'></i></a>
+                  <a href="#"><i class="bi bi-instagram" style='color:#ffffff'></i></a>
+                  <a href="#"><i class="bi bi-linkedin" style='color:#ffffff'></i></a>
+                </div>
+              </div>
+              <div class="member-info">
+                <h4>Koustav Chatterjee</h4>
+                <span>Front-End Web Developer</span>
+                <p></p>           <!-- Empty Paragraph for Future -->
+              </div>
+            </div>
+          </div>
+
+        </div>
+        
+      <br/><br/><br/><br/><br/><br/><br/><br/>
       <!-- SVG separator -->
       <div class="shape-container shape-line shape-position-bottom">
         <svg
@@ -328,30 +343,7 @@
             </a>
           </div>
 
-          <script>
-            window.onload = function(){
-            var contributor, issues, pull_requests;
-
-            fetch("https://api.github.com/repos/Tech-Squad-Community/techsquad-community-website/contributors")
-            .then(response => response.json())
-            .then(data => {
-              document.querySelector(".cont-value").innerHTML = data.length + "+";
-            });
-
-            fetch("https://api.github.com/repos/Tech-Squad-Community/techsquad-community-website/issues")
-            .then(response => response.json())
-            .then(data => {
-              document.querySelector(".issue-value").innerHTML = data.length+"+";
-            });
-
-            fetch("https://api.github.com/repos/Tech-Squad-Community/techsquad-community-website/pulls?state=all")
-            .then(response => response.json())
-            .then(data => {
-              document.querySelector(".branch-value").innerHTML = data[0].number+"+";
-            });
-
-            };
-          </script>
+          <script src="./JS/GitHubInfoFetch.js"></script>
 
         </div>
       </div>
@@ -494,17 +486,22 @@
     <!-- Quick JS -->
     <script src="assets/js/quick-website.js"></script>
     <!-- Feather Icons -->
-    <script>
-      feather.replace({
-        width: "1em",
-        height: "1em",
-      });
-    </script>
+    <script src="./JS/featherScript.js"></script>
+
     <script
       src="https://kit.fontawesome.com/43a310d180.js"
       crossorigin="anonymous"
     ></script>
     <!--scroll to top button-->
     <script src="./JS/navTop.js"></script>
+
+    <!-- Vendor JS Files -->
+    <script src="assets/vendor/purecounter/purecounter.js"></script>
+    <script src="assets/vendor/aos/aos.js"></script>
+    <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+    <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+    <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+    <script src="assets/vendor/php-email-form/validate.js"></script>
   </body>
 </html>
