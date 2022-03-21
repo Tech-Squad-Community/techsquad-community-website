@@ -343,3 +343,65 @@ body.loaded > div.preloader {
     transform: translate(0) rotate(0);
 }
 }
+
+@keyframes rotateClockwise {
+  100% {
+    transform: rotate(360deg);
+ }
+}
+@keyframes rotateCounterClockwise {
+  100% {
+    transform: rotate(-360deg);
+ }
+}
+.ring {
+  position: absolute;
+  left: 99.5%;
+  top: 50px;
+  margin-left: -100px;
+  height: 200px;
+  width: 200px;
+  border: 5px dashed #757575;
+  border-radius: 50%;
+}
+.dot {
+  position: absolute;
+  height: 250px;
+  width: 40px;
+  top: -25px;
+  left: 50%;
+  margin-left: -20px;
+}
+.dot:before {
+  display: block;
+  content: '';
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  box-shadow: 0 2px 3px rgba(0, 0, 0, .1);
+}
+.dot--one {
+  animation: rotateClockwise 5s linear infinite;
+}
+.dot--one:before {
+  background: #ffbe3d;
+  height: 100px;
+  width: 100px;
+}
+.dot--two {
+  animation: rotateCounterClockwise 3s linear infinite;
+}
+.dot--two:before {
+  background: #5cc9a7;
+  height: 50px;
+  width: 50px;
+}
+.ring2 {
+  position: absolute;
+  left: 0%;
+  margin-left: -100px;
+  height: 200px;
+  width: 200px;
+  border: 5px dashed #757575;
+  border-radius: 50%;
+}
