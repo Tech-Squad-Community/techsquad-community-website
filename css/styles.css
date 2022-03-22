@@ -499,8 +499,6 @@ body.loaded > div.preloader {
 /*Animation on social media started*/
 
 
-
-
 .wrapper .button{
   display: inline-block;
   height: 40px;
@@ -515,6 +513,7 @@ body.loaded > div.preloader {
   transition: all 0.3s ease-out;
 }
 .wrapper .button:hover{
+  /*margin-top: 30px;*/
   width: 130px;
 }
 .wrapper .button .icon{
@@ -548,6 +547,22 @@ body.loaded > div.preloader {
 .wrapper .button:hover .icon i{
   color: #fff;
 }
+
+
+.wrapper .button:nth-child(1).icon{          
+  background: #333;
+}
+.wrapper .button:nth-child(2).icon{
+  background: #0077b5;
+}
+.wrapper .button:nth-child(3).icon{
+  background: #7289DA;
+}
+
+
+
+
+
 .wrapper .button span{
   font-size: 20px;
   font-weight: 500;
