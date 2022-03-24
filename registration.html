@@ -108,35 +108,35 @@
             <img src="https://mdbcdn.b-cdn.net/img/Photos/new-templates/bootstrap-login-form/draw2.svg" class="img-fluid" alt="Phone image">
           </div>
           <div class="col-md-7 col-lg-5 col-xl-5 offset-xl-1">
-            <form>
+            <form name="Registration_Form">
               <!-- Name input -->
               <div class="form-outline mb-4">
-                <input type="text" id="form1Example13" class="form-control form-control-lg" />
+                <input type="text" id="form1Example13" class="form-control form-control-lg" name="Name_Input" />
                 <label class="form-label" for="form1Example13">Name</label>
               </div>
     
               <!-- Email input -->
               <div class="form-outline mb-4">
-                <input type="email" id="form1Example23" class="form-control form-control-lg" />
+                <input type="email" id="form1Example23" class="form-control form-control-lg" name="Email_Input" />
                 <label class="form-label" for="form1Example23">Email</label>
               </div>
 
               <!-- Password input -->
               <div class="form-outline mb-4">
-                <input type="password" id="form1Example13" class="form-control form-control-lg" />
+                <input type="password" id="form1Example13" class="form-control form-control-lg" name="Password_Input" />
                 <label class="form-label" for="form1Example13">Password</label>
               </div>
 
               <!-- Confirm Password input -->
               <div class="form-outline mb-4">
-                <input type="password" id="form1Example13" class="form-control form-control-lg" />
+                <input type="password" id="form1Example13" class="form-control form-control-lg" name="Confirm_Password_Input" />
                 <label class="form-label" for="form1Example13">Confirm Password</label>
               </div>
     
               
     
               <!-- Submit button -->
-              <button type="submit" class="btn btn-primary btn-lg btn-block">Sign Up</button>
+              <button type="submit" class="btn btn-primary btn-lg btn-block" onclick="ValidateRegistration();">Sign Up</button>
 
               <div class="divider d-flex align-items-center my-4">
                 <p class="text-center fw-bold mx-3 mb-0 text-muted">OR</p>
@@ -317,6 +317,9 @@
       referrerpolicy="no-referrer"
     ></script>
 
+    <!-- JS Scripts for Form Validation -->
+    <script src="./JS/Validations/ValidateRegistration.js"></script>
+    
   
 </body>
 </html>
