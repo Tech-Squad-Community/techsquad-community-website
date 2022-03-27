@@ -792,14 +792,12 @@ font-size: 24px;
 /*Animation on social media started*/
 
 
-
-
 .wrapper .button{
   display: inline-block;
   height: 40px;
   width: 40px;
   float: left;
-  margin: 0 5px;
+  margin: 0 13px;
   overflow: hidden;
   background: #fff;
   border-radius: 50px;
@@ -808,7 +806,9 @@ font-size: 24px;
   transition: all 0.3s ease-out;
 }
 .wrapper .button:hover{
-  width: 130px;
+  width: 132px;
+  background-color: #12C6FF;
+  /*margin-top: 30px;*/
 }
 .wrapper .button .icon{
   display: inline-block;
@@ -843,27 +843,44 @@ font-size: 24px;
 }
 .wrapper .button span{
   font-size: 20px;
-  font-weight: 500;
+  font-weight: 800;
   line-height: 40px;
   margin-left: 10px;
+  /*margin-left: 6px;*/
   transition: all 0.3s ease-out;
+
 }
 
 /*Text inside icons*/
 
 .wrapper .button:nth-child(1) span{        
-  color: #333;
+  color: #fff;
+  margin-left: 6px;
 }
 .wrapper .button:nth-child(2) span{
-  color:  #0077b5;
+  color:  #fff;
+  margin-left: 0px;
 }
 .wrapper .button:nth-child(3) span{
-  color: #7289DA;
+  color: #fff;
+  margin-left: 6px;
 }
 
 /*Text inside icons*/
 
 
 
+.wrapper .button:nth-child(1).icon{          
+  background: #333;
+}
+.wrapper .button:nth-child(2).icon{
+  background: #0077b5;
+}
+.wrapper .button:nth-child(3).icon{
+  background: #7289DA;
+}
+
+
 
 /*Animation on social media closed*/
+
