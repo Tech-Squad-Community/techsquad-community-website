@@ -14875,6 +14875,14 @@ button.bg-white:focus
     }
 }
 
+@media (max-width: 768px)
+{
+    .text-md-center-1
+    {
+        text-align: center !important;
+    }
+}
+
 .text-lowercase
 {
     text-transform: lowercase !important;
