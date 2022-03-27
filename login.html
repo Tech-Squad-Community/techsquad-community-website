@@ -108,16 +108,16 @@
             <img src="https://mdbcdn.b-cdn.net/img/Photos/new-templates/bootstrap-login-form/draw2.svg" class="img-fluid" alt="Phone image">
           </div>
           <div class="col-md-7 col-lg-5 col-xl-5 offset-xl-1">
-            <form>
+            <form name="LogIn_Form">
               <!-- Email input -->
               <div class="form-outline mb-4">
-                <input type="email" id="form1Example13" required class="form-control form-control-lg" />
+                <input type="email" id="form1Example13" required class="form-control form-control-lg" name="Email_Input" />
                 <label class="form-label" for="form1Example13">Email address</label>
               </div>
     
               <!-- Password input -->
               <div class="form-outline mb-4 password-container">
-                <input type="password" id="form1Example23" required class="form-control form-control-lg" />
+                <input type="password" id="form1Example23" required class="form-control form-control-lg" name="Password_Input" />
                 <i class="fa-solid fa-eye-slash" id="password-toggle"></i>
                 <label class="form-label" for="form1Example23">Password</label>
               </div>
@@ -138,7 +138,7 @@
               </div>
     
               <!-- Submit button -->
-              <button type="submit" class="btn btn-primary btn-lg btn-block">Sign in</button>
+              <button type="submit" class="btn btn-primary btn-lg btn-block" onclick="ValidateLoginPage(LogIn_Form);">Sign in</button>
     
               <div class="divider d-flex align-items-center my-4">
                 <p class="text-center fw-bold mx-3 mb-0 text-muted">OR</p>
@@ -303,6 +303,8 @@
       referrerpolicy="no-referrer"
     ></script>
 
-  
+    <!-- JS Scripts for Form Validation -->
+    <script src="./JS/Validations/ValidateLogin.js"></script>
+
 </body>
 </html>
