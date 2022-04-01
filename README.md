@@ -3,7 +3,7 @@
 <img src="https://user-images.githubusercontent.com/91361382/155606516-df37c0f7-ecbb-40e0-a704-d2e779517a64.png"></a>
 </div>
 
-<h3 align="center"> TechSquad Community is the what you need to get started in Coding and Development</h3>
+<h3 align="center"> TechSquad Community is what you need to get started in Coding and Development</h3>
 
 <br>
 <p align="center">
