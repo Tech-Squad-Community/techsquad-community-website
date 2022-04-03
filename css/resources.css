@@ -169,12 +169,16 @@
 
 @media (max-width: 650px) {
   .row {
+    margin-top: -50px;
+  }
+
+  .section_our_solution{
     margin-top: -200px;
   }
 }
 
 .row-toggle {
-  margin-top: 160px;
+  margin-top: 250px;
 }
 
 

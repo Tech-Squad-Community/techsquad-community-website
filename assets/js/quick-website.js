@@ -353,10 +353,10 @@ var Highlight = (function() {
 //
 
 const navtoggler = document.querySelector('.navbar-toggler');
-const row = document.querySelector('.row');
+const section = document.querySelector('.section_our_solution');
 
 navtoggler.addEventListener('click', () =>{
-	row.classList.toggle('row-toggle');
+	section.classList.toggle('row-toggle');
 })
 
 //# sourceMappingURL=quick-website.js.map
