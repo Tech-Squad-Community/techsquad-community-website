@@ -1,13 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>LogIn</title>
 
     <!-- Preloader -->
-    <link rel="stylesheet" href="./css/UpEvent.css">
+    <link rel="stylesheet" href="./css/UpEvent.css" />
     <link rel="stylesheet" href="./css/styles.css" />
     <!--Preloading the CSS files to this page-->
     <script src="./JS/script.js"></script>
@@ -15,115 +15,140 @@
     <!-- Favicon -->
     <link rel="icon" href="assets/img/brand/ts2022.png" type="image/png" />
     <!-- Font Awesome -->
-    <link rel="stylesheet" href="assets/libs/@fortawesome/fontawesome-free/css/all.min.css" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css"/>
+    <link
+      rel="stylesheet"
+      href="assets/libs/@fortawesome/fontawesome-free/css/all.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css"
+    />
     <!-- Quick CSS -->
-    <link rel="stylesheet" href="assets/css/quick-website.css" id="stylesheet" />
+    <link
+      rel="stylesheet"
+      href="assets/css/quick-website.css"
+      id="stylesheet"
+    />
     <link rel="stylesheet" href="./assets/css/log.css" />
-
-</head>
-<body>
+  </head>
+  <body>
     <!-- Preloader -->
     <div class="preloader">
-        <div class="spinner-border text-primary" role="status">
-          <span class="sr-only">Loading...</span>
-        </div>
+      <div class="spinner-border text-primary" role="status">
+        <span class="sr-only">Loading...</span>
+      </div>
     </div>
 
     <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-white">
-        <div class="container">
-          <!-- Brand -->
-          <a class="float client col-3 py-3" href="index.html">
-            <img
-              alt="Image placeholder"
-              src="assets/img/brand/ts2022_trans.svg"
-              id="navbar-logo"
-              style="max-width: 70%"
-            />
-          </a>
-          <!-- Toggler -->
-          <button
-            class="navbar-toggler"
-            type="button"
-            data-toggle="collapse"
-            data-target="#navbarCollapse"
-            aria-controls="navbarCollapse"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <!-- Collapse -->
-          <div class="collapse navbar-collapse" id="navbarCollapse">
-            <ul class="navbar-nav mt-4 mt-lg-0 ml-auto">
-              <li class="nav-item">
-                <a class="nav-link" href="./Resource.html">Resources</a>
-              </li>
-              <li class="nav-item dropdown dropdown-animate" data-toggle="hover">
-                <a
-                  class="nav-link"
-                  href="#"
-                  role="button"
-                  data-toggle="dropdown"
-                  aria-haspopup="true"
-                  aria-expanded="false"
-                  >Pages</a
-                >
-                <div class="dropdown-menu dropdown-menu-single">
-                  <a href="index.html" class="dropdown-item">Homepage</a>
-                  <a href="about.html" class="dropdown-item">About us</a>
-                  <a href="contact.html" class="dropdown-item">Contact</a>
-                  <a class="dropdown-item" href="./Blog.html">Blogs</a>
-                  <div class="dropdown-divider"></div>
-                  <a href="login.html" class="dropdown-item">Login</a>
-                </div>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="./Blog.html">Blogs</a>
-              </li>
-            </ul>
-            <!-- Button -->
-            <a
-              class="navbar-btn btn btn-sm btn-primary d-none d-lg-inline-block ml-3"
-              href="upevent.html"
-            >
-              Upcoming Event
-            </a>
-            <!-- Mobile button -->
-            <div class="d-lg-none text-center">
-              <a href="upevent.html" class="btn btn-block btn-sm btn-warning"
-                >Upcoming Event</a
+    <nav class="navbar navbar-expand-lg navbar-light bg-transparent">
+      <div class="container">
+        <!-- Brand -->
+        <a class="client col-3" href="index.html">
+          <img
+            alt="Image placeholder"
+            src="assets/img/brand/ts2022_trans.svg"
+            id="navbar-logo"
+            style="width: 50%"
+            class="navbar-logo"
+          />
+        </a>
+        <!-- Toggler -->
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarCollapse"
+          aria-controls="navbarCollapse"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <!-- Collapse -->
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+          <ul class="navbar-nav mt-4 mt-lg-0 ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="./Resource.html">Resources</a>
+            </li>
+            <li class="nav-item dropdown dropdown-animate" data-toggle="hover">
+              <a
+                class="nav-link"
+                href="#"
+                role="button"
+                data-toggle="dropdown"
+                aria-haspopup="true"
+                aria-expanded="false"
               >
-            </div>
+                Pages
+              </a>
+              <div class="dropdown-menu dropdown-menu-single">
+                <a href="index.html" class="dropdown-item">Homepage</a>
+                <a href="about.html" class="dropdown-item">About us</a>
+                <a href="contact.html" class="dropdown-item">Contact</a>
+                <a class="dropdown-item" href="./Blog.html">Blogs</a>
+                <div class="dropdown-divider"></div>
+                <a href="login.html" class="dropdown-item">Login</a>
+              </div>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./Blog.html">Blogs</a>
+            </li>
+          </ul>
+          <!-- Button -->
+          <a
+            class="navbar-btn btn btn-sm btn-outline-primary d-none d-lg-inline-block ml-3"
+            href="upevent.html"
+          >
+            Upcoming Events
+          </a>
+          <!-- Mobile button -->
+          <div class="d-lg-none text-center">
+            <a href="upevent.html" class="btn btn-block btn-sm btn-warning">
+              Upcoming Events
+            </a>
           </div>
         </div>
-      </nav>
+      </div>
+    </nav>
 
-    <br/><br/><br/><br/><br/>
+    <br /><br />
     <!-- Main Content -->
     <section>
       <div class="container py-5 h-100">
-        <div class="row d-flex align-items-center justify-content-center h-100">
-          <div class="col-md-8 col-lg-7 col-xl-6">
-            <img src="https://mdbcdn.b-cdn.net/img/Photos/new-templates/bootstrap-login-form/draw2.svg" class="img-fluid" alt="Phone image">
-          </div>
-          <div class="col-md-7 col-lg-5 col-xl-5 offset-xl-1">
+        <div class="row mt-4 auth-container">
+          <div class="col-md-6 col-lg-5 col-xl-5 auth-left"></div>
+          <div class="col-md-6 col-lg-7 col-xl-7 auth-right">
             <form name="LogIn_Form">
               <!-- Email input /// -->
               <div class="form-outline mb-4">
-                <input type="email" id="form1Example13" required class="form-control form-control-lg" name="Email_Input" />
-                <label class="form-label" for="form1Example13">Email address</label>
+                <label class="form-label" for="form1Example13"
+                  >Email address</label
+                >
+                <input
+                  type="email"
+                  id="form1Example13"
+                  required
+                  class="form-control form-control-lg field"
+                  name="Email_Input"
+                />
               </div>
-    
+
               <!-- Password input  ///-->
               <div class="form-outline mb-4 password-container">
-                <input type="password" id="form1Example23" required class="form-control form-control-lg" name="Password_Input" />
-                <i class="fa-solid fa-eye-slash" id="password-toggle"></i>
                 <label class="form-label" for="form1Example23">Password</label>
+                <input
+                  type="password"
+                  id="form1Example23"
+                  required
+                  class="form-control form-control-lg field"
+                  name="Password_Input"
+                />
+                <i class="fa-solid fa-eye-slash" id="password-toggle"></i>
               </div>
-    
-              <div class="d-flex justify-content-around align-items-center mb-4">
+
+              <div
+                class="d-flex justify-content-around align-items-center mb-4"
+              >
                 <!-- Checkbox -->
                 <div class="form-check">
                   <input
@@ -133,22 +158,35 @@
                     id="form1Example3"
                     checked
                   />
-                  <label class="form-check-label" for="form1Example3"> Remember me </label>
+                  <label class="form-check-label" for="form1Example3">
+                    Remember me
+                  </label>
                 </div>
                 <a href="./ForgotPassword.html">Forgot password?</a>
               </div>
-    
+
               <!-- Submit button -->
-              <button type="submit" class="btn btn-primary btn-lg btn-block" onclick="ValidateLoginPage(LogIn_Form);">Sign in</button>
-    
+              <button
+                type="submit"
+                class="btn btn-primary btn-lg btn-block"
+                onclick="ValidateLoginPage(LogIn_Form);"
+              >
+                Sign in
+              </button>
+
               <div class="divider d-flex align-items-center my-4">
                 <p class="text-center fw-bold mx-3 mb-0 text-muted">OR</p>
               </div>
-    
-              <a class="btn btn-primary btn-lg btn-block" href="./registration.html" style="background-color: #3b5998" href="#!" role="button">
+
+              <a
+                class="btn btn-primary btn-lg btn-block"
+                href="./registration.html"
+                style="background-color: #3b5998"
+                href="#!"
+                role="button"
+              >
                 Register
               </a>
-    
             </form>
           </div>
         </div>
@@ -157,149 +195,153 @@
 
     <!--footer started-->
 
-       <footer class="position-relative" id="footer-main">
-            <div class="footer pt-lg-7 footer-dark bg-dark">
-                <!-- SVG shape -->
-                <div class="shape-container shape-line shape-position-top shape-orientation-inverse">
-                    <svg
-                        width="2560px"
-                        height="100px"
-                        xmlns="http://www.w3.org/2000/svg"
-                        xmlns:xlink="http://www.w3.org/1999/xlink"
-                        preserveAspectRatio="none"
-                        x="0px"
-                        y="0px"
-                        viewBox="0 0 2560 100"
-                        style="enable-background: new 0 0 2560 100"
-                        xml:space="preserve"
-                        class="fill-section-secondary"
-                    >
-                        <polygon points="2560 0 2560 100 0 100"></polygon>
-                    </svg>
-                </div>
-                <!-- Footer -->
-                <div class="container text-md-center-1 pt-4">
-                    <div class="row">
-                        <div class="col-lg-4 mb-5 mb-lg-0">
-                            <!-- Webpixels' mission -->
-                            <p class="mt-4 text-sm opacity-8 pr-lg-4">
-                                TechSquad Community attempts to bring the best development
+    <footer class="position-relative" id="footer-main">
+      <div class="footer pt-lg-7 footer-dark bg-dark">
+        <!-- SVG shape -->
+        <div
+          class="shape-container shape-line shape-position-top shape-orientation-inverse"
+        >
+          <svg
+            width="2560px"
+            height="100px"
+            xmlns="http://www.w3.org/2000/svg"
+            xmlns:xlink="http://www.w3.org/1999/xlink"
+            preserveAspectRatio="none"
+            x="0px"
+            y="0px"
+            viewBox="0 0 2560 100"
+            style="enable-background: new 0 0 2560 100"
+            xml:space="preserve"
+            class="fill-section-secondary"
+          >
+            <polygon points="2560 0 2560 100 0 100"></polygon>
+          </svg>
+        </div>
+        <!-- Footer -->
+        <div class="container text-md-center-1 pt-4">
+          <div class="row">
+            <div class="col-lg-4 mb-5 mb-lg-0">
+              <!-- Webpixels' mission -->
+              <p class="mt-4 text-sm opacity-8 pr-lg-4">
+                TechSquad Community attempts to bring the best development
                 experience to designers and developers by offering the tools
                 needed for having a quick and solid start in Programming Career.
-                            </p>
+              </p>
 
-                      
+              <!-- Social Links Started-->
 
-                          <!-- Social Links Started-->
-
-                        <div class="nav wrapper justify-content-center">
-                            <div class="button">
-                                <div class="icon"style="color: #333">
-                                    <i class="fab fa-github"></i>
-                                </div>
-                                <span>Github</span>
-                            </div>
-
-                            <div class="button">
-                                <div class="icon" style="color: #0077b5">
-                                    <i class="fab fa-linkedin-in"></i>
-                                </div>
-                                <span>Linkedin</span>
-                            </div>
-
-                            <div class="button">
-                                <div class="icon"style="color: #7289DA">
-                                    <i class="fab fa-discord"></i>
-                                </div>
-                                <span>Discord</span>
-                            </div>
-                            
-                        </div>
+              <div class="nav wrapper justify-content-center">
+                <div class="button">
+                  <div class="icon" style="color: #333">
+                    <i class="fab fa-github"></i>
+                  </div>
+                  <span>Github</span>
                 </div>
 
-
-                         <!-- Social Links Ended-->
-
-
-
-                        <div class="col-lg-2 col-6 col-sm-4 ml-lg-auto mb-5 mb-lg-0">
-                            <h6 class="heading mb-3">Account</h6>
-                            <ul class="list-unstyled">
-                                <li>
-                                    <a href="registration.html">Register</a>
-                                </li>
-                                <li>
-                                    <a href="login.html">Login</a>
-                                </li>
-                            </ul>
-                        </div>
-                        <div class="col-lg-2 col-6 col-sm-4 mb-5 mb-lg-0">
-                            <h6 class="heading mb-3">About</h6>
-                            <ul class="list-unstyled">
-                                <li>
-                                    <a href="upevent.html">Upcoming Events</a>
-                                </li>
-                                <li>
-                                    <a href="Resource.html">Resources</a>
-                                </li>
-                                <li>
-                                    <a href="contact.html">Contact</a>
-                                </li>
-                                <li>
-                                    <a href="contact.html">Careers</a>
-                                </li>
-                            </ul>
-                        </div>
-                        <div class="col-lg-2 col-6 col-sm-4 mb-5 mb-lg-0">
-                            <h6 class="heading mb-3">Company</h6>
-                            <ul class="list-unstyled">
-                                <li>
-                                    <a href="about.html">Community</a>
-                                </li>
-                                <li>
-                                    <a href="about.html">Help center</a>
-                                </li>
-                                <li>
-                                    <a href="about.html">Support</a>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                    <hr class="divider divider-fade divider-dark my-4">
-                    <div class="row align-items-center justify-content-md-between pb-4">
-                        <div class="col-md-6">
-                            <div class="copyright text-sm font-weight-bold text-center text-md-left">
-                                &copy; 2022
-                                <a href="https://techsquadcommunity.tech" class="font-weight-bold" target="_blank">
-                                    TechSquad Community
-                                </a>. All rights reserved
-                            </div>
-                        </div>
-                        <div class="col-md-6">
-                            <ul class="nav justify-content-center justify-content-md-end mt-3 mt-md-0">
-                                <li class="nav-item">
-                                    <a class="nav-link" href="#"> Terms</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="#"> Privacy</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="#"> Cookies</a>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
+                <div class="button">
+                  <div class="icon" style="color: #0077b5">
+                    <i class="fab fa-linkedin-in"></i>
+                  </div>
+                  <span>Linkedin</span>
                 </div>
+
+                <div class="button">
+                  <div class="icon" style="color: #7289da">
+                    <i class="fab fa-discord"></i>
+                  </div>
+                  <span>Discord</span>
+                </div>
+              </div>
             </div>
-        </footer>
 
+            <!-- Social Links Ended-->
+
+            <div class="col-lg-2 col-6 col-sm-4 ml-lg-auto mb-5 mb-lg-0">
+              <h6 class="heading mb-3">Account</h6>
+              <ul class="list-unstyled">
+                <li>
+                  <a href="registration.html">Register</a>
+                </li>
+                <li>
+                  <a href="login.html">Login</a>
+                </li>
+              </ul>
+            </div>
+            <div class="col-lg-2 col-6 col-sm-4 mb-5 mb-lg-0">
+              <h6 class="heading mb-3">About</h6>
+              <ul class="list-unstyled">
+                <li>
+                  <a href="upevent.html">Upcoming Events</a>
+                </li>
+                <li>
+                  <a href="Resource.html">Resources</a>
+                </li>
+                <li>
+                  <a href="contact.html">Contact</a>
+                </li>
+                <li>
+                  <a href="contact.html">Careers</a>
+                </li>
+              </ul>
+            </div>
+            <div class="col-lg-2 col-6 col-sm-4 mb-5 mb-lg-0">
+              <h6 class="heading mb-3">Company</h6>
+              <ul class="list-unstyled">
+                <li>
+                  <a href="about.html">Community</a>
+                </li>
+                <li>
+                  <a href="about.html">Help center</a>
+                </li>
+                <li>
+                  <a href="about.html">Support</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <hr class="divider divider-fade divider-dark my-4" />
+          <div class="row align-items-center justify-content-md-between pb-4">
+            <div class="col-md-6">
+              <div
+                class="copyright text-sm font-weight-bold text-center text-md-left"
+              >
+                &copy; 2022
+                <a
+                  href="https://techsquadcommunity.tech"
+                  class="font-weight-bold"
+                  target="_blank"
+                >
+                  TechSquad Community </a
+                >. All rights reserved
+              </div>
+            </div>
+            <div class="col-md-6">
+              <ul
+                class="nav justify-content-center justify-content-md-end mt-3 mt-md-0"
+              >
+                <li class="nav-item">
+                  <a class="nav-link" href="#"> Terms</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#"> Privacy</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#"> Cookies</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
 
     <!--scroll to top button-->
     <div id="navtbut" class="disappear">
       <a href="#top" id="back-top">
         <img
           class="buttonclass"
-          src="http://chikmagalurdiocese.com/icon-256x256.png" style="z-index:50000;"
+          src="http://chikmagalurdiocese.com/icon-256x256.png"
+          style="z-index: 50000"
         />
       </a>
     </div>
@@ -325,6 +367,5 @@
 
     <!-- JS Scripts for Form Validation -->
     <script src="./JS/Validations/ValidateLogin.js"></script>
-
-</body>
+  </body>
 </html>

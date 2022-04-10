@@ -67,12 +67,12 @@ body.loaded > div.preloader {
 .min-height-300 {
   min-height: 300px;
 }
-.navbar{
+.navbar {
   padding: 0 !important;
   position: absolute !important;
   top: 0 !important;
   width: 100%;
-  background-color:transparent !important;
+  background-color: transparent !important;
 }
 /*scroll to top button */
 .disappear {
@@ -95,34 +95,33 @@ body.loaded > div.preloader {
 
 /* cover-page-styles */
 
-.cover-section{
+.cover-section {
   height: 100vh;
   background-color: #008aff;
- }
+}
 
- .dot-shapes{
-   bottom: 20px;
-   margin-left: 180px;
-   
- }
+.dot-shapes {
+  bottom: 20px;
+  margin-left: 180px;
+}
 
- .cover-title{
-   font-weight: 900 !important;
-   line-height: 1.1 !important;
- }
- .cover-title > strong {
+.cover-title {
   font-weight: 900 !important;
- }
-  .hero-shape5 {
+  line-height: 1.1 !important;
+}
+.cover-title > strong {
+  font-weight: 900 !important;
+}
+.hero-shape5 {
   position: absolute;
   right: 5%;
   z-index: 1;
   top: 22%;
   opacity: 0.3;
-  -webkit-animation: action 1s infinite  alternate;
-  animation: action 1s infinite  alternate;
+  -webkit-animation: action 1s infinite alternate;
+  animation: action 1s infinite alternate;
 }
-.hero-shape1{
+.hero-shape1 {
   position: absolute;
   top: 65%;
   left: 2%;
@@ -130,157 +129,168 @@ body.loaded > div.preloader {
   animation: rotaed360 4s infinite linear;
   z-index: 1;
 }
-.hero-shape2{
+.hero-shape2 {
   position: absolute;
   top: 20%;
-   left: 40%;
+  left: 40%;
   -webkit-animation: animationFramesOne 15s linear infinite;
-    animation: animationFramesOne 15s infinite alternate;
-    z-index: 1;
- 
+  animation: animationFramesOne 15s infinite alternate;
+  z-index: 1;
 }
-.hero-shape3{
+.hero-shape3 {
   position: absolute;
   top: 74%;
   left: 30%;
-   -webkit-animation: animationFramesOne 10s linear infinite;
+  -webkit-animation: animationFramesOne 10s linear infinite;
   animation: animationFramesOne 10s infinite infinite;
-  z-index: 1; 
+  z-index: 1;
 }
 
 @-webkit-keyframes action {
-    0% { transform: translateY(0); }
-    100% { transform: translateY(-20px); }
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(-20px);
+  }
 }
 
 @keyframes action {
-    0% { transform: translateY(0); }
-    100% { transform: translateY(-20px); }
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(-20px);
+  }
 }
 @-webkit-keyframes rotaed360 {
-    0% { transform:rotate(0deg);
-    }
-    100% { transform: rotate(360deg)}
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
 }
 @keyframes rotaed360 {
-  0% { transform:rotate(0deg);
+  0% {
+    transform: rotate(0deg);
   }
-  100% { transform: rotate(360deg)}
+  100% {
+    transform: rotate(360deg);
+  }
 }
 @-webkit-keyframes animationFramesOne {
-	0% {
-		-webkit-transform: translate(0px, 0px) rotate(0deg);
-		transform: translate(0px, 0px) rotate(0deg);
-	}
-	20% {
-		-webkit-transform: translate(73px, -1px) rotate(36deg);
-		transform: translate(73px, -1px) rotate(36deg);
-	}
-	40% {
-		-webkit-transform: translate(141px, 72px) rotate(72deg);
-		transform: translate(141px, 72px) rotate(72deg);
-	}
-	60% {
-		-webkit-transform: translate(83px, 122px) rotate(108deg);
-		transform: translate(83px, 122px) rotate(108deg);
-	}
-	80% {
-		-webkit-transform: translate(-40px, 72px) rotate(144deg);
-		transform: translate(-40px, 72px) rotate(144deg);
-	}
-	100% {
-		-webkit-transform: translate(0px, 0px) rotate(0deg);
-		transform: translate(0px, 0px) rotate(0deg);
-	}
+  0% {
+    -webkit-transform: translate(0px, 0px) rotate(0deg);
+    transform: translate(0px, 0px) rotate(0deg);
+  }
+  20% {
+    -webkit-transform: translate(73px, -1px) rotate(36deg);
+    transform: translate(73px, -1px) rotate(36deg);
+  }
+  40% {
+    -webkit-transform: translate(141px, 72px) rotate(72deg);
+    transform: translate(141px, 72px) rotate(72deg);
+  }
+  60% {
+    -webkit-transform: translate(83px, 122px) rotate(108deg);
+    transform: translate(83px, 122px) rotate(108deg);
+  }
+  80% {
+    -webkit-transform: translate(-40px, 72px) rotate(144deg);
+    transform: translate(-40px, 72px) rotate(144deg);
+  }
+  100% {
+    -webkit-transform: translate(0px, 0px) rotate(0deg);
+    transform: translate(0px, 0px) rotate(0deg);
+  }
 }
 
 @keyframes animationFramesOne {
-	0% {
-		-webkit-transform: translate(0px, 0px) rotate(0deg);
-		transform: translate(0px, 0px) rotate(0deg);
-	}
-	20% {
-		-webkit-transform: translate(73px, -1px) rotate(36deg);
-		transform: translate(73px, -1px) rotate(36deg);
-	}
-	40% {
-		-webkit-transform: translate(141px, 72px) rotate(72deg);
-		transform: translate(141px, 72px) rotate(72deg);
-	}
-	60% {
-		-webkit-transform: translate(83px, 122px) rotate(108deg);
-		transform: translate(83px, 122px) rotate(108deg);
-	}
-	80% {
-		-webkit-transform: translate(-40px, 72px) rotate(144deg);
-		transform: translate(-40px, 72px) rotate(144deg);
-	}
-	100% {
-		-webkit-transform: translate(0px, 0px) rotate(0deg);
-		transform: translate(0px, 0px) rotate(0deg);
-	}
+  0% {
+    -webkit-transform: translate(0px, 0px) rotate(0deg);
+    transform: translate(0px, 0px) rotate(0deg);
+  }
+  20% {
+    -webkit-transform: translate(73px, -1px) rotate(36deg);
+    transform: translate(73px, -1px) rotate(36deg);
+  }
+  40% {
+    -webkit-transform: translate(141px, 72px) rotate(72deg);
+    transform: translate(141px, 72px) rotate(72deg);
+  }
+  60% {
+    -webkit-transform: translate(83px, 122px) rotate(108deg);
+    transform: translate(83px, 122px) rotate(108deg);
+  }
+  80% {
+    -webkit-transform: translate(-40px, 72px) rotate(144deg);
+    transform: translate(-40px, 72px) rotate(144deg);
+  }
+  100% {
+    -webkit-transform: translate(0px, 0px) rotate(0deg);
+    transform: translate(0px, 0px) rotate(0deg);
+  }
 }
 
-@media (min-width: 576px) and (max-width: 576px) { 
-  .box{
+@media (min-width: 576px) and (max-width: 576px) {
+  .box {
     display: none;
   }
-  .hero-shape2{
-    display:none;
+  .hero-shape2 {
+    display: none;
   }
-  .hero-shape1{
-    top:50%;
+  .hero-shape1 {
+    top: 50%;
   }
-  .dot-shapes{
-    display:none;
+  .dot-shapes {
+    display: none;
   }
-  .left-box{
-    display:flex;
+  .left-box {
+    display: flex;
     flex-direction: column;
-    height:60vh;
+    height: 60vh;
   }
-  .wave{
+  .wave {
     width: calc(100% + 30%);
     height: 50%;
     background-color: #008aff;
-  
-     }
-  .cover-section{
+  }
+  .cover-section {
     height: 100vh;
     background-color: #fff;
-   }
-   .navbar-logo{
-     margin-left: -30px;
-     margin-top: -20px;
-     width: 120px !important;
-   }
-   .cover-title{
+  }
+  .navbar-logo {
+    margin-left: -30px;
+    margin-top: -20px;
+    width: 120px !important;
+  }
+  .cover-title {
     font-weight: 900 !important;
     line-height: 1.1 !important;
   }
- }
+}
 /* Scrollbar */
-::-webkit-scrollbar{
+::-webkit-scrollbar {
   width: 12px;
 }
-::-webkit-scrollbar-thumb{
-  background: linear-gradient(transparent,#00c6ff);
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(transparent, #00c6ff);
   border-radius: 6px;
 }
 
-
 /* LOGIN PAGE */
-.password-container{
+.password-container {
   position: relative;
 }
-.password-container i{
+.password-container i {
   position: absolute;
   right: 10px;
   bottom: 50%;
   transform: translate(-50%, -50%);
   cursor: pointer;
 }
-.features{
+.features {
   background-color: #e0f0ff5e !important;
 }
 .default-shape .shape-1 {
@@ -295,7 +305,7 @@ body.loaded > div.preloader {
   left: 10%;
   top: 16%;
   -webkit-animation: rotaed360 5s infinite linear;
- animation: rotaed360 5s infinite linear;
+  animation: rotaed360 5s infinite linear;
 }
 .default-shape .shape-3 {
   position: absolute;
@@ -318,36 +328,36 @@ body.loaded > div.preloader {
   -webkit-animation: animationFrameOne 20s infinite linear;
   animation: animationFrameOne 20s infinite linear;
 }
-@keyframes  animationFrameOne {
+@keyframes animationFrameOne {
   0% {
     transform: translate(0) rotate(0);
-}
-20% {
-    transform: translate(73px,-1px) rotate(36deg);
-}
-40% {
-    transform: translate(141px,72px) rotate(72deg);
-}
-60% {
-    transform: translate(83px,122px) rotate(108deg);
-}
-80% {
-    transform: translate(-40px,72px) rotate(144deg);
-}
-100% {
+  }
+  20% {
+    transform: translate(73px, -1px) rotate(36deg);
+  }
+  40% {
+    transform: translate(141px, 72px) rotate(72deg);
+  }
+  60% {
+    transform: translate(83px, 122px) rotate(108deg);
+  }
+  80% {
+    transform: translate(-40px, 72px) rotate(144deg);
+  }
+  100% {
     transform: translate(0) rotate(0);
-}
+  }
 }
 
 @keyframes rotateClockwise {
   100% {
     transform: rotate(360deg);
- }
+  }
 }
 @keyframes rotateCounterClockwise {
   100% {
     transform: rotate(-360deg);
- }
+  }
 }
 .ring {
   position: absolute;
@@ -369,11 +379,11 @@ body.loaded > div.preloader {
 }
 .dot:before {
   display: block;
-  content: '';
+  content: "";
   height: 40px;
   width: 40px;
   border-radius: 50%;
-  box-shadow: 0 2px 3px rgba(0, 0, 0, .1);
+  box-shadow: 0 2px 3px rgba(0, 0, 0, 0.1);
 }
 .dot--one {
   animation: rotateClockwise 5s linear infinite;
@@ -486,13 +496,9 @@ body.loaded > div.preloader {
   opacity: 1;
 }
 
-
-
-
 /*Animation on social media started*/
 
-
-.wrapper .button{
+.wrapper .button {
   display: inline-block;
   height: 40px;
   width: 40px;
@@ -502,15 +508,15 @@ body.loaded > div.preloader {
   background: #fff;
   border-radius: 50px;
   cursor: pointer;
-  box-shadow: 0px 10px 10px rgba(0,0,0,0.1);
+  box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.1);
   transition: all 0.3s ease-out;
 }
-.wrapper .button:hover{
+.wrapper .button:hover {
   width: 132px;
-  background-color: #12C6FF;
+  background-color: #12c6ff;
   /*margin-top: 30px;*/
 }
-.wrapper .button .icon{
+.wrapper .button .icon {
   display: inline-block;
   height: 40px;
   width: 40px;
@@ -521,66 +527,106 @@ body.loaded > div.preloader {
   transition: all 0.3s ease-out;
 }
 
-
 /*Text inside icons*/
 
-.wrapper .button:nth-child(1):hover .icon{          
+.wrapper .button:nth-child(1):hover .icon {
   background: #333;
 }
-.wrapper .button:nth-child(2):hover .icon{
+.wrapper .button:nth-child(2):hover .icon {
   background: #0077b5;
 }
-.wrapper .button:nth-child(3):hover .icon{
-  background: #7289DA;
+.wrapper .button:nth-child(3):hover .icon {
+  background: #7289da;
 }
-.wrapper .button .icon i{
+.wrapper .button .icon i {
   font-size: 25px;
   line-height: 45px;
   transition: all 0.3s ease-out;
 }
-.wrapper .button:hover .icon i{
+.wrapper .button:hover .icon i {
   color: #fff;
 }
-.wrapper .button span{
+.wrapper .button span {
   font-size: 20px;
   font-weight: 800;
   line-height: 40px;
   margin-left: 10px;
   /*margin-left: 6px;*/
   transition: all 0.3s ease-out;
-
 }
 
 /*Text inside icons*/
 
-.wrapper .button:nth-child(1) span{        
+.wrapper .button:nth-child(1) span {
   color: #fff;
   margin-left: 6px;
 }
-.wrapper .button:nth-child(2) span{
-  color:  #fff;
+.wrapper .button:nth-child(2) span {
+  color: #fff;
   margin-left: 0px;
 }
-.wrapper .button:nth-child(3) span{
+.wrapper .button:nth-child(3) span {
   color: #fff;
   margin-left: 6px;
 }
 
 /*Text inside icons*/
 
-
-
-.wrapper .button:nth-child(1).icon{          
+.wrapper .button:nth-child(1).icon {
   background: #333;
 }
-.wrapper .button:nth-child(2).icon{
+.wrapper .button:nth-child(2).icon {
   background: #0077b5;
 }
-.wrapper .button:nth-child(3).icon{
-  background: #7289DA;
+.wrapper .button:nth-child(3).icon {
+  background: #7289da;
 }
-
-
 
 /*Animation on social media closed*/
 
+/* Auth Container Style Starts */
+
+.auth-container {
+  width: 100%;
+  height: 100%;
+  background: #fff;
+  box-shadow: rgba(0, 0, 0, 0.171) 0px 5px 15px;
+  border-radius: 20px;
+  background-position: center center;
+}
+.auth-left {
+  height: 100%;
+  width: 100%;
+
+  background-image: url(../assets/img/svg/illustrations/auth.svg),
+    linear-gradient(90deg, rgb(102, 189, 255) 10%, rgb(155, 231, 246) 100%);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  border-bottom-left-radius: 20px;
+  border-top-left-radius: 20px;
+}
+.auth-right {
+  padding-left: 120px !important;
+  padding-right: 120px !important;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+  border-bottom-right-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+#form1Example13,
+#form1Example23 {
+  box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px !important;
+  width: 100% !important;
+}
+#form1Example13 {
+  border-bottom-color: #008aff !important;
+}
+.password-container i {
+  color: #1b98f5;
+  bottom: 12px !important;
+}
