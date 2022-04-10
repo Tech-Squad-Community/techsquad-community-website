@@ -112,27 +112,34 @@
             <form name="Registration_Form">
               <!-- Name input -->
               <div class="form-outline mb-4">
+                          <label class="form-label" for="form1Example13">Name</label>
                 <input type="text" id="form1Example13" class="form-control form-control-lg" name="Name_Input" />
-                <label class="form-label" for="form1Example13">Name</label>
               </div>
     
               <!-- Email input -->
               <div class="form-outline mb-4">
+                    <label class="form-label" for="form1Example23">Email</label>
                 <input type="email" id="form1Example23" class="form-control form-control-lg" name="Email_Input" />
-                <label class="form-label" for="form1Example23">Email</label>
               </div>
 
               <!-- Password input -->
-              <div class="form-outline mb-4">
-                <input type="password" id="form1Example13" class="form-control form-control-lg" name="Password_Input" />
-                <label class="form-label" for="form1Example13">Password</label>
-              </div>
+                <div class="form-outline mb-4 password-container">
+                  <label class="form-label" for="form1Example23">Password</label>
+                  <input type="password" id="form1Example23" required class="form-control form-control-lg field"
+                    name="Password_Input" />
+                  <i class="fa-solid fa-eye-slash" id="password-toggle"></i>
+                </div>
+              <!-- <div class="form-outline mb-4">
+                    <label class="form-label" for="form1Example13">Password</label>
+                <input type="password" id="form1Example13" class="form-control form-control-lg" name="Password_Input"/>
+              </div> -->
 
               <!-- Confirm Password input -->
               <div class="form-outline mb-4">
-                <input type="password" id="form1Example13" class="form-control form-control-lg" name="Confirm_Password_Input" />
                 <label class="form-label" for="form1Example13">Confirm Password</label>
+                <input type="password" id="form1Example13" class="form-control form-control-lg" name="Confirm_Password_Input"/>
               </div>
+    
     
               
     
@@ -338,6 +345,8 @@
 
     <!-- JS Scripts for Form Validation -->
     <script src="./JS/Validations/ValidateRegistration.js"></script>
+    <script src="./JS/Validations/ValidateLogin.js"></script>
+    <script src="JS/password-toggle.js"></script>
     
   
 </body>

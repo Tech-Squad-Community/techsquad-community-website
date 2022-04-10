@@ -5,6 +5,13 @@
   height: 1px;
   background: #eee;
 }
+
+.form-control{
+  border: none;
+}
+.form-control:focus{
+  border: 1px solid #008aff;
+}
 /* {
   box-sizing: border-box;
 }

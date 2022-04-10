@@ -136,7 +136,13 @@ a:hover {
 .form-label {
   margin-top: 0.5rem;
 }
-#form1Example13,
+.form-control{
+  border: none;
+}
+.form-control:focus {
+  border: 1px solid #008aff;
+}
+/* #form1Example13,
 #form1Example23 {
   box-shadow: 0 0.2rem 1rem rgba(0, 0, 0, 0.1);
 }
@@ -148,4 +154,4 @@ a:hover {
 
 #form1Example13:valid {
   border-bottom: 2px solid rgb(39, 216, 39);
-}
+} */
