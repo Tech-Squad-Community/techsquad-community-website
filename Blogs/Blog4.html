@@ -1,0 +1,619 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Blogs</title>
+
+  <!-- Preloader -->
+  <link rel="stylesheet" href="../css/UpEvent.css">
+  <link rel="stylesheet" href="../css/styles.css" />
+  <!--Preloading the CSS files to this page-->
+  <script src="../JS/script.js"></script>
+  <!--Preloading the JS files to this page-->
+  <!-- Favicon -->
+  <link rel="icon" href="../assets/img/brand/ts2022.png" type="image/png" />
+  <!-- Font Awesome -->
+  <link
+    rel="stylesheet"
+    href="../assets/libs/@fortawesome/fontawesome-free/css/all.min.css"
+  />
+  <!-- Quick CSS -->
+  <link
+    rel="stylesheet"
+    href="../assets/css/quick-website.css"
+    id="stylesheet"
+  />
+
+  <!-- Favicons -->
+  <link href="../assets/img/favicon.png" rel="icon">
+  <link href="../assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Nunito:300,300i,400,400i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="../assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="../assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="../assets/vendor/remixicon/remixicon.css" rel="stylesheet">
+  <link href="../assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="../css/blogs.css" rel="stylesheet">
+</head>
+
+<body>
+
+  <!-- Preloader -->
+  <div class="preloader">
+    <div class="spinner-border text-primary" role="status">
+      <span class="sr-only">Loading...</span>
+    </div>
+</div>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-white">
+      <div class="container">
+        <!-- Brand -->
+        <a class="float client col-3 py-3" href="index.html">
+          <img
+            alt="Image placeholder"
+            src="../assets/img/brand/ts2022_trans.svg"
+            id="navbar-logo"
+            style="max-width: 70%"
+          />
+        </a>
+        <!-- Toggler -->
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarCollapse"
+          aria-controls="navbarCollapse"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <!-- Collapse -->
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+          <ul class="navbar-nav mt-4 mt-lg-0 ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="../Resource.html">Resources</a>
+            </li>
+            <li class="nav-item dropdown dropdown-animate" data-toggle="hover">
+              <a
+                class="nav-link"
+                href="#"
+                role="button"
+                data-toggle="dropdown"
+                aria-haspopup="true"
+                aria-expanded="false"
+                >Pages</a
+              >
+              <div class="dropdown-menu dropdown-menu-single">
+                <a href="../index.html" class="dropdown-item">Homepage</a>
+                <a href="../about.html" class="dropdown-item">About us</a>
+                <a href="../contact.html" class="dropdown-item">Contact</a>
+                <a class="dropdown-item" href="../Blog.html">Blogs</a>
+                <div class="dropdown-divider"></div>
+                <a href="../login.html" class="dropdown-item">Login</a>
+              </div>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../Blog.html">Blogs</a>
+            </li>
+          </ul>
+          <!-- Button -->
+          <a
+            class="navbar-btn btn btn-sm btn-primary d-none d-lg-inline-block ml-3"
+            href="../upevent.html"
+          >
+            Upcoming Event
+          </a>
+          <!-- Mobile button -->
+          <div class="d-lg-none text-center">
+            <a href="../upevent.html" class="btn btn-block btn-sm btn-warning"
+              >Upcoming Event</a
+            >
+          </div>
+        </div>
+      </div>
+    </nav>
+
+  <br/><br/><br/><br/><br/><br/><br/><br/><br/>
+
+  <main id="main">
+    <!-- ======= Blog Single Section ======= -->
+    <section id="blog" class="blog">
+      <div class="container" data-aos="fade-up">
+
+        <div class="row">
+
+          <div class="col-lg-8 entries">
+
+            <article class="entry entry-single">
+
+              <div class="entry-img">
+                <img src="../assets/img/blog/deep-learning-vs-machine-learning-t.jpg" alt="" class="img-fluid">
+              </div>
+
+              <h2 class="entry-title">
+                <a href="#">VGG Very Deep Convolutional Networks (VGGNet)</a>
+              </h2>
+
+              <div class="entry-meta">
+                <ul>
+                  <li class="d-flex align-items-center"><i class="bi bi-person"></i> <a href="#">Kumar Laxmikant</a></li>
+                  <li class="d-flex align-items-center"><i class="bi bi-clock"></i> <a href="#"><time datetime="2022-04-01">April 1, 2022</time></a></li>
+                  <li class="d-flex align-items-center"><i class="bi bi-chat-dots"></i> <a href="#">12 Comments</a></li>
+                </ul>
+              </div>
+
+              <div class="entry-content">
+                <p>
+                  Convolutional networks (ConvNets) currently set the state of the art in visual recognition. 
+                  The aim of this project is to investigate how the ConvNet depth affects their accuracy in the large-scale image recognition setting.
+                </p>
+
+                <h3>What is VGG</h3>
+                <p>
+                  VGG16 is a convolutional neural network model proposed by K. Simonyan and A. Zisserman from the University of Oxford in the paper 
+                  “Very Deep Convolutional Networks for Large-Scale Image Recognition”. The model achieves 92.7% top-5 test accuracy in ImageNet, 
+                  which is a dataset of over 14 million images belonging to 1000 classes. It was one of the famous model submitted to ILSVRC-2014. 
+                  It makes the improvement over AlexNet by replacing large kernel-sized filters (11 and 5 in the first and second convolutional layer, respectively) 
+                  with multiple 3×3 kernel-sized filters one after another. VGG16 was trained for weeks and was using NVIDIA Titan Black GPU’s.
+                </p>
+
+                <img src="../assets/img/blog/vgg16-neural-network.jpg" class="img-fluid" alt="">
+
+                <h3>The Architecture</h3>
+                <p>
+                  The input to cov1 layer is of fixed size 224 x 224 RGB image. The image is passed through a stack of convolutional (conv.) 
+                  layers, where the filters were used with a very small receptive field: 3×3 (which is the smallest size to capture the notion 
+                  of left/right, up/down, center). In one of the configurations, it also utilizes 1×1 convolution filters, which can be seen as a 
+                  linear transformation of the input channels (followed by non-linearity). The convolution stride is fixed to 1 pixel; the spatial 
+                  padding of conv. layer input is such that the spatial resolution is preserved after convolution, i.e. the padding is 1-pixel for 3×3 conv. 
+                  layers. Spatial pooling is carried out by five max-pooling layers, which follow some of the conv.  layers (not all the conv. layers are 
+                  followed by max-pooling). Max-pooling is performed over a 2×2 pixel window, with stride 2.
+                </p>
+                <p>
+                  Three Fully-Connected (FC) layers follow a stack of convolutional layers (which has a different depth in different architectures): 
+                  the first two have 4096 channels each, the third performs 1000-way ILSVRC classification and thus contains 1000 channels (one for each class). 
+                  The final layer is the soft-max layer. The configuration of the fully connected layers is the same in all networks.
+                </p>
+                <p>
+                  All hidden layers are equipped with the rectification (ReLU) non-linearity. It is also noted that none of the networks (except for one) 
+                  contain Local Response Normalisation (LRN), such normalization does not improve the performance on the ILSVRC dataset, 
+                  but leads to increased memory consumption and computation time.
+                </p>
+
+              </div>
+
+              <div class="entry-footer">
+                <i class="bi bi-folder"></i>
+                <ul class="cats">
+                  <li><a href="#">AI</a></li>
+                </ul>
+
+                <i class="bi bi-tags"></i>
+                <ul class="tags">
+                  <li><a href="#">ML</a></li>
+                  <li><a href="#">DL</a></li>
+                  <li><a href="#">AI</a></li>
+                  <li><a href="#">Technology</a></li>
+                </ul>
+              </div>
+
+            </article><!-- End blog entry -->
+
+            <div class="blog-author d-flex align-items-center">
+              <img src="../assets/img/blogs/Admin.JPG" class="rounded-circle float-left" alt="">
+              <div>
+                <h4>Kumar Laxmikant</h4>
+                <div class="social-links">
+                  <a href="https://twitters.com/#"><i class="bi bi-twitter"></i></a>
+                  <a href="https://facebook.com/#"><i class="bi bi-facebook"></i></a>
+                  <a href="https://instagram.com/#"><i class="biu bi-instagram"></i></a>
+                </div>
+                <p>
+                  BTech Computer Science and Technology, 2nd Year
+                </p>
+              </div>
+            </div><!-- End blog author bio -->
+
+            <div class="blog-comments">
+
+              <h4 class="comments-count">8 Comments</h4>
+
+              <div id="comment-1" class="comment">
+                <div class="d-flex">
+                  <div class="comment-img"><img src="../assets/img/theme/light/person-1.jpg" alt=""></div>
+                  <div>
+                    <h5><a href="">Ronit Banerjee</a> <a href="#" class="reply"><i class="bi bi-reply-fill"></i> Reply</a></h5>
+                    <time datetime="2022-04-03">03 April, 2022</time>
+                    <p>
+                      nice post . Thank you for posting something like this keep up the good work
+                    </p>
+                  </div>
+                </div>
+              </div><!-- End comment #1 -->
+
+              <div id="comment-2" class="comment">
+                <div class="d-flex">
+                  <div class="comment-img"><img src="../assets/img/theme/light/person-2.jpg" alt=""></div>
+                  <div>
+                    <h5><a href="">Subhrakamal Das</a> <a href="#" class="reply"><i class="bi bi-reply-fill"></i> Reply</a></h5>
+                    <time datetime="2022-04-03">03 April, 2022</time>
+                    <p>
+                      I’ve been surfing on the web more than 3 hours today, yet I never found any stunning article like yours. 
+                      It’s alluringly worth for me. As I would see it, if all web proprietors and bloggers made puzzling substance as you did, 
+                      the net will be in a general sense more beneficial than at whatever point in late memory.
+                    </p>
+                  </div>
+                </div>
+
+                <div id="comment-reply-1" class="comment comment-reply">
+                  <div class="d-flex">
+                    <div class="comment-img"><img src="../assets/img/blogs/Admin.JPG" alt=""></div>
+                    <div>
+                      <h5><a href="">Kumar Laxmikant</a> <a href="#" class="reply"><i class="bi bi-reply-fill"></i> Reply</a></h5>
+                      <time datetime="2022-04-03">03 April, 2022</time>
+                      <p>
+                        Thank you for you review.
+                      </p>
+                    </div>
+                  </div>
+
+                  <div id="comment-reply-2" class="comment comment-reply">
+                    <div class="d-flex">
+                      <div class="comment-img"><img src="../assets/img/theme/light/person-4.jpg" alt=""></div>
+                      <div>
+                        <h5><a href="">Koustav Chatterjee</a> <a href="#" class="reply"><i class="bi bi-reply-fill"></i> Reply</a></h5>
+                        <time datetime="2022-04-03">03 April, 2022</time>
+                        <p>
+                          Your Blog is very nice. Wish to see much more like this. Thanks for sharing your information
+                        </p>
+                      </div>
+                    </div>
+
+                  </div><!-- End comment reply #2-->
+
+                </div><!-- End comment reply #1-->
+
+              </div><!-- End comment #2-->
+
+              <div id="comment-3" class="comment">
+                <div class="d-flex">
+                  <div class="comment-img"><img src="../assets/img/theme/light/person-3.jpg" alt=""></div>
+                  <div>
+                    <h5><a href="">Raja Majumder</a> <a href="#" class="reply"><i class="bi bi-reply-fill"></i> Reply</a></h5>
+                    <time datetime="2022-04-03">03 April, 2022</time>
+                    <p>
+                      Thank you sharing for this great post.
+                    </p>
+                  </div>
+                </div>
+
+              </div><!-- End comment #3 -->
+
+              <div id="comment-4" class="comment">
+                <div class="d-flex">
+                  <div class="comment-img"><img src="../assets/img/theme/light/person-4.jpg" alt=""></div>
+                  <div>
+                    <h5><a href="">Koustav Chatterjee</a> <a href="#" class="reply"><i class="bi bi-reply-fill"></i> Reply</a></h5>
+                    <time datetime="2022-04-03">03 April, 2022</time>
+                    <p>
+                      Your Blog is very nice. Wish to see much more like this. Thanks for sharing your information
+                    </p>
+                  </div>
+                </div>
+
+              </div><!-- End comment #4 -->
+
+              <div class="reply-form">
+                <h4>Leave a Reply</h4>
+                <p>Your email address will not be published. Required fields are marked * </p>
+                <form action="">
+                  <div class="row">
+                    <div class="col-md-6 form-group">
+                      <input name="name" type="text" class="form-control" placeholder="Your Name*">
+                    </div>
+                    <div class="col-md-6 form-group">
+                      <input name="email" type="text" class="form-control" placeholder="Your Email*">
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col form-group">
+                      <input name="website" type="text" class="form-control" placeholder="Your Website">
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col form-group">
+                      <textarea name="comment" class="form-control" placeholder="Your Comment*"></textarea>
+                    </div>
+                  </div>
+                  <button type="submit" class="btn btn-primary">Post Comment</button>
+
+                </form>
+
+              </div>
+
+            </div><!-- End blog comments -->
+
+          </div><!-- End blog entries list -->
+
+          <div class="col-lg-4">
+
+            <div class="sidebar">
+
+              <h3 class="sidebar-title">Search</h3>
+              <div class="sidebar-item search-form">
+                <form action="">
+                  <input type="text">
+                  <button type="submit"><i class="bi bi-search"></i></button>
+                </form>
+              </div><!-- End sidebar search formn-->
+
+              <h3 class="sidebar-title">Categories</h3>
+              <div class="sidebar-item categories">
+                <ul>
+                  <li><a href="#">General <span>(25)</span></a></li>
+                  <li><a href="#">Web-Development <span>(12)</span></a></li>
+                  <li><a href="#">AI & Machine Learning <span>(5)</span></a></li>
+                  <li><a href="#">Data Science <span>(22)</span></a></li>
+                  <li><a href="#">Data Structure and Algorithm <span>(8)</span></a></li>
+                  <li><a href="#">Blockchain Technology <span>(14)</span></a></li>
+                </ul>
+              </div><!-- End sidebar categories-->
+
+              <h3 class="sidebar-title">Recent Posts</h3>
+              <div class="sidebar-item recent-posts">
+                <div class="post-item clearfix">
+                  <img src="../assets/img/blog/flutter.png" alt="">
+                  <h4><a href="#">Google Flutter From Scratch</a></h4>
+                  <time datetime="2022-04-01">April 1, 2022</time>
+                </div>
+
+                <div class="post-item clearfix">
+                  <img src="../assets/img/blog/OpenAI.jpg" alt="">
+                  <h4><a href="./blog2.html">OpenAI</a></h4>
+                  <time datetime="2022-04-01">April 1, 2022</time>
+                </div>
+
+                <div class="post-item clearfix">
+                  <img src="../assets/img/blog/googleAi.png" alt="">
+                  <h4><a href="./blog3.html">AI at Google</a></h4>
+                  <time datetime="2022-04-01">April 1, 2022</time>
+                </div>
+
+                <div class="post-item clearfix">
+                  <img src="../assets/img/blog/bigdata.jpg" alt="">
+                  <h4><a href="#">Persist and analyze metadata in a transient Amazon MWAA environment</a></h4>
+                  <time datetime="2022-04-01">April 1, 2022</time>
+                </div>
+
+                <div class="post-item clearfix">
+                  <img src="../assets/img/blog/bigdata1.jpg" alt="">
+                  <h4><a href="#">How Big Data Helped Russia Become A Leader In Car Sharing</a></h4>
+                  <time datetime="2022-04-01">April 1, 2022</time>
+                </div>
+
+              </div><!-- End sidebar recent posts-->
+
+              <h3 class="sidebar-title">Tags</h3>
+              <div class="sidebar-item tags">
+                <ul>
+                  <li><a href="#">App</a></li>
+                  <li><a href="#">IT</a></li>
+                  <li><a href="#">AI</a></li>
+                  <li><a href="#">ML</a></li>
+                  <li><a href="#">DSA</a></li>
+                  <li><a href="#">Web-Dev</a></li>
+                  <li><a href="#">Data-Mining</a></li>
+                  <li><a href="#">Techs</a></li>
+                  <li><a href="#">Open-Source</a></li>
+                  <li><a href="#">Block-chain</a></li>
+                  <li><a href="#">Reseach Papers</a></li>
+                </ul>
+              </div><!-- End sidebar tags-->
+
+            </div><!-- End sidebar -->
+
+          </div><!-- End blog sidebar -->
+
+        </div>
+
+      </div>
+    </section><!-- End Blog Single Section -->
+
+  </main><!-- End #main -->
+
+  <!-- ======= Footer ======= -->
+  <footer class="position-relative" id="footer-main">
+    <div class="footer pt-lg-7 footer-dark bg-dark">
+        <!-- SVG shape -->
+        <div class="shape-container shape-line shape-position-top shape-orientation-inverse">
+            <svg
+                width="2560px"
+                height="100px"
+                xmlns="http://www.w3.org/2000/svg"
+                xmlns:xlink="http://www.w3.org/1999/xlink"
+                preserveAspectRatio="none"
+                x="0px"
+                y="0px"
+                viewBox="0 0 2560 100"
+                style="enable-background: new 0 0 2560 100"
+                xml:space="preserve"
+                class="fill-section-secondary"
+            >
+                <polygon points="2560 0 2560 100 0 100"></polygon>
+            </svg>
+        </div>
+        <!-- Footer -->
+        <div class="container text-md-center-1 pt-4">
+            <div class="row">
+                <div class="col-lg-4 mb-5 mb-lg-0">
+                    <!-- Webpixels' mission -->
+                    <p class="mt-4 text-sm opacity-8 pr-lg-4">
+                        TechSquad Community attempts to bring the best development
+        experience to designers and developers by offering the tools
+        needed for having a quick and solid start in Programming Career.
+                    </p>
+
+
+              
+
+                  <!-- Social Links Started-->
+
+                <div class="nav wrapper justify-content-center">
+                    <div class="button">
+                        <div class="icon"style="color: #333">
+                            <i class="fab fa-github"></i>
+                        </div>
+                        <span>Github</span>
+                    </div>
+
+                    <div class="button">
+                        <div class="icon" style="color: #0077b5">
+                            <i class="fab fa-linkedin-in"></i>
+                        </div>
+                        <span>Linkedin</span>
+                    </div>
+
+                    <div class="button">
+                        <div class="icon"style="color: #7289DA">
+                            <i class="fab fa-discord"></i>
+                        </div>
+                        <span>Discord</span>
+                    </div>
+                    
+                </div>
+        </div>
+
+
+                 <!-- Social Links Ended-->
+
+
+
+                <div class="col-lg-2 col-6 col-sm-4 ml-lg-auto mb-5 mb-lg-0">
+                    <h6 class="heading mb-3">Account</h6>
+                    <ul class="list-unstyled">
+                        <li>
+                            <a href="../registration.html">Register</a>
+                        </li>
+                        <li>
+                            <a href="../login.html">Login</a>
+                        </li>
+                        <li>
+                            <a href="../Blog.html">Blogs</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-lg-2 col-6 col-sm-4 mb-5 mb-lg-0">
+                    <h6 class="heading mb-3">About</h6>
+                    <ul class="list-unstyled">
+                        <li>
+                            <a href="../upevent.html">Upcoming Events</a>
+                        </li>
+                        <li>
+                            <a href="../Resource.html">Resources</a>
+                        </li>
+                        <li>
+                            <a href="../contact.html">Contact</a>
+                        </li>
+                        <li>
+                            <a href="../contact.html">Careers</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-lg-2 col-6 col-sm-4 mb-5 mb-lg-0">
+                    <h6 class="heading mb-3">Company</h6>
+                    <ul class="list-unstyled">
+                        <li>
+                            <a href="../about.html">Community</a>
+                        </li>
+                        <li>
+                            <a href="../about.html">Help center</a>
+                        </li>
+                        <li>
+                            <a href="../about.html">Support</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <hr class="divider divider-fade divider-dark my-4">
+            <div class="row align-items-center justify-content-md-between pb-4">
+                <div class="col-md-6">
+                    <div class="copyright text-sm font-weight-bold text-center text-md-left">
+                        &copy; 2022
+                        <a href="https://techsquadcommunity.tech" class="font-weight-bold" target="_blank">
+                            TechSquad Community
+                        </a>. All rights reserved
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <ul class="nav justify-content-center justify-content-md-end mt-3 mt-md-0">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#"> Terms</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#"> Privacy</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#"> Cookies</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+
+
+<!--scroll to top button-->
+<div id="navtbut" class="disappear">
+<a href="#top" id="back-top">
+<img
+  class="buttonclass"
+  src="http://chikmagalurdiocese.com/icon-256x256.png" style="z-index:50000;"
+/>
+</a>
+</div>
+
+  <!-- Vendor JS Files -->
+  <script src="../assets/vendor/purecounter/purecounter.js"></script>
+  <script src="../assets/vendor/aos/aos.js"></script>
+  <script src="../assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="../assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="../assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="../assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="../assets/vendor/php-email-form/validate.js"></script>
+
+  <!-- Core JS  -->
+  <script src="../assets/libs/jquery/dist/jquery.min.js"></script>
+  <script src="../assets/libs/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="../assets/libs/svg-injector/dist/svg-injector.min.js"></script>
+  <script src="../assets/libs/feather-icons/dist/feather.min.js"></script>
+
+  <!-- Template Main JS File -->
+  
+  <script src="../JS/main.js"></script>
+  <!-- Quick JS -->
+  <script src="../assets/js/quick-website.js"></script>
+  <!-- Feather Icons -->
+  <script src="../JS/featherScript.js"></script>
+  <!--scroll to top button-->
+  <script src="../JS/navTop.js"></script>
+  <script
+    src="https://cdnjs.cloudflare.com/ajax/libs/vanilla-tilt/1.7.2/vanilla-tilt.min.js"
+    integrity="sha512-K9tDZvc8nQXR1DMuT97sct9f40dilGp97vx7EXjswJA+/mKqJZ8vcZLifZDP+9t08osMLuiIjd4jZ0SM011Q+w=="
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer"
+  ></script>
+  
+</body>
+
+</html>
