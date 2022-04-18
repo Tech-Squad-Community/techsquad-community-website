@@ -113,80 +113,48 @@
 
     <br /><br />
     <!-- Main Content -->
-    <section>
+    <section class="vh-100">
       <div class="container py-5 h-100">
-        <div class="row mt-4 auth-container">
-          <div class="col-md-6 col-lg-5 col-xl-5 auth-left"></div>
-          <div class="col-md-6 col-lg-7 col-xl-7 auth-right">
-            <form name="LogIn_Form">
-              <!-- Email input /// -->
+        <div class="row d-flex align-items-center justify-content-center h-100">
+          <div class="col-md-8 col-lg-7 col-xl-6">
+            <img src="./assets/img/svg/login/Forgot password-rafiki.svg"
+              class="img-fluid" alt="Phone image">
+          </div>
+          <div class="col-md-7 col-lg-5 col-xl-5 offset-xl-1">
+            <form>
+              <!-- Email input -->
               <div class="form-outline mb-4">
-                <label class="form-label" for="form1Example13"
-                  >Email address</label
-                >
-                <input
-                  type="email"
-                  id="form1Example13"
-                  required
-                  class="form-control form-control-lg field"
-                  name="Email_Input"
-                />
+                <input type="email" id="form1Example13" class="form-control form-control-lg" />
+                <label class="form-label" for="form1Example13">Email address</label>
               </div>
-
-              <!-- Password input  ///-->
-              <div class="form-outline mb-4 password-container">
+    
+              <!-- Password input -->
+              <div class="form-outline mb-4">
+                <input type="password" id="form1Example23" class="form-control form-control-lg" />
                 <label class="form-label" for="form1Example23">Password</label>
-                <input
-                  type="password"
-                  id="form1Example23"
-                  required
-                  class="form-control form-control-lg field"
-                  name="Password_Input"
-                />
-                <i class="fa-solid fa-eye-slash" id="password-toggle"></i>
               </div>
-
-              <div
-                class="d-flex justify-content-around align-items-center mb-4"
-              >
+    
+              <div class="d-flex justify-content-around align-items-center mb-4">
                 <!-- Checkbox -->
                 <div class="form-check">
-                  <input
-                    class="form-check-input"
-                    type="checkbox"
-                    value=""
-                    id="form1Example3"
-                    checked
-                  />
-                  <label class="form-check-label" for="form1Example3">
-                    Remember me
-                  </label>
+                  <input class="form-check-input" type="checkbox" value="" id="form1Example3" checked />
+                  <label class="form-check-label" for="form1Example3"> Remember me </label>
                 </div>
-                <a href="./ForgotPassword.html">Forgot password?</a>
+                <a href="#!">Forgot password?</a>
               </div>
-
+    
               <!-- Submit button -->
-              <button
-                type="submit"
-                class="btn btn-primary btn-lg btn-block"
-                onclick="ValidateLoginPage(LogIn_Form);"
-              >
-                Sign in
-              </button>
-
+              <button type="submit" class="btn btn-primary btn-lg btn-block">Sign in</button>
+    
               <div class="divider d-flex align-items-center my-4">
                 <p class="text-center fw-bold mx-3 mb-0 text-muted">OR</p>
               </div>
-
-              <a
-                class="btn btn-primary btn-lg btn-block"
-                href="./registration.html"
-                style="background-color: #3b5998"
-                href="#!"
-                role="button"
-              >
+    
+              <a class="btn btn-primary btn-lg btn-block" style="background-color: #3b5998" href="#!"
+                role="button">
                 Register
               </a>
+    
             </form>
           </div>
         </div>
