@@ -94,6 +94,18 @@ body.loaded > div.preloader {
 }
 
 /* cover-page-styles */
+.typeeffect{
+  overflow: hidden;
+  white-space: nowrap;
+  animation: 
+  typing 3s steps(40, end) forwards;
+  font-size: 1.6rem;
+  width: 0;
+}
+@keyframes typing {
+  from { width: 0 }
+  to { width: 65% }
+}
 
 .cover-section{
   height: 100vh;
