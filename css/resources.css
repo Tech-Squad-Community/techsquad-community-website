@@ -12,6 +12,7 @@
   flex-direction: column;
   justify-content: center;
 }
+
 .solution_cards_box .solution_card {
   flex: 0 50%;
   background: #fff;
