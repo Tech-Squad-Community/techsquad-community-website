@@ -21,15 +21,15 @@ function sociallinks() {
 			<span
 				className={
 					(!isOpen
-						? "transition-transform ease duration-[3000ms] scale-100 rotate-[15deg] delay-0 "
-						: "transition-transform ease duration-[3000ms] scale-[0.45] delay-0 ") +
+						? "transition-transform ease duration-[1000ms] scale-100 rotate-[15deg] delay-0 "
+						: "transition-transform ease duration-[1000ms] scale-[0.45] delay-0 ") +
 					"text-white text-xl absolute w-10 h-96 top-0 flex justify-center origin-bottom-center  after:absolute after:w-px after:h-12 after:bg-white after:top-10 after:content-'' "
 				}
 			>
 				<FontAwesomeIcon
 					className={
 						(!isOpen
-							? "transition-transform ease duration-[3000ms] -rotate-[15deg] delay-0 "
+							? "transition-transform ease duration-[1000ms] -rotate-[15deg] delay-0 "
 							: "") +
 						"absolute -rotate-10  border-solid  border-2 rounded-[50%] p-1.5"
 					}
@@ -40,15 +40,15 @@ function sociallinks() {
 			<span
 				className={
 					(!isOpen
-						? "transition-transform ease duration-[3000ms] scale-100 rotate-[45deg] delay-0 "
-						: "transition-transform ease duration-[3000ms] scale-[0.45] delay-0 ") +
+						? "transition-transform ease duration-[1000ms] scale-100 rotate-[45deg] delay-0 "
+						: "transition-transform ease duration-[1000ms] scale-[0.45] delay-0 ") +
 					"text-white text-xl absolute w-10 h-96 top-0 flex justify-center origin-bottom-center  after:absolute after:w-px after:h-12 after:bg-white after:top-10 after:content-''"
 				}
 			>
 				<FontAwesomeIcon
 					className={
 						(!isOpen
-							? "transition-transform ease duration-[3000ms] -rotate-[45deg] delay-0 "
+							? "transition-transform ease duration-[1000ms] -rotate-[45deg] delay-0 "
 							: " ") +
 						"absolute -rotate-50 border-solid  border-2 rounded-[50%] p-1.5"
 					}
@@ -59,15 +59,15 @@ function sociallinks() {
 			<span
 				className={
 					(!isOpen
-						? "transition-transform ease duration-[3000ms] scale-100 rotate-[75deg] delay-0 "
-						: "transition-transform ease duration-[3000ms] scale-[0.45] delay-0 ") +
+						? "transition-transform ease duration-[1000ms] scale-100 rotate-[75deg] delay-0 "
+						: "transition-transform ease duration-[1000ms] scale-[0.45] delay-0 ") +
 					"text-white text-xl absolute w-10 h-96 top-0 flex justify-center origin-bottom-center after:absolute after:w-px after:h-12 after:bg-white after:top-10 after:content-'' "
 				}
 			>
 				<FontAwesomeIcon
 					className={
 						(!isOpen
-							? "transition-transform ease duration-[3000ms] -rotate-[75deg] delay-0 "
+							? "transition-transform ease duration-[1000ms] -rotate-[75deg] delay-0 "
 							: " ") +
 						"absolute -rotate-80 border-solid  border-2 rounded-[50%] p-1.5"
 					}
