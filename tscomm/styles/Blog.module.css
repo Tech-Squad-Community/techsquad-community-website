@@ -1,0 +1,63 @@
+/*For responsive image sizing*/
+.imgwrap {
+  width: 18rem !important;
+  height: 12rem !important;
+}
+/*Card styling*/
+.cardwrapper {
+  overflow: hidden;
+
+  margin: 0.4rem 0.4rem;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+/*This class helps in cnetering content*/
+.flexer {
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center;
+}
+/*for styling texts*/
+.title {
+  font-weight: bolder;
+  padding: 0.3rem 0.8rem;
+}
+/*Content below title*/
+.content {
+  font-weight: lighter;
+}
+/*Community logo shown below*/
+.logo {
+  width: 3rem !important;
+  height: 3rem !important;
+  border-radius: 60%;
+  margin: 0.4rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/*logo image to be small*/
+.logo Image {
+  width: 5rem;
+  height: 8rem !important;
+}
+/*Entire bottom part of the card*/
+.cardbase {
+  margin-left: -4rem;
+
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: row;
+  align-items: center;
+}
+
+/*Bottom card component css*/
+.p {
+  margin: 0;
+
+  padding: 0.01rem;
+}
