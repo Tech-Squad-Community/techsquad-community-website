@@ -44,7 +44,7 @@ function Technology() {
 										>
 											{card.subheading}
 										</div>
-										<p className='text-gray-700 text-base'>
+										<p className=' text-white text-base'>
 											{card.about}
 										</p>
 									</div>
