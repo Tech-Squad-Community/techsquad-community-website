@@ -138,15 +138,5 @@ $ git push origin <branch-name>
 <img src ="https://docs.github.com/assets/images/help/repository/fetch-and-merge-button.png">
 
   
-<h2 align="center"><u><b>How to Join the TechSquad Community Website Channel in Official GSSoC Discord Server?</u> 🗣</b></h2>
-
-  <h3>STEP 1 :   Open the self-roles channel in the GSSoC Official Discord Server 
-    <img width="234" alt="Screenshot 2022-03-01 at 11 58 18 PM" src="https://user-images.githubusercontent.com/91361382/156226977-ed31cef9-ccf7-434e-b5ad-0bb6efb3d957.jpeg">
-  <h3>STEP 2 :    React to no. 1 of the list containing TechSquad Community Website (bottom)
-    <img width="500" alt="Screenshot 2022-03-01 at 11 58 18 PM" src="https://user-images.githubusercontent.com/91361382/156227037-e3987554-6df5-4612-b941-e9b4e06598b5.jpeg">  
-  <h3>STEP 3 :   Return to the main page of the discord server and scroll down to find our Channel
-   <img width="400" alt="Screenshot 2022-03-01 at 11 58 18 PM" src="https://user-images.githubusercontent.com/91361382/156227466-841d84d9-b211-4439-b793-03ae311079fa.png">
-
-  
 
 #### Happy?? Star ⭐ this Repo. 🤩
