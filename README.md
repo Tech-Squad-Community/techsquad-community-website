@@ -137,6 +137,6 @@ $ git push origin <branch-name>
 - In case of merge conflict  fetch and merge from the remote repository
 <img src ="https://docs.github.com/assets/images/help/repository/fetch-and-merge-button.png">
 
-  
+![Alt](https://repobeats.axiom.co/api/embed/787bf0900c1d7fe8310d1c8becbd90317b4d6695.svg "Repobeats analytics image")
 
 #### Happy?? Star ⭐ this Repo. 🤩
